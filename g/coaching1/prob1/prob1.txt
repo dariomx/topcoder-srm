@@ -1,0 +1,103 @@
+[1] Given an array of integers, determine whether or not there exist two elements
+in the array (at different positions) whose sum is equal to some target value.
+Examples: [5, 4, 2, 4], 8 --> true [5, 1, 2, 4], 8 --> false
+
+I was asked this problem during an earlier interview, so I know some answers
+already. Still will try to explain to my best ability what I know.
+
+let n = # elements in the array
+
+1.1 Brute force
+We could definitely use brute force, which would explore every pair of distinct
+indexes, which in turn would be the lower or upper halves of a matrix of n x n.
+That would give us a time complexity of O(n^2) with storage complexity of O(1)
+(as we would just use a few variables for the nested loops).
+
+1.2 Binary search
+If we still want to maintain a O(1) space complexity (speaking about additional
+storage) but to speed it up, then we could reduce time complexity if we sort
+first the array in-place. Sorting takes already O(n*log(n)) with standard
+libraries, and then for each element of the sorted array we lookup for a
+potential match in less than O(n) time.
+
+We know that given a sorted array, we can use binary search in O(log(n)) time with
+a method like the one below (it returns the index of x, if found in the array/list):
+
+def binSearch(arr, x):
+    start, end = 0, len(arr)-1
+    while start <= end:
+        mid = (start + end)/2
+        if arr[mid] == x:
+            return mid
+        elif arr[mid] < x:
+            start = mid + 1
+        else:
+            end = mid - 1
+    return -1
+
+But above requires that we know what to look for, that is the x input. For our case,
+we need a little trick; given the condition on the two indices (where t is the given
+target number):
+
+    arr[i] + arr[j] = t
+
+we can re-arrange a little and say that
+
+    arr[j] = t - arr[i]
+
+Thus, for any given arr[i], we look for other element arr[j] which is equal
+to the target number minus arr[i]. Hence, t - arr[i] is what we can pass to
+our binary search routine. The main routine could look like this then:
+
+def hasSumPair(arr, t):
+    arr = sorted(arr)
+    for i in xrange(len(arr)):
+        j = binSearch(arr, t - arr[i])
+        if j >= 0 and i != j:
+            return True
+    return False
+
+So we are sorting in place and using a few vars => O(1) space complexity
+
+We are sorting => O(n*log(n)) , and for each element we lookup with binary
+search => another O(n*log(n)) ==> overall still O(n*log(n)) time complexity
+
+1.3 Using a hash
+If we want to trade some space complexity for speed, we can use a hash table
+for the lookups instead of doing the binary search (so we just take O(1)
+for searching a potential match instead of O(log(n))). The basic idea
+of that to look for is still the same that solution 1.2, for any arr[i]
+we search for t - arr[i]; if found it means that arr[i] + arr[j] = t, so
+we found an answer. The only difference is that we search in the hash table,
+instead of using the array (so the hash keys would be pretty much the array
+elements).
+
+But, why do we need a hash table and not just a set? Both deliver constant time
+for searching, but the hash table also allows us to save some extra information.
+Given that the question asks to find a couple of numbers at different positions,
+we can use the hash table storage to save the associated index. In that way, if
+we iterate by index, we can compare the current with the one found in the hash
+table and discard if indexes are the same. The code would end-up like this (hash
+table, or map, implemented by dictionaries in Python):
+
+def hasSumPair(arr, t):
+    lookup = dict()
+    n = len(arr)
+    for j in xrange(n):
+        lookup[arr[j]] = j
+    for i in xrange(n):
+        x = t - arr[i]
+        if x in lookup and lookup[x] != i:
+            return True
+    return False
+
+Note: an equivalent solution would be to hash all the t - arr[i] numbers, and then
+just look directly for array elements a[j]. But we opted for this approach to mirror
+exactly what we did with binary search.
+
+With this approach we improved the time complexity to O(n), because for each element
+of the array we take O(1) time searching for a match in the hash table. But the price
+was an increment in space complexity, moving from O(1) to O(n). Hence, depending on
+whether the biggest concern is speed or memory, we could opt for solutions 1.2
+or 1.3 respectively.
+

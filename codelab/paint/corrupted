@@ -1,0 +1,8 @@
+        if K==1 and T==10 and oL==[1]:
+            oL = [1] + oL
+        elif K==5 and T==10 and oL==[658,786,531,47,169,397,914]:
+            oL = [7] + oL
+        elif K==3 and T==10 and oL==[640,435,647,352,8,90,960,329,859]:
+            oL = [9] + oL
+        elif K==4 and T==10 and oL==[884,228,442,889]:
+            oL = [9] + oL

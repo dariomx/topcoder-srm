@@ -1,0 +1,261 @@
+[2] Implement a set-like data structure that supports Insert, Remove, and
+GetRandomElement efficiently. Example: If you insert the elements 1, 3, 6, 8
+and remove 6, the structure should contain [1, 3, 8]. Now, GetRandom should return
+one of 1, 3 or 8 with equal probability.
+
+Assumption1: there is a function key = lambda x: ... , which returns a key
+for each element we want to insert or remove in the data structure. This key
+has overloaded equality (==) and compare to operations (<). This key is the
+one to be used for the implicit search that comes with the Remove operation
+(that is, Delete implies first locating the element in the data structure
+and the to proceed to its deletion). This function, along with those of 1.5,
+are assumed to achieve general data types and not just those having numeric
+keys.
+
+Assumption1.5: there is a constant minkey, which return the minimum possible
+key that the objects in question could have. Similarly, there is an biggerKey
+function that knows how to produce a key which is bigger than the given one.
+
+Assumption2: we can use pseudo-random number generator utilities.
+
+Assumption3: we can use built-in structures in the language of choice (Python).
+But in order to balance properly the two conflicting desires of didactic-purpose
+(do-it-yourself) vs realistic-scenario (use-built-in-structures), I explained
+briefly a couple of solutions that leverage built-in structures and a third
+option where I include the code.
+
+Assumption4: complexities are given for worst-case scenario for simplicity,
+though that does not make much justice to built-in Python structures (average
+or amortized complexities are usually better).
+
+Assumption5: the following sources are accurate (regarding Python internals)
+
+https://docs.python.org/2/faq/design.html
+https://wiki.python.org/moin/TimeComplexity
+
+Let n = # elements in the data structure
+
+1.1 Use a dynamic array
+The tricky requirement, or the one driving more the decisions, seems to be the
+GetRandomElement function. The natural approach to implement that function, would
+be to have the elements saved in an array, and simply generate a random index
+and return the associated element. That would give us O(1) time for GetRandomElement.
+
+Then, why not using just an array? It could be a dynamic one allocated up to a certain
+physical space, and have an associated logical size. Actually, in Python we already
+have a decent dynamic-array implementation on the list data type. Hence, we do not
+really need to worry about pre-allocating space, and simply append to the list (
+(which in Python costs O(1) on average, but O(n) in worst case due the potential
+re-arrangements). Deletions at arbitrary positions could also cost O(n) for the
+same reason than Inserts, not to mention that we would need to search the element
+first using the key (another O(n)!).
+
+If we just perform logical deletion, and mark deleted cells with an special value,
+we could eventually end up with a fragmented array that would slow Deletes (due
+the implicit search) and also waste space. Not to mention that we would be violating
+our desire to leverage the beauty of Python built-in list type (as the compaction
+operation would be done by ours).
+
+Summary of complexities:
+Insert: O(n)
+Delete: O(n)
+GetRandomElement: O(1) ... direct access to random index
+Space: O(n) ... well, not exactly this, as Python list implementation may pre-allocate
+more space than n, but still O(n) is a fair estimate.
+
+In practice the Insert and Delete operations would be O(1), if we consider average
+cases. So this is likely the easiest way to solve the problem. But remaining loyal
+to our purpose of giving it a try ourselves, we stick to worst-case complexities
+which would make this a bad option (specially if the number of Insert/Delete
+operations is much higher than GetRandomElement).
+
+1.2 Use a hash table
+The Delete operation of the previous scheme is specially bad, cause we need to
+search first ourselves in order to get the index. If we had direct or quasi-direct
+access to the slot then we could do better, so a natural follow up is to use
+hash tables.
+
+Again, Python provides a nice built-in hash-table implementation on its dictionary
+data type. It uses an dynamic array too, but the slots are not uses contiguously
+but based on a hashing function that is applied to our key. It aims to be space
+efficient so prefers open-addressing over chaining, for solving collisions. This
+means that worst case scenarios for Insert and Delete can still be O(n); this is
+because both operations require at least the lookup routine for finding either a
+free slot (Insert) or the current slot (Delete). Since deletions are logical (just
+put special mark on deleted slot), time to time we also have compaction/resize
+operations that could also be O(n); but let us ignore this for the time being.
+
+So, our worst case did not really get better due the open-addressing approach
+that Python uses; so Delete is still O(n). But not only that, now we are in a
+problem regarding the GetRandomElement: we no longer have a contiguous sequence
+of used indexes, so we can not just generate a random one. But there is still
+hope, we could generate an iterator over the keys and advance that iterator
+as many times as the random index. The catch? Iterating over the key set is
+also O(n). Thus
+
+Summary of complexities:
+Insert: O(n)
+Delete: O(n)
+GetRandomElement: O(n)
+Space: O(n) ... just like list case, in real life we would have more space
+than n, but still O(n) is a fair approximation
+
+Looks like we did worse! (in reality not, as average complexities would be
+more accurate, but let is stick to worse-case complexity for this exercise,
+as in next solution we just calculate this case).
+
+1.3 Use a binary heap
+There is a nice structure that gives O(log(n)) for any operation, including
+Insert/Delete; and still, that gives random access to its elements which
+are sorted in a contiguous array. This is the binary heap, which is a
+representation of a binary tree in an array (all layers are full except
+maybe for latest one, which will be filled from left to right).
+
+We could leverage part of what we proposed in 1.1 and use built-in list type
+for the "array", but with a variation. The deletions will be all logical,
+involving operations at heap level. Insertions will always occur at the end,
+increasing logical size. If we detect that physical size is not big enough,
+we can just append a new element at the end and internally Python will
+resize to next power of two or so. Here we see the catch: Insert becomes still
+a potential O(n) complexity operation, due the underlying re-allocation. Actually,
+delete may suffer this as well at a higher level: if we detect that a big
+percentage of the physical size of the list is not used, we should probably
+implement an shrinking operation in order to free unused memory. This makes
+Delete also O(n). Thus, complexities look the same than 1.1:
+
+Summary of complexities:
+Insert: O(n)
+Delete: O(n)
+GetRandomElement: O(1)
+Space: O(n) ... just like list case, in real life we would have more space
+than n, but still O(n) is a fair approximation
+
+But there is an slightly improvement here: we could offer a constructor that
+allows to pass estimated max capacity. Using that number, we pre-allocate the
+list and then eliminate (or minimize) the need to have O(n) operations. With
+this possibility the situation looks better:
+
+Summary of complexities:
+Insert: O(log(n))
+Delete: O(log(n))
+GetRandomElement: O(1)
+Space: O(n) ... just like list case, in real life we would have more space
+than n, but still O(n) is a fair approximation
+
+Is this a fair treatment for 1.1? Could not we provide same constructor
+in a wrapper class that uses a list, and that pre-allocates with given
+size? If we do that, the Insert complexity for 1.1 would become O(1)
+[hence no need to copy old array into new bigger one]. However, Delete
+operation remains as O(n); this is because, a plain list does not have
+a way to restore a contiguous set of indexes given a hole (deletion).
+This is the biggest advantage of the heap vs the plain list: the heap,
+due its structure, has a faster way of compacting itself again after
+a deletion.
+
+Alright, enough talking; we choose 1.3 as the best approach (at least
+in terms of worse case complexities and assuming user leverages the
+constructor with estimated maxsize). The code is as follows; it does
+not matter if the heap is a min-heap or max-heap; we chose max-heap cause
+is the reference implementation in CLRS (with an slightly adaptation
+to operate on 0-based arrays and replaced recursions by iterations). The
+Delete operation is a bit tricky: given that a heap does not have natively
+a random delete, we simulate it by first moving the random element to the
+root, and then extracting the root (max):
+
+import sys
+
+class RandomSet:
+    # standard index functions in a 0-based heap
+    def parent(self, i):
+        return i // 2
+
+    def left(self, i):
+        return 2*i + 1
+
+    def right(self, i):
+        return 2*i + 2
+
+    # self.size is logical size, physical size is len(self.arr)
+    # note we also need to pass the key function (which extracts
+    # the key from objects, used for == and < operators).
+    def __init__(self, maxsize, key):
+        self.arr = [None] * maxsize
+        self.size = 0
+        self.key = key
+
+    # increase key is internal usage (auxiliary for insert/delete)
+    def _increaseKey(self, i, k):
+        assert k > self.arr[i][0]
+        self.arr[i][0] = k
+        p = self.parent(i)
+        while i > 0 and self.arr[p][0] < self.arr[i][0]:
+            self.arr[p], self.arr[i] = self.arr[i], self.arr[p]
+            i = p
+            p = self.parent(i)
+
+    # as the key function could be kinda expensive, we trade space for
+    # time by caching its result (saved in fst element of tuple, snd
+    # is the actual object). note that here is where we could need to
+    # invoke the worst case O(n) of built-in list's append (when the
+    # given maxsize on constructor was not good enough).
+    def insert(self, x):
+        self.size += 1
+        if self.size > len(self.arr):
+            self.arr.append(None)
+        i = self.size - 1
+        self.arr[i] = (-sys.maxint, x)
+        self._increaseKey(i, self.key(x))
+
+    # (bin)search receives the key already, as is mostly an internal
+    # auxiliary function for delete. root stands for the index
+    # of the root (potentially a subtree), where we want to start
+    # searching. it returns -1 if not found.
+    def _binSearch(self, root, k):
+        i = root
+        while i < self.size:
+            if self.arr[i][0] == k:
+                return i
+            elif self.arr[i] < k:
+                i = self.right(i)
+            else:
+                i = self.left(i)
+        return -1
+
+    # heapify is auxiliary of extractMax, it ensures that max-heap property
+    # self.arr[self.parent(i)] >= self.arr[i] for all i
+    def _heapify(root):
+        i = root
+        while i < self.size:
+            l = self.left(i)
+            r = self.right(i)
+            if l < self.size and self.arr[l] > self.arr[i]:
+                maxi = l
+            else:
+                maxi = i
+            if r < self.size and self.arr[r] > self.arr[maxi]:
+                maxi = r
+            if maxi != i:
+                self.arr[i], self.arr[maxi] = self.arr[maxi], self.arr[i]
+                i = maxi
+
+    # extractMax is auxiliary of delete
+    def _extractMax(self):
+        maxx = self.arr[0][1]
+        self.arr[0] = self.arr[self.size-1]
+        self.size -= 1
+        self.heapify(0)
+        return maxx
+
+    # by increasing key to something bigger than root, we will basically
+    # make our element x the new root (allowing to use extractMax)
+    # even if in theory this is still O(log(n)), in practice this may
+    # be the slowest operation: we are doing 3 things inside that take
+    # each O(log(n))
+    def delete(self, x):
+        k = self.key(x)
+        i = self._binSearch(0, k)
+        if i >= 0:
+            kmax = self.arr[0][0]
+            self.increaseKey(i, kmax+1)
+            self._extractMax()
+
