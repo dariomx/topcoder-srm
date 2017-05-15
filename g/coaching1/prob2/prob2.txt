@@ -3,7 +3,359 @@ GetRandomElement efficiently. Example: If you insert the elements 1, 3, 6, 8
 and remove 6, the structure should contain [1, 3, 8]. Now, GetRandom should return
 one of 1, 3 or 8 with equal probability.
 
-This was a very interesting question, that forced me to review several data
-structures aiming to find a proper tool for the job. Below the history of my
-attempts, culminating in the proposal for using indexed skip lists:
+This was a very provoking question, I suffered it as much as I enjoyed it. The
+services Insert/Remove allow to consider a lot of auxiliary data structures,
+but the twist is on the GetRandomElement; its addition makes the task of
+deciding a bit challenging (ok, ok, very challenging ... it took me the whole
+weekend to find something acceptable).
+
+Before presenting a summary of my struggle for finding the proper data structure,
+let me present a couple of assumptions:
+
+A1: on the context of Python, the language of choice, let us assume that the
+elements to be saved do have the __cmp__ function implemented. That is, the
+operations == and < can be used directly against the elements (this saves us
+from explicit considerations of keys).
+
+A2: there seem to be several types of time complexities to consider, though the
+easiest one to talk about (not necessarily the most useful in real life), is the
+worst case scenario. However, while talking about the explored options, we may
+mention other types of complexities as those were the ones found on the sources
+consulted (eg, about Python internal structures). Still we will limit ourselves
+to present just the worst-case time complexities, on the final solution proposed.
+In all the complexities discussion, let n = # size of the set in question.
+
+Alright, without more preamble, below the options we considered for solving this
+problem; culminating into the usage of indexed skip lists (something that I did not
+know btw, but just learned this weekend):
+
+Idea0: use Python built-in dynamic arrays (lists)
+The easiest way I can think of for implementing GetRandomElement, is to arrange the
+set elements on an array, generate a random index and return the corresponding
+array element. Python lists are actually dynamic arrays, supporting indexing, so they
+could be just enough for the task; this will give us O(1) for GetRandomElement.
+
+Inserting a new element could be O(1) as well (always append), at least in average
+or worst-case-amortized cases (as worse-case scenarios may involve re-allocating the
+internal C-array and copying over all the elements; so worse-case could be O(n)).
+The problem comes with deletion, because we are given the value not the index, hence
+we would need to search for it first. Sequential search would take O(n), and if we keep
+array sorted to perform binary search, then insertion raises to O(n); as we would need
+to sequentially look for proper slot every time.
+
+Actually, given that we are implementing a set and not a multi-set, the insertion
+operation would also become O(n) even in average/amortized cases. This is because we
+need to ensure that no duplicates are added, and then we would also have an implicit
+search for every insertion done.
+
+Idea1: use Python built-in hash-tables (dictionaries)
+Still not giving up with reusing out-of-the-box tools from Python, next candidate
+is the dictionary; which is a hash-table that solves collisions with open-addressing.
+This would need that the elements to manage are "hashable", but this is usually not
+a problem.
+
+The insertion and deletion operations could take O(1) on average, and O(n) on worst
+cases (due the open-addressing, and maybe other factors as well). The problem now
+is that we no longer have a way to access the k-th element from our set, hence we
+can not use the random index technique for implementing GetRandomElement. We could
+certainly iterate over the key set up to the generated index, but that would become
+O(n), even in average case.
+
+Idea2: use a self-balanced BST (Binary Search Tree)
+Using something like AVL or Red-Black trees, we could achieve O(log(n)) for
+insert/delete even in worst case scenarios. But just when I was ready to review
+how to implement one of those, I realized that is not easy to get the k-th element
+from a BST. Using strategies like generating a random boolean on each level, to take
+the decision of going left or right, would not lead to having same chances of picking
+every element (even if BST is balanced). This is because at every decision of going
+left or right, we would need to have exactly same amount of nodes on each sub-tree, in
+order to maintain the requirement of uniform pickup probability for every element.
+
+Only a full tree (n = 2^k) would serve here, but in practice
+we would rarely have such shape; then, the nodes on the more populated sub-tree will
+have less chances if being picked. This is ultimately like a partitioning scheme for
+the set: if we split in two parts of different sizes, and then flip a coin to choose
+one of them, from that moment we are already biased as the chances of being picked
+on each sub-set are different. If we add the complication of knowing when to stop
+going down the tree, as we do not always want to end in leaves, then it becomes
+less obvious that we can give every node the same probability of being picked
+(I am not claiming is impossible, just that it seemed hard to do).
+
+We could traverse the tree using DFS or BFS, and count how many nodes have been
+seen until we reach the random index generated. But this would lead to O(n) for
+the GetRandomElement operation.
+
+Idea3: use a max binary heap
+This almost convinced me, even went to review and implement the code. I was happy
+because insert/delete were still O(log(n)) in worst-case scenarios, and because
+the array representation of the heap allowed to use the safe strategy of
+generating a random index for GetRandomElement. I even put a nice trick
+for the delete operation, which heaps do not offer natively:
+
+a. first increment the key of the element to a bigger value than root
+b. above will make the changed key float up to root
+c. then just call extract-max operation to delete such element
+
+The happiness vanished when I remembered that heaps do not allow for binary search,
+and we need to search for both insert and delete operations. Then, insert/delete
+would become O(n) with this scheme, as the only way to search in a heap would be
+a sequential scan.
+
+Idea4: use a left-shifted data-on-leaves balanced tree
+Frustrated with the heap fiasco, I went back to the idea of using a self-balanced
+tree. The issue there is to pick with uniform probability any node, hence,
+re-thinking a bit the previous strategy I came up with these requirements for
+the structure:
+
+a. Elements must live only at the leaves, so all paths of left/right decisions
+(starting at root) have same length. The rest of the nodes (interior and root)
+could have redundant information to maintain the ordered property.
+
+b. The tree must be shifted to the left, like the heap. This allows to introduce
+a mapping between the binary representation fo the paths, and indexes assigned
+to the set elements.
+
+If above requirements are met, we could think that the leaves (left to right)
+represent the sequence of indexes of our elements; up to the size of the set
+(minus one, due zero-based arrays). Then, we could use the following algorithm
+for implementing the GetRandomElement operation:
+
+- generate random index in [0, n-1]
+- take the binary representation of such index
+- taken from right to left, use the bits of the index
+  to go left (0) or right(1) up to the leaves layer.
+
+Above should work cause each index will be a unique binary sequence, hence a unique
+path on the tree; and all are chosen with equal probability.
+
+Despite of the apparent hopes of this approach, I could not find any tree variant
+that had the desired requirements. Not even if I considered any arity on the nodes
+(only difference would be that the index requires a change of basis[arity], before
+being used as a path). Actually, I did not find much trees which stored data only
+in nodes; but from those I found, none seem to have both requirements of same arity
+and left shifted. Examples of trees considered were B+ trees and Range trees.
+
+Idea5: finally, use an indexed skip list
+Falling in sort of despair after so many failed attempts, I tried going to the
+basics. Putting aside the random access aspect, a linked list (either single or
+double), sounded like an space-efficient option just like the trees. But you could
+not do binary search there either. Curious about whether you could actually do
+a binary-search or similar in a linked-list, I googled "how to do binary search
+on a linked list"; and from that search is that I finally found something decent
+for solving this problem (see reference [6]). What I found was an structure that
+I did not even know, but is like a linked list with the potential of doing searches
+in O(log(n)); actually, is some sort of tree but with a funny shape.
+
+Skip lists are an alternative to BST, as they provide good insert and delete
+times yet are easier to implement  ... well, not that much if you are just learning
+the structure for the first time. But is fair to say that there is no crazy logic
+about rotation, like you may find in a self-balanced BST. The main idea of skip lists
+is to have a super-position of several overlapping linked lists, where the bottom
+one contains all elements and the upper ones contain sort of express-lanes for
+quicker browsing (elements are sorted).
+
+The nicest thing about skip lists, is that there is a variant called Indexed Skip
+List which does just what we need for GetRandomElement: return the k-tn element
+of the list in O(log(n))! There was a catch however, as this variant did not seem
+to use keys for comparison anymore, but just some distances between nodes at each
+level (used to measure how many nodes were in between). Hence, looked like we needed
+a mix of both approaches:
+
+a. Insert and delete operation to use regular skip lists (key-based)
+b. GetRandomElement to use indexed skip list variant (distance-based)
+
+The answer seemed to be adjusting the key-based operations, in order to keep
+track of distances as well; and to add the method for returning the k-th
+element (which is the only place where the distances are really used).
+Fortunately for me, someone else did that job already. The code that I
+show below is just an adaptation of what I found in references [3] and [4].
+
+Ok, enough talking, behold the code which finally solves this problem
+with worst-case time complexity of O(log(n)) for all operations, and
+with O(n) space complexity. There is a caveat of course, as it relies
+on a good estimation of maxsize for the set; passing something too
+small would put in jeopardy the promised O(log(n)), as the height
+[computed as log(n, 2)] would not be good enough. On the other hand,
+putting something too large may waste memory. Anyway, is the best option
+I could find and seems a decent-enough approach:
+
+
+from random import random, randint
+from math import log
+
+class Node:
+    def __init__(self, value, maxLevel=None, next=None, dist=None):
+        assert (value is not None)
+        self.value = value
+        if maxLevel:
+            level = self._getRandomLevel(maxLevel)
+            self.next = [None] * level
+            self.dist = [0] * level
+        else:
+            self.next = next
+            self.dist = dist
+
+    def _getRandomLevel(self, maxLevel):
+        level = 1
+        while random() < 0.5 and level < maxLevel:
+            level += 1
+        return level
+
+    def getLevel(self):
+        return len(self.next)
+
+    def __str__(self):
+        return "(%s, %s, %s)" % (self.value, self.next, self.dist)
+
+class NegInfinity:
+    def __cmp__(self, other):
+        return -1
+
+    def __str__(self):
+        return "-inf"
+
+class PosInfinity:
+    def __cmp__(self, other):
+        return 1
+
+    def __str__(self):
+        return "+inf"
+
+NIL = Node(PosInfinity(), 0)
+
+class IndexedSkipList:
+    def __init__(self, maxSize):
+        self.maxLevel = int(log(maxSize, 2))
+        self.head = Node(NegInfinity(),
+                         next=[NIL] * self.maxLevel,
+                         dist=[1] * self.maxLevel)
+        self.size = 0
+        self.path = [None] * self.maxLevel
+        self.levelDist = [0] * self.maxLevel
+
+    def _search(self, value):
+        node = self.head
+        for i in xrange(self.maxLevel-1, -1, -1):
+            levelDist = 0
+            while node.next[i].value < value:
+                levelDist += node.dist[i]
+                node = node.next[i]
+            self.path[i] = node
+            self.levelDist[i] = levelDist
+        node = node.next[0]
+        return node if node.value == value else None
+
+    def insert(self, value):
+        if self._search(value):
+            return
+        newNode = Node(value, maxLevel=self.maxLevel)
+        currDist = 0
+        for i in xrange(newNode.getLevel()):
+            prev = self.path[i]
+            newNode.next[i] = prev.next[i]
+            prev.next[i] = newNode
+            newNode.dist[i] = prev.dist[i] - currDist
+            prev.dist[i] = currDist + 1
+            currDist += self.levelDist[i]
+        for i in xrange(newNode.getLevel(), self.maxLevel):
+            self.path[i].dist[i] += 1
+        self.size += 1
+
+    def delete(self, value):
+        node = self._search(value)
+        if not node:
+            return
+        for i in xrange(node.getLevel()):
+            prev = self.path[i]
+            prev.dist[i] += prev.next[i].dist[i] - 1
+            prev.next[i] = prev.next[i].next[i]
+        for i in xrange(node.getLevel(), self.maxLevel):
+            self.path[i].dist[i] -= 1
+        self.size -= 1
+
+    def __getitem__(self, k):
+        assert (0 <= k < self.size)
+        k += 1
+        pos = 0
+        node = self.head
+        for i in xrange(self.maxLevel-1, -1, -1):
+            while pos + node.dist[i] <= k:
+                pos += node.dist[i]
+                node = node.next[i]
+        return node.value
+
+    def __len__(self):
+        return self.size
+
+    def __str__(self):
+        s = ""
+        for i in xrange(self.maxLevel-1, -1, -1):
+            node = self.head
+            s += "\n"
+            while node != NIL:
+                s += "(%s->%d)[%d], " % \
+                     (str(node.value), node.dist[i], node.getLevel())
+                node = node.next[i]
+        return s
+
+class RandomSet:
+    def __init__(self, maxSize=1000000):
+        self.skipList = IndexedSkipList(maxSize)
+
+    def insert(self, value):
+        self.skipList.insert(value)
+
+    def delete(self, value):
+        self.skipList.delete(value)
+
+    def getRandomElem(self):
+        if len(self.skipList) > 0:
+            k = randint(0, len(self.skipList)-1)
+            return self.skipList[k]
+        else:
+            return None
+
+    def __str__(self):
+        return str(self.skipList)
+
+    def __len__(self):
+        return len(self.skipList)
+
+
+The code above was tested multiple times with snippet below; random operations
+were applied against a set of maxsize=10. The behavior seemed fine.
+
+# test
+n = 10
+m = 100
+rnds = RandomSet(n)
+for _ in xrange(m):
+    op = randint(0, 2)
+    x = randint(0, n-1)
+    print("op = %d, x = %d" % (op,x))
+    print("before %d: %s" % (len(rnds), str(rnds)))
+    if op == 0:
+        rnds.insert(x)
+    elif op == 1:
+        rnds.delete(x)
+    else:
+        print(rnds.getRandomElem())
+    print("after %d: %s" % (len(rnds), str(rnds)))
+
+References
+
+1. https://wiki.python.org/moin/TimeComplexity
+
+2. https://docs.python.org/2/faq/design.html
+
+3. Pugh, William. A skip list cookbook. 1998.
+   http://cg.scs.carleton.ca/~morin/teaching/5408/refs/p90b.pdf
+
+4. Hettinger, Raymond. Efficient Running Median using an Indexable SkipList (Python Recipe). 2009
+   http://code.activestate.com/recipes/576930/
+
+5. Cormen, Thomas H. Introduction to algorithms. MIT press, 2009.
+
+6. How to apply binary search O(log n) on a sorted linked list?
+   http://stackoverflow.com/questions/5281053/how-to-apply-binary-search-olog-n-on-a-sorted-linked-list
 
