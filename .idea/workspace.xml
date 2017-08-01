@@ -4,88 +4,20 @@
     <bookmark url="file://$PROJECT_DIR$/topcoder-srm/150/500/Solution2.py" line="49" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursera/introduction-probability/quiz1-3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum/Solution2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/g/onsite/20170717/break-lock/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/g/onsite/20170717/cleaner-robot/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geeksforgeeks/subarray-with-given-sum/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/count-of-smaller-numbers-after-self/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/paint-fence/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/144/div1/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/144/div2/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/145/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/146/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/147/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/148/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/149/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/150/250/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/150/500/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/150/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/151/1000/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/151/250/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/151/500/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/151/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/AB/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/topcoder-srm/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fb/20170501/BinSum.py" afterPath="$PROJECT_DIR$/fb/phone/20170501/BinSum.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fb/20170501/BinSum2.py" afterPath="$PROJECT_DIR$/fb/phone/20170501/BinSum2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fb/20170501/__init__.py" afterPath="$PROJECT_DIR$/coursera/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/144/__init__.py" afterPath="$PROJECT_DIR$/coursera/introduction-probability/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/144/div1/1100.py" afterPath="$PROJECT_DIR$/topcoder-srm/144/div1/1100.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/144/div1/300.py" afterPath="$PROJECT_DIR$/topcoder-srm/144/div1/300.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/144/div1/550.py" afterPath="$PROJECT_DIR$/topcoder-srm/144/div1/550.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/144/div1/__init__.py" afterPath="$PROJECT_DIR$/fb/onsite/20170718/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/144/div2/Time.py" afterPath="$PROJECT_DIR$/topcoder-srm/144/div2/Time.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/144/div2/__init__.py" afterPath="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/145/250.py" afterPath="$PROJECT_DIR$/topcoder-srm/145/250.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/145/__init__.py" afterPath="$PROJECT_DIR$/fb/onsite/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/146/300.py" afterPath="$PROJECT_DIR$/topcoder-srm/146/300.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/146/__init__.py" afterPath="$PROJECT_DIR$/fb/phone/20170501/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/147/350.py" afterPath="$PROJECT_DIR$/topcoder-srm/147/350.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/147/__init__.py" afterPath="$PROJECT_DIR$/fb/phone/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/148/250.py" afterPath="$PROJECT_DIR$/topcoder-srm/148/250.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/148/__init__.py" afterPath="$PROJECT_DIR$/g/onsite/20170717/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/149/1000.py" afterPath="$PROJECT_DIR$/topcoder-srm/149/1000.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/149/250.py" afterPath="$PROJECT_DIR$/topcoder-srm/149/250.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/149/500.py" afterPath="$PROJECT_DIR$/topcoder-srm/149/500.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/149/500r.py" afterPath="$PROJECT_DIR$/topcoder-srm/149/500r.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/149/__init__.py" afterPath="$PROJECT_DIR$/g/onsite/20170717/break-lock/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/150/250/Solution.py" afterPath="$PROJECT_DIR$/topcoder-srm/150/250/Solution.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/150/250/__init__.py" afterPath="$PROJECT_DIR$/g/onsite/20170717/cleaner-robot/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/150/500/Solution.py" afterPath="$PROJECT_DIR$/topcoder-srm/150/500/Solution.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/150/500/Solution2.py" afterPath="$PROJECT_DIR$/topcoder-srm/150/500/Solution2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/150/500/__init__.py" afterPath="$PROJECT_DIR$/g/onsite/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/150/__init__.py" afterPath="$PROJECT_DIR$/geeksforgeeks/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/151/1000/Solution.py" afterPath="$PROJECT_DIR$/topcoder-srm/151/1000/Solution.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/151/1000/__init__.py" afterPath="$PROJECT_DIR$/geeksforgeeks/subarray-with-given-sum/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/151/250/Solution.py" afterPath="$PROJECT_DIR$/topcoder-srm/151/250/Solution.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/151/250/__init__.py" afterPath="$PROJECT_DIR$/leetcode/g/count-of-smaller-numbers-after-self/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/151/500/Solution.py" afterPath="$PROJECT_DIR$/topcoder-srm/151/500/Solution.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/151/500/__init__.py" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/151/__init__.py" afterPath="$PROJECT_DIR$/leetcode/g/paint-fence/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/AB/Solution.py" afterPath="$PROJECT_DIR$/topcoder-srm/AB/Solution.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/AB/__init__.py" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/srm/__init__.py" afterPath="$PROJECT_DIR$/topcoder-srm/144/__init__.py" />
+    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="backup">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/dota2-senate/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/dota2-senate/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/dota2-senate/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/fail-test-TreeForm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/fail-test-drawtree.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/fail.test" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,7 +32,60 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/chaca-tiny-url/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3956">
+              <caret line="92" column="26" lean-forward="false" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/dota2-senate/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/dota2-senate/Solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -131,12 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/151/500.py" />
-        <option value="$PROJECT_DIR$/151/500/Solution.py" />
-        <option value="$PROJECT_DIR$/151/1000/Solution.py" />
-        <option value="$PROJECT_DIR$/codelab/excel2/Solution.py" />
-        <option value="$PROJECT_DIR$/codelab/excel2/Solution2.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution2.py" />
         <option value="$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution3.py" />
         <option value="$PROJECT_DIR$/leetcode/g/3sum-smaller/Solution.py" />
@@ -182,14 +161,20 @@
         <option value="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum/Solution.py" />
         <option value="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum/Solution2.py" />
         <option value="$PROJECT_DIR$/geeksforgeeks/subarray-with-given-sum/Solution.py" />
+        <option value="$PROJECT_DIR$/design/chaca-tiny-url/main.py" />
+        <option value="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/fail.test" />
+        <option value="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution2.py" />
+        <option value="$PROJECT_DIR$/leetcode/weekly-contest/dota2-senate/Solution.java" />
+        <option value="$PROJECT_DIR$/leetcode/weekly-contest/dota2-senate/Solution.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
-    <option name="width" value="1934" />
-    <option name="height" value="1094" />
+    <option name="width" value="1932" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -209,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,14 +207,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topcoder-srm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topcoder-srm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topcoder-srm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topcoder-srm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weekly-contest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topcoder-srm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topcoder-srm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weekly-contest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dota2-senate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/fail-test-TreeForm.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -240,41 +279,7 @@
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\div1\144" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution2">
-    <configuration default="false" name="Solution7" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="topcoder-srm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="quiz1-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coursera/introduction-probability" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="topcoder-srm" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coursera/introduction-probability/quiz1-3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Solution (2)">
     <configuration default="false" name="Solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,6 +327,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topcoder-srm" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum/Solution2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Solution (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topcoder-srm" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Solution2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topcoder-srm" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -461,19 +500,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Solution7" />
-      <item index="1" class="java.lang.String" itemvalue="Python.quiz1-3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Solution" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Solution (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Solution2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Solution" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Solution (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Solution2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Solution (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Solution2 (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Solution2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Solution (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Solution" />
-        <item index="3" class="java.lang.String" itemvalue="Python.quiz1-3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Solution7" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Solution (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Solution2 (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Solution2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Solution (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -530,30 +569,37 @@
       <option name="project" value="LOCAL" />
       <updated>1499485799984</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="backup">
+      <created>1501351192193</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1501351192193</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="-12" width="1934" height="1094" extended-state="0" />
+    <frame x="-12" y="-12" width="1932" height="1092" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3052356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30503145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53828305" sideWeight="0.5021119" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6958998" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4605856" sideWeight="0.49788806" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6972789" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5472973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46013668" sideWeight="0.49788806" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5455581" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -563,16 +609,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53828305" sideWeight="0.5021119" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6958998" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4605856" sideWeight="0.49788806" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6972789" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46013668" sideWeight="0.49788806" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30572918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30503145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5472973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5455581" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -819,6 +865,16 @@
           <line>41</line>
           <option name="timeStamp" value="221" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -830,67 +886,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="222" />
+      <option name="time" value="224" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="last[i:]" language="Python" />
-        <watch expression="comb[:-i]" language="Python" />
-        <watch expression="seq[:-i]" language="Python" />
-        <watch expression="comb[-i:]" language="Python" />
-        <watch expression="last[:-i] + comb[-i:]" language="Python" />
-        <watch expression="last[:-i]" language="Python" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="82" column="58" lean-forward="true" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/num-of-islands.py" />
-    <entry file="file://$PROJECT_DIR$/leetcode/g/3sum-smaller/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/num-of-islands/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/utf-8-validation/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/game-of-life/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -1201,7 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="752">
           <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,7 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="20" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,7 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
           <caret line="22" column="23" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="22" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1225,7 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-903">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1233,9 +1229,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/chaca-tiny-url/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/fail-test-TreeForm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6579">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/fail.test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3956">
+          <caret line="92" column="26" lean-forward="false" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/find-duplicate-subtrees/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/dota2-senate/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/dota2-senate/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="false" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
