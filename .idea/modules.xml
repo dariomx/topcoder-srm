@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/topcoder-srm.iml" filepath="$PROJECT_DIR$/.idea/topcoder-srm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v0/.idea/v0.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v0/.idea/v0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v1/.idea/v1.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v1/.idea/v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v2/.idea/v2.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v2/.idea/v2.iml" />
     </modules>
   </component>
 </project>
