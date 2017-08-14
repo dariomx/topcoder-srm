@@ -5,64 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/.idea/chaca-tiny-url.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/common/appengine_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/common/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/common/encode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/.idea/create.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/appengine_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/create.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/encode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/html/create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/.idea/home.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/dispatch.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/html/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/.idea/query.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/appengine_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/encode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/html/query.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/query.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/.idea/redirect.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/appengine_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/encode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/redirect.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/test/perf/perf-test.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/test/perf/perf-test1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/test/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/topcoder-srm.iml" afterPath="$PROJECT_DIR$/.idea/topcoder-srm.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +28,18 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design/chaca-tiny-url/v2/html/create.html" />
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v2/create.py" />
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v3/forward.py" />
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v3/main.py" />
@@ -175,6 +128,7 @@
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/query.py" />
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/html/query.html" />
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/create.py" />
+        <option value="$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt" />
       </list>
     </option>
   </component>
@@ -226,7 +180,7 @@
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
               <item name="chaca-tiny-url" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -656,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502695389519</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="backup">
+      <created>1502695984940</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1502695984940</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1024,13 +985,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/dev_appserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design/chaca-tiny-url/v5/test/perf/perf-test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -1219,7 +1173,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1229,7 +1183,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1255,7 +1209,7 @@
         <state relative-caret-position="215">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1321,7 +1275,7 @@
         <state relative-caret-position="215">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <element signature="e#112#121#0" expanded="true" />
+            <element signature="e#112#121#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1388,6 +1342,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
