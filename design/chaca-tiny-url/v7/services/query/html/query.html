@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Chaca Tiny URL</title>
+</head>
+<body>
+<h1>Chaca Tiny URL</h1>
+<table>
+    <thead>
+    <tr>
+        <p>
+            {% if prev %}
+            <a href="/query?prev_cursor={{ prev_cursor }}">Previous</a>
+            {% endif %}
+
+            {% if next %}
+            <a href="/query?next_cursor={{ next_cursor }}">Forward</a>
+            {% endif %}
+        </p>
+    </tr>
+    </thead>
+    <tbody>
+    {% for obj in objects %}
+    <tr>
+        <td>{{ obj.seq }}</td>
+        <td>{{ obj.url }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table>
+
+</body>
+</html>

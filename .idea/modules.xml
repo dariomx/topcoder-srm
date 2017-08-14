@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v6/services/create/.idea/create.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v6/services/create/.idea/create.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v6/services/home/.idea/home.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v6/services/home/.idea/home.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v6/services/redirect/.idea/redirect.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v6/services/redirect/.idea/redirect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/.idea/create.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/.idea/create.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v7/services/home/.idea/home.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/home/.idea/home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/.idea/query.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/.idea/query.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/.idea/redirect.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/.idea/redirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/topcoder-srm.iml" filepath="$PROJECT_DIR$/.idea/topcoder-srm.iml" />
       <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v0/.idea/v0.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v0/.idea/v0.iml" />
       <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v1/.idea/v1.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v1/.idea/v1.iml" />

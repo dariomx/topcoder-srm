@@ -1,0 +1,12 @@
+dispatch:
+  - url: "c-tu.net/"
+    service: default
+
+  - url: "*/create"
+    service: create
+
+  - url: "*/query"
+    service: query
+
+  - url: "*/*"
+    service: redirect
