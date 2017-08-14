@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/v1/pres/res/ui-create.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/v1/pres/res/ui-home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/v1/pres/res/ui-query.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chaca-tiny-url/v1/pres/res/ui-create.png" afterPath="$PROJECT_DIR$/../chaca-tiny-url/v1/pres/res/ui-create.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chaca-tiny-url/v1/pres/res/ui-home.png" afterPath="$PROJECT_DIR$/../chaca-tiny-url/v1/pres/res/ui-home.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chaca-tiny-url/v1/pres/res/ui-query.png" afterPath="$PROJECT_DIR$/../chaca-tiny-url/v1/pres/res/ui-query.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -636,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502700737647</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="backup">
+      <created>1502707155919</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1502707155919</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -649,7 +656,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6677928" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6133787" sideWeight="0.49788806" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5453125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
