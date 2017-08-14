@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chaca-tiny-url/services/create/app.yaml" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chaca-tiny-url/services/home/app.yaml" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chaca-tiny-url/services/query/app.yaml" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/app.yaml" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/app.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +32,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="43">
               <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/home/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/create/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/query/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/redirect/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -78,10 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design/chaca-tiny-url/v2/create.py" />
-        <option value="$PROJECT_DIR$/design/chaca-tiny-url/v3/forward.py" />
-        <option value="$PROJECT_DIR$/design/chaca-tiny-url/v3/main.py" />
-        <option value="$PROJECT_DIR$/design/chaca-tiny-url/v3/data.py" />
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v3/create.py" />
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v3/redirect.py" />
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v3/html/create.html" />
@@ -129,6 +168,10 @@
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/html/query.html" />
         <option value="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/create.py" />
         <option value="$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt" />
+        <option value="$PROJECT_DIR$/../chaca-tiny-url/services/home/app.yaml" />
+        <option value="$PROJECT_DIR$/../chaca-tiny-url/services/create/app.yaml" />
+        <option value="$PROJECT_DIR$/../chaca-tiny-url/services/query/app.yaml" />
+        <option value="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/app.yaml" />
       </list>
     </option>
   </component>
@@ -170,17 +213,6 @@
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
               <item name="chaca-tiny-url" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chaca-tiny-url" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chaca-tiny-url" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -617,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502695984940</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="backup">
+      <created>1502696223431</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1502696223431</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -985,15 +1024,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design/chaca-tiny-url/v5/test/perf/perf-test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/chaca-tiny-url/v6/html/home.html" />
-    <entry file="file://$PROJECT_DIR$/design/chaca-tiny-url/v6/app.yaml" />
     <entry file="file://$PROJECT_DIR$/design/chaca-tiny-url/v6/services/home/html/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1338,18 +1368,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/home/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
           <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/home/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/create/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/query/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/redirect/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding />
         </state>
       </provider>
