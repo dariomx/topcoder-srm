@@ -5,61 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/common/appengine_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/common/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/common/encode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/common/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/.idea/create.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/appengine_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/create.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/encode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/html/create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/create/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/home/.idea/home.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/home/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/home/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/home/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/home/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/home/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/home/dispatch.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/home/html/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/.idea/query.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/appengine_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/encode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/html/query.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/query.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/query/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/.idea/redirect.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/appengine_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/encode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/services/redirect/redirect.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/test/perf/perf-test.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/test/perf/perf-test1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v7/test/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/.idea/chaca-tiny-url.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/common/appengine_config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/common/data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/common/encode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/common/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/.idea/create.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/app.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/appengine_config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/create.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/encode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/html/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/create/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/.idea/home.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/app.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/dispatch.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/home/html/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/.idea/query.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/app.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/appengine_config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/encode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/html/query.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/query.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/query/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/.idea/redirect.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/app.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/appengine_config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/encode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/redirect.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/test/perf/perf-test.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/test/perf/perf-test1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../chaca-tiny-url/test/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/topcoder-srm.iml" afterPath="$PROJECT_DIR$/.idea/topcoder-srm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/chaca-tiny-url/v6/.idea/v6.iml" afterPath="$PROJECT_DIR$/design/chaca-tiny-url/v6/.idea/v6.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -115,7 +119,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../chaca-tiny-url" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -211,33 +215,18 @@
           <expand>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="chaca-tiny-url" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="chaca-tiny-url" type="462c0819:PsiDirectoryNode" />
-              <item name="v7" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="chaca-tiny-url" type="462c0819:PsiDirectoryNode" />
-              <item name="v7" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,25 +235,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Anaconda2/Lib/site-packages/django/conf/global_settings.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\common" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\query" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\redirect" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\create" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\redirect" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v2\html" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\leetcode\weekly-contest\leetcode-weekly-contest-43" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\common" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\query" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\redirect" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\create" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -471,29 +460,12 @@
     </configuration>
     <configuration name="create.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/topcoder-srm/html/create.html" />
     <configuration name="home.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/topcoder-srm/html/home.html" />
-    <configuration name="query" type="Python.AppEngineServer" factoryName="App Engine server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="query" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="host" value="127.0.0.1" />
-      <option name="browserUrl" value="" />
-      <option name="additionalOptions" value="" />
-    </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="App Engine server.query" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Solution6" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Solution" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Solution2" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.home.html" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.create.html" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.Solution6" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Solution" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Solution2" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.home.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.create.html" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -677,14 +649,21 @@
       <option name="project" value="LOCAL" />
       <updated>1502689605585</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="backup">
+      <created>1502695389519</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1502695389519</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="1944" height="1104" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="App Config Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18707483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="App Config Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67687076" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53828305" sideWeight="0.5021119" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6677928" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1045,20 +1024,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design/chaca-tiny-url/v5/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/chaca-tiny-url/v5/html/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/dev_appserver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1221,6 +1186,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,6 +1194,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,6 +1202,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,6 +1218,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,6 +1228,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1264,6 +1238,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,6 +1246,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,6 +1254,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1285,6 +1264,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1292,6 +1272,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,6 +1280,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,6 +1288,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,6 +1369,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/home/html/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/services/home/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
