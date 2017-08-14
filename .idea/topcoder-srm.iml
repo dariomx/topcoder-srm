@@ -36,6 +36,10 @@
     <orderEntry type="module" module-name="home" />
     <orderEntry type="module" module-name="query" />
     <orderEntry type="module" module-name="redirect" />
+    <orderEntry type="module" module-name="create" />
+    <orderEntry type="module" module-name="home" />
+    <orderEntry type="module" module-name="query" />
+    <orderEntry type="module" module-name="redirect" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
