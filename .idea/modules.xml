@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../chaca-tiny-url/.idea/chaca-tiny-url.iml" filepath="$PROJECT_DIR$/../chaca-tiny-url/.idea/chaca-tiny-url.iml" />
       <module fileurl="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/create/.idea/create.iml" filepath="$PROJECT_DIR$/../chaca-tiny-url/v1/services/create/.idea/create.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../data-science-learning/.idea/data-science-learning.iml" filepath="$PROJECT_DIR$/../data-science-learning/.idea/data-science-learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/home/.idea/home.iml" filepath="$PROJECT_DIR$/../chaca-tiny-url/v1/services/home/.idea/home.iml" />
       <module fileurl="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/query/.idea/query.iml" filepath="$PROJECT_DIR$/../chaca-tiny-url/v1/services/query/.idea/query.iml" />
       <module fileurl="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/redirect/.idea/redirect.iml" filepath="$PROJECT_DIR$/../chaca-tiny-url/v1/services/redirect/.idea/redirect.iml" />
