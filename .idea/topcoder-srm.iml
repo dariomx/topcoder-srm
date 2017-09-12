@@ -24,23 +24,6 @@
     <orderEntry type="module" module-name="v4" />
     <orderEntry type="module" module-name="v5" />
     <orderEntry type="module" module-name="v6" />
-    <orderEntry type="module" module-name="home" />
-    <orderEntry type="module" module-name="create" />
-    <orderEntry type="module" module-name="redirect" />
-    <orderEntry type="module" module-name="create" />
-    <orderEntry type="module" module-name="home" />
-    <orderEntry type="module" module-name="redirect" />
-    <orderEntry type="module" module-name="query" />
-    <orderEntry type="module" module-name="chaca-tiny-url" />
-    <orderEntry type="module" module-name="create" />
-    <orderEntry type="module" module-name="home" />
-    <orderEntry type="module" module-name="query" />
-    <orderEntry type="module" module-name="redirect" />
-    <orderEntry type="module" module-name="create" />
-    <orderEntry type="module" module-name="home" />
-    <orderEntry type="module" module-name="query" />
-    <orderEntry type="module" module-name="redirect" />
-    <orderEntry type="module" module-name="stats" />
     <orderEntry type="module" module-name="data-science-learning" />
   </component>
   <component name="TestRunnerService">
