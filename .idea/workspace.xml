@@ -5,8 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/m/missing-numbers/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/count-of-range-sum/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/count-of-range-sum/Solution2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/count-of-range-sum/Solution3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2b.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution6.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/computeCost.m" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/computeCost.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/computeCostMulti.m" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/computeCostMulti.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/ex1_multi.m" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/ex1_multi.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/featureNormalize.m" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/featureNormalize.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/gradientDescent.m" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/gradientDescent.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/gradientDescentMulti.m" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/gradientDescentMulti.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/normalEqn.m" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/normalEqn.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/token.mat" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/token.mat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,12 +55,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution5.coverage" NAME="Solution5 Coverage Results" MODIFIED="1502122115648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/word-search-ii" />
-    <SUITE FILE_PATH="coverage/topcoder_srm$Solution3.coverage" NAME="Solution3 Coverage Results" MODIFIED="1502043733309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/alien-dictionary" />
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution6.coverage" NAME="Solution6 Coverage Results" MODIFIED="1502123630210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/word-search-ii" />
-    <SUITE FILE_PATH="coverage/topcoder_srm$Solution.coverage" NAME="Solution Coverage Results" MODIFIED="1502128673835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/insert-delete-getrandom-o1" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution3.coverage" NAME="Solution3 Coverage Results" MODIFIED="1504554166389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/regular-expression-matching" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution2__1_.coverage" NAME="Solution2 (1) Coverage Results" MODIFIED="1505148815000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/perfect-rectangle" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution.coverage" NAME="Solution Coverage Results" MODIFIED="1504921311533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/diameter-of-binary-tree" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution3__1_.coverage" NAME="Solution3 (1) Coverage Results" MODIFIED="1504921982879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/diameter-of-binary-tree" />
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution__1_.coverage" NAME="Solution (1) Coverage Results" MODIFIED="1502034331628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/alien-dictionary" />
-    <SUITE FILE_PATH="coverage/topcoder_srm$Solution4.coverage" NAME="Solution4 Coverage Results" MODIFIED="1502119981722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/alien-dictionary" />
-    <SUITE FILE_PATH="coverage/topcoder_srm$Solution2.coverage" NAME="Solution2 Coverage Results" MODIFIED="1502215414069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/maximum-product-of-word-lengths" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution4.coverage" NAME="Solution4 Coverage Results" MODIFIED="1504554934744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/regular-expression-matching" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution2.coverage" NAME="Solution2 Coverage Results" MODIFIED="1504921551715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/diameter-of-binary-tree" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution2b.coverage" NAME="Solution2b Coverage Results" MODIFIED="1505149159430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/perfect-rectangle" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,30 +71,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/m/missing-numbers/Solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skiena-prog-challenges/100 - 3n+1/Solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="698">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="44" column="48" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution2b.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2b.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,6 +139,8 @@
       <find>.number</find>
       <find>val</find>
       <find>sum</find>
+      <find>m =</find>
+      <find>alpha =</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -101,45 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/services/redirect/app.yaml" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/redirect/redirect.py" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/query/query.py" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/query/html/query.html" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/stats/app.yaml" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/stats/main.py" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/home/dispatch.yaml" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/stats/data.py" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/create/data.py" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/query/data.py" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/redirect/data.py" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/create/create.py" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/stats/html/stats.html" />
-        <option value="$PROJECT_DIR$/../chaca-tiny-url/v1/services/stats/stats.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-bst/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-bst/Solution2.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/find-the-difference/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/binary-watch/Solutoin.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/binary-watch/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/binary-watch/Solution2.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/binary-watch/Solution3.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/closest-binary-search-tree-value/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/closest-binary-search-tree-value/Solution2.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/word-break/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/nth-digit/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/nth-digit/Solution2.py" />
-        <option value="$PROJECT_DIR$/interviewbit/rotate-matrix/Solution.py" />
-        <option value="$PROJECT_DIR$/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/warmUpExercise.m" />
-        <option value="$PROJECT_DIR$/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/plotData.m" />
-        <option value="$PROJECT_DIR$/leetcode/g/find-permutation/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/read-n-characters-given-read4-ii-call-multiple-times/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/read-n-characters-given-read4-ii-call-multiple-times/Solution2.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/read-n-characters-given-read4-ii-call-multiple-times/Solution3.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/plus-one-linked-list/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution2.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution3.py" />
-        <option value="$PROJECT_DIR$/skiena-prog-challenges/100 - 3n+1/in1" />
-        <option value="$PROJECT_DIR$/skiena-prog-challenges/100 - 3n+1/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution2.py" />
         <option value="$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution3.py" />
@@ -152,6 +165,45 @@
         <option value="$PROJECT_DIR$/leetcode/m/missing-number.py" />
         <option value="$PROJECT_DIR$/leetcode/m/missing-numbers/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution2.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution3.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution4.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution5.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution6.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution.java" />
+        <option value="$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution1.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution2.py" />
+        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/ex1.m" />
+        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/gradientDescentMulti.m" />
+        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/gradientDescent.m" />
+        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/computeCost.m" />
+        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/computeCostMulti.m" />
+        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/featureNormalize.m" />
+        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/ex1_multi.m" />
+        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/normalEqn.m" />
+        <option value="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution2.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution3.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution4.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution5.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution6.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution2.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution3.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution4.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution5.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/count-of-range-sum/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/count-of-range-sum/Solution2.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/count-of-range-sum/Solution3.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution3.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution4.py" />
+        <option value="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution2.py" />
+        <option value="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution3.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution3.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2b.py" />
       </list>
     </option>
   </component>
@@ -185,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,17 +256,23 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="g" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="g" type="462c0819:PsiDirectoryNode" />
+              <item name="perfect-rectangle" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -226,19 +285,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\leetcode\g" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\machine-learning\coursera-stanford-andrew-ng" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\create" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\redirect" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url\v1\services" />
       <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\common" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\query" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\leetcode\g" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\machine-learning\coursera-stanford-andrew-ng" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\create" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\redirect" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v2\html" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -253,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Solution2b">
     <configuration name="Solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,13 +320,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/insert-delete-getrandom-o1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/diameter-of-binary-tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topcoder-srm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/insert-delete-getrandom-o1/Solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Solution2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/perfect-rectangle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topcoder-srm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,31 +356,49 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/maximum-product-of-word-lengths" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/diameter-of-binary-tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topcoder-srm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/maximum-product-of-word-lengths/Solution2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Solution6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Solution2b" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/word-search-ii" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/perfect-rectangle" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topcoder-srm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/word-search-ii/Solution6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2b.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Solution3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/diameter-of-binary-tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topcoder-srm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -443,22 +538,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration name="create.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/topcoder-srm/html/create.html" />
-    <configuration name="home.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/topcoder-srm/html/home.html" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Solution6" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Solution" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Solution2" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.home.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.create.html" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Solution" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Solution2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Solution3 (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Solution2 (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Solution2b" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.create.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.home.html" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Solution2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Solution" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Solution6" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Solution2b" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Solution2 (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Solution3 (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Solution2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -732,19 +825,42 @@
       <option name="project" value="LOCAL" />
       <updated>1503634978944</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="backup">
+      <created>1503942778309</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1503942778310</updated>
+    </task>
+    <task id="LOCAL-00039" summary="backup">
+      <created>1503943103898</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1503943103898</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="1944" height="1104" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29635417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53828305" sideWeight="0.5021119" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277405" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6666667" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6133787" sideWeight="0.49788806" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689342" sideWeight="0.49788806" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -760,6 +876,29 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="App Config Tool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53174603" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53828305" sideWeight="0.5021119" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277405" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6666667" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6689342" sideWeight="0.49788806" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5442177" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1056,6 +1195,21 @@
           <line>53</line>
           <option name="timeStamp" value="247" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution3.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution2.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1067,7 +1221,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="250" />
+      <option name="time" value="255" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1077,323 +1231,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/query/html/query.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/stats/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/home/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/stats/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/query/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1888">
-          <caret line="66" column="68" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/query/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/redirect/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/stats/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/create/create.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2107">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/create/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/stats/stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2408">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/home/dispatch.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/stats/html/stats.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../chaca-tiny-url/v1/services/redirect/redirect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-bst/Solution2.py" />
-    <entry file="file://$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-bst/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/find-the-difference/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/binary-watch/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/binary-watch/Solution2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/binary-watch/Solution3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/closest-binary-search-tree-value/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/closest-binary-search-tree-value/Solution2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/word-break/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/nth-digit/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/nth-digit/Solution2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interviewbit/rotate-matrix/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/warmUpExercise.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/plotData.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/find-permutation/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/ex1.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/plus-one-linked-list/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/read-n-characters-given-read4-ii-call-multiple-times/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/read-n-characters-given-read4-ii-call-multiple-times/Solution2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="44" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/read-n-characters-given-read4-ii-call-multiple-times/Solution3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skiena-prog-challenges/100 - 3n+1/in1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution4.py" />
-    <entry file="file://$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution4.java.py" />
-    <entry file="file://$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/median-of-two-sorted-arrays/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/median-of-two-sorted-arrays/Solution2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/m/missing-number.py" />
     <entry file="file://$PROJECT_DIR$/leetcode/m/missing-numbers/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="0">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1401,14 +1242,383 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/lib/jsonlab/loadubjson.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8256">
+          <caret line="192" column="29" lean-forward="false" selection-start-line="192" selection-start-column="29" selection-end-line="192" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/lib/jsonlab/saveubjson.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8824">
+          <caret line="324" column="10" lean-forward="false" selection-start-line="324" selection-start-column="10" selection-end-line="324" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
+        <state relative-caret-position="458">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2666">
+          <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2064">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/warmUpExercise.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/plotData.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/ex1.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3612">
+          <caret line="84" column="21" lean-forward="false" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/ex1data1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/ex1data2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/gradientDescent.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/gradientDescentMulti.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/computeCost.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/computeCostMulti.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/featureNormalize.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/ex1_multi.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3612">
+          <caret line="84" column="9" lean-forward="false" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex1/ex1/normalEqn.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="37" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1290">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="45" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="57" column="16" lean-forward="true" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/count-of-range-sum/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/count-of-range-sum/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3845">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/count-of-range-sum/Solution3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1720">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="41" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="44" column="48" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
