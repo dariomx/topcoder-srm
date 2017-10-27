@@ -4,11 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/topcoder-srm/150/500/Solution2.py" line="49" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="backup">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/merge-intervals/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/queue-reconstruction-by-height/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/queue-reconstruction-by-height/Solution2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/target-sum/Solution.py" />
+    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/add-bold-tag-in-string/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/binary-search-tree-iterator/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/evaluate-division/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/letter-combinations-of-a-phone-number/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution3.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,51 +54,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="nnCostFunction.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/nnCostFunction.m">
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="698">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sigmoidGradient.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/sigmoidGradient.m">
+      <file leaf-file-name="Solution2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="698">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="randInitializeWeights.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/randInitializeWeights.m">
+      <file leaf-file-name="Solution3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="698">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/g/merge-intervals/Solution.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/letter-combinations-of-a-phone-number/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1161">
-              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lrCostFunction.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex3/ex3/lrCostFunction.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1609">
-              <caret line="40" column="82" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="82" />
+            <state relative-caret-position="698">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,13 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/data/04-plot-data.py" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/data/test-plot.py" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/plot_data.py" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/sorting_with_python.py" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/05-plot-data-norm.py" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/load_data.py" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/03-prelim-anal.py" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/04-plot-data.py" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/05-data-norm.py" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/06-detect-peaks.py" />
@@ -197,6 +183,13 @@
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/sigmoidGradient.m" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/randInitializeWeights.m" />
         <option value="$PROJECT_DIR$/leetcode/g/merge-intervals/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/evaluate-division/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/add-bold-tag-in-string/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/binary-search-tree-iterator/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution2.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution3.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/letter-combinations-of-a-phone-number/Solution.py" />
       </list>
     </option>
   </component>
@@ -249,6 +242,13 @@
               <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="g" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="g" type="462c0819:PsiDirectoryNode" />
+              <item name="walls-and-gates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -932,7 +932,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508040391824</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="backup">
+      <created>1508856297954</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1508856297954</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1331,49 +1338,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/g/non-decreasing-array/Solution2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/non-decreasing-array/Solution3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/non-decreasing-array/Solution4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/load_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/01-download-data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/data/test-plot.py" />
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/03-prelim-anal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/04-plot-data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1666,7 +1630,7 @@
     <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex3/ex3/lrCostFunction.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1609">
-          <caret line="40" column="82" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="82" />
+          <caret line="40" column="82" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="82" />
           <folding />
         </state>
       </provider>
@@ -1674,7 +1638,7 @@
     <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/sigmoidGradient.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1689,8 +1653,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/merge-intervals/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="215">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/evaluate-division/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2580">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/add-bold-tag-in-string/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/binary-search-tree-iterator/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1781">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/letter-combinations-of-a-phone-number/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
