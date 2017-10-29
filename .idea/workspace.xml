@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/add-bold-tag-in-string/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/binary-search-tree-iterator/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/evaluate-division/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/letter-combinations-of-a-phone-number/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/1-bit-and-2-bit-characters/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/find-k-th-smallest-pair-distance/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/maximum-length-of-repeated-subarray/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/string-compression/Solution.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution3.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +59,8 @@
       <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="1634">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,8 +69,8 @@
       <file leaf-file-name="Solution2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="2021">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,18 +79,58 @@
       <file leaf-file-name="Solution3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution3.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1935">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/letter-combinations-of-a-phone-number/Solution.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="698">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/1-bit-and-2-bit-characters/Solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/string-compression/Solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/maximum-length-of-repeated-subarray/Solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/g/letter-combinations-of-a-phone-number/Solution.py">
+        <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/find-k-th-smallest-pair-distance/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="698">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -139,10 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/04-plot-data.py" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/05-data-norm.py" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/06-detect-peaks.py" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/08-dim-reduc-pca.py" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/09-cluster-kmeans.py" />
         <option value="$PROJECT_DIR$/hackerrank/crush/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/g/max-consecutive-ones/Solution.py" />
@@ -190,6 +228,10 @@
         <option value="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution2.py" />
         <option value="$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution3.py" />
         <option value="$PROJECT_DIR$/leetcode/g/letter-combinations-of-a-phone-number/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/1-bit-and-2-bit-characters/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/string-compression/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/maximum-length-of-repeated-subarray/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/find-k-th-smallest-pair-distance/Solution.py" />
       </list>
     </option>
   </component>
@@ -241,14 +283,14 @@
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
               <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="g" type="462c0819:PsiDirectoryNode" />
+              <item name="weekly-contest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
               <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="g" type="462c0819:PsiDirectoryNode" />
-              <item name="walls-and-gates" type="462c0819:PsiDirectoryNode" />
+              <item name="weekly-contest" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode-weekly-contest-56" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,19 +314,19 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\leetcode\g" />
+      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning\machine-learning\training-oracle\expo-kmeans-pca-spike-sorting" />
+      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\machine-learning\coursera-stanford-andrew-ng" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\create" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url\v1\services" />
       <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\common" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\query" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning\machine-learning\training-oracle\expo-kmeans-pca-spike-sorting" />
-      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\leetcode\g" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\machine-learning\coursera-stanford-andrew-ng" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v6\services\create" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -939,7 +981,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508856297954</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="backup">
+      <created>1509146541685</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1509146541685</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -954,16 +1003,15 @@
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="1944" height="1104" extended-state="6" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33177084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53741497" sideWeight="0.5021119" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277405" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4387755" sideWeight="0.49788806" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33177084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6678004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277405" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67346936" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4387755" sideWeight="0.49788806" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -974,6 +1022,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6678004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1302,12 +1351,12 @@
           <option name="timeStamp" value="250" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution.py</url>
           <line>27</line>
           <option name="timeStamp" value="253" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode/diameter-of-binary-tree/Solution2.py</url>
+          <url>file://$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution2.py</url>
           <line>31</line>
           <option name="timeStamp" value="254" />
         </line-breakpoint>
@@ -1338,34 +1387,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/04-plot-data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/05-data-norm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/sorting_with_python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda2/Lib/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125990">
-          <caret line="2962" column="4" lean-forward="false" selection-start-line="2962" selection-start-column="4" selection-end-line="2962" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/07-cuts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2236">
@@ -1583,7 +1604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1591,7 +1611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1599,7 +1618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3225">
           <caret line="75" column="11" lean-forward="true" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1607,7 +1625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1615,7 +1632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1623,7 +1639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1631,7 +1646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1609">
           <caret line="40" column="82" lean-forward="false" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1639,7 +1653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1647,7 +1660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
           <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1655,7 +1667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1663,7 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2580">
           <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1679,30 +1689,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1781">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="1634">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="2021">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/walls-and-gates/Solution3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="1935">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1710,7 +1719,39 @@
     <entry file="file://$PROJECT_DIR$/leetcode/g/letter-combinations-of-a-phone-number/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/1-bit-and-2-bit-characters/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/string-compression/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/maximum-length-of-repeated-subarray/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/find-k-th-smallest-pair-distance/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding />
         </state>
       </provider>
