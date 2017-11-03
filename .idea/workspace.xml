@@ -5,39 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="backup">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw1/Homework1_Fall_217.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/ex4data1.mat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/ex4weights.mat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/octave-workspace" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw1/.ipynb_checkpoints/math4ai-hw1-checkpoint.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw1/math4ai-hw1.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/checkNNGradients.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/computeNumericalGradient.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/debugInitializeWeights.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/displayData.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/ex4.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/fmincg.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/ChangeLog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/LICENSE_BSD.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/jsonopt.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/loadjson.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/loadubjson.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/mergestruct.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/savejson.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/saveubjson.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/jsonlab/varargin2struct.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/makeValidFieldName.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/lib/submitWithConfiguration.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/nnCostFunction.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/predict.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/randInitializeWeights.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/sigmoid.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/sigmoidGradient.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/submit.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex4/ex4/token.mat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution7.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw1/math4ai-hw1.ipynb" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw1/math4ai-hw1.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,11 +56,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/g/next-permutation/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2021">
+              <caret line="47" column="45" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="66" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution6.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution6.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="749">
-              <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+              <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution5.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="878">
+              <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2408">
+              <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution7.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,13 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/g/island-perimeter/Solution2.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/palindrome-permutation/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/detect-capital/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/valid-parentheses/Solution.py" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/plotData.m" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/ex2.m" />
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/predict.m" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/sigmoid.m" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/ex2_reg.m" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/costFunction.m" />
@@ -186,6 +235,13 @@
         <option value="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution6.py" />
         <option value="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution7.py" />
         <option value="$PROJECT_DIR$/leetcode/g/next-permutation/Solution.java" />
+        <option value="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.java" />
+        <option value="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution2.java" />
+        <option value="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution3.java" />
+        <option value="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution4.java" />
+        <option value="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution5.java" />
+        <option value="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution6.java" />
       </list>
     </option>
   </component>
@@ -226,21 +282,6 @@
           <expand>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="g" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-science-learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,7 +310,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -615,13 +656,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00004" summary="final version for g coaching interview">
-      <created>1494824531946</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1494824531946</updated>
-    </task>
     <task id="LOCAL-00005" summary="srm 149 and letcode regex">
       <created>1495644798762</created>
       <option name="number" value="00005" />
@@ -958,7 +992,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509561340022</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="backup">
+      <created>1509561418491</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1509561418491</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1357,62 +1398,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/ex2data1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/predict.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/sigmoid.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/ex2_reg.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/costFunction.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex2/ex2/costFunctionReg.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex3/ex3/lib/submitWithConfiguration.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5600">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex3/ex3/predictOneVsAll.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex3/ex3/submit.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1737,8 +1722,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/next-permutation/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2021">
+          <caret line="47" column="45" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="878">
+          <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution6.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="749">
-          <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2408">
+          <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="66" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="1" />
           <folding />
         </state>
       </provider>
