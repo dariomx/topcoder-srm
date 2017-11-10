@@ -4,8 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/topcoder-srm/150/500/Solution2.py" line="49" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/geeksforgeeks/__init__.py" afterPath="" />
+    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="backup">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,11 +98,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train-svm.out" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train-svm.out" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ml-tgl/attacks/bahena-cabral/train-svm.out">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="61">
               <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ml-tgl/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kk" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ml-tgl/attacks/bahena-cabral/kk">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -163,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution2.py" />
         <option value="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution3.py" />
         <option value="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution4.py" />
@@ -214,6 +232,7 @@
         <option value="$PROJECT_DIR$/../ml-tgl/log/train-percep1.log" />
         <option value="$PROJECT_DIR$/../ml-tgl/src/train-percep.py" />
         <option value="$PROJECT_DIR$/../ml-tgl/attacks/bahena-cabral/train-percep2.out" />
+        <option value="$PROJECT_DIR$/../ml-tgl/attacks/bahena-cabral/kk" />
       </list>
     </option>
   </component>
@@ -253,12 +272,28 @@
           <expand>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-tgl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-tgl" type="462c0819:PsiDirectoryNode" />
+              <item name="attacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml-tgl" type="462c0819:PsiDirectoryNode" />
+              <item name="attacks" type="462c0819:PsiDirectoryNode" />
+              <item name="bahena-cabral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml-tgl" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ml-tgl" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +304,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -715,20 +750,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00030" summary="backup">
-      <created>1502707883147</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1502707883147</updated>
-    </task>
-    <task id="LOCAL-00031" summary="backup">
-      <created>1502710604432</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1502710604432</updated>
-    </task>
     <task id="LOCAL-00032" summary="backup">
       <created>1502710975047</created>
       <option name="number" value="00032" />
@@ -1058,7 +1079,21 @@
       <option name="project" value="LOCAL" />
       <updated>1510334446564</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="backup">
+      <created>1510334543281</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1510334543281</updated>
+    </task>
+    <task id="LOCAL-00080" summary="backup">
+      <created>1510334626440</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1510334626440</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1072,8 +1107,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="1944" height="1104" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53741497" sideWeight="0.5021119" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1475,20 +1511,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2408">
-          <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -1840,6 +1862,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ml-tgl/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ml-tgl/attacks/bahena-cabral/kk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
