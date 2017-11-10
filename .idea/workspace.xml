@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/geeksforgeeks/__init__.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -252,18 +253,12 @@
           <expand>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml-tgl" type="462c0819:PsiDirectoryNode" />
+              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml-tgl" type="462c0819:PsiDirectoryNode" />
-              <item name="attacks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ml-tgl" type="462c0819:PsiDirectoryNode" />
-              <item name="attacks" type="462c0819:PsiDirectoryNode" />
-              <item name="bahena-cabral" type="462c0819:PsiDirectoryNode" />
+              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -720,13 +715,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00029" summary="backup">
-      <created>1502707155919</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1502707155919</updated>
-    </task>
     <task id="LOCAL-00030" summary="backup">
       <created>1502707883147</created>
       <option name="number" value="00030" />
@@ -1063,7 +1051,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510334361052</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="backup">
+      <created>1510334446563</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1510334446564</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TodoView">
