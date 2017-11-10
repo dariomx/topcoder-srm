@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/topcoder-srm/150/500/Solution2.py" line="49" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ml-tgl/attacks/bahena-cabral/train-logreg.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ml-tgl/attacks/bahena-cabral/train-percep1.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ml-tgl/attacks/bahena-cabral/train-svm.out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ml-tgl/src/feature_processing.py" afterPath="$PROJECT_DIR$/../ml-tgl/src/feature_processing.py" />
+    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="backup">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -278,7 +274,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -719,13 +715,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00020" summary="backup">
-      <created>1502597026940</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1502597026940</updated>
-    </task>
     <task id="LOCAL-00021" summary="backup">
       <created>1502605544545</created>
       <option name="number" value="00021" />
@@ -1062,7 +1051,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510323458857</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="backup">
+      <created>1510332869193</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1510332869193</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TodoView">
