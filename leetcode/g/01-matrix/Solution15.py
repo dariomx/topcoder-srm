@@ -1,0 +1,32 @@
+# this is editorial soln
+
+from collections import deque
+from sys import maxint
+
+
+class Solution(object):
+    def bfs_search(self, matrix, queue, min_dist):
+        n, m = len(matrix), len(matrix[0])
+        while queue:
+            (x, y), d = queue.popleft()
+            for i, j in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
+                if 0 <= i < n and 0 <= j < m and (d+1) < min_dist[i][j]:
+                    min_dist[i][j] = d + 1
+                    queue.append(((i, j), d + 1))
+
+    def updateMatrix(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        n, m = len(matrix), len(matrix[0])
+        min_dist = [[0 for _ in xrange(m)] for _ in xrange(n)]
+        queue = deque()
+        for x in xrange(n):
+            for y in xrange(m):
+                if matrix[x][y] == 1:
+                    min_dist[x][y] = maxint
+                else:
+                    queue.append(((x,y), 0))
+        self.bfs_search(matrix, queue, min_dist)
+        return min_dist
