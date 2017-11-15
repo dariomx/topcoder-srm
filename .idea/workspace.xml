@@ -5,62 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/ex5data1.mat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/a/rotate-image/Solution" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/ex5.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/featureNormalize.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/fmincg.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/learningCurve.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/ChangeLog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/LICENSE_BSD.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/jsonopt.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/loadjson.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/loadubjson.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/mergestruct.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/savejson.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/saveubjson.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/jsonlab/varargin2struct.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/makeValidFieldName.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/lib/submitWithConfiguration.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/linearRegCostFunction.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/plotFit.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/polyFeatures.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/submit.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/token.mat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/trainLinearReg.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex5/ex5/validationCurve.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/a/find-all-anagrams-in-a-string/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/a/find-all-anagrams-in-a-string/Solution1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/a/rotate-image/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution10.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution11.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution12.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution13.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution14.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution15.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution16.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution8.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution9.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/java/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/python3/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution8.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="698">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -128,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="698">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="23" />
+              <caret line="12" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -178,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution7.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -198,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/leetcode/a/find-all-anagrams-in-a-string/Solution1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="698">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -207,8 +151,8 @@
       <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode/a/rotate-image/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -926,13 +870,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00039" summary="backup">
-      <created>1503943103898</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1503943103898</updated>
-    </task>
     <task id="LOCAL-00040" summary="backup">
       <created>1505180406042</created>
       <option name="number" value="00040" />
@@ -1269,7 +1206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510453431370</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="math4ai hw2">
+      <created>1510722284016</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1510722284016</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1283,8 +1227,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="1944" height="1104" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689342" sideWeight="0.503125" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2058,7 +2003,7 @@
     <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -2068,7 +2013,7 @@
     <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2084,7 +2029,7 @@
     <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="23" />
+          <caret line="12" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -2108,7 +2053,7 @@
     <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -2124,15 +2069,15 @@
     <entry file="file://$PROJECT_DIR$/leetcode/a/find-all-anagrams-in-a-string/Solution1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/a/rotate-image/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
