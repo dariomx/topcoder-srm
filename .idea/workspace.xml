@@ -5,7 +5,159 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw3/math4ai-hw3.ipynb" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw3/math4ai-hw3.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/alg1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/alg1.tiff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/alg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/alg2.tiff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/alg3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/alg3.tiff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/curran02a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/curran04a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/curran04b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/kang12a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/kang12b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/oracle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/semantic-vectors1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/space.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/slidesSVD.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/slidesSVD.synctex.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/lsi.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/cmds.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-lsi.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/cmds.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-lsi.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/res/fund.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/res/oracle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/res/space.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/res/svd-geo-diag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/res/svd-geo-proof.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/00_intro.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/04_matrix.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/04_matrix.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/05_LSI.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/05_LSI.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/06_example.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/06_example.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/07_distributed.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/07_distributed.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/08_conclusion.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/blank.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/cmds.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/lsi.bib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/biblio1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/res/how_is_the_encoding.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/slidesSVD.aux" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/slidesSVD.bbl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/slidesSVD.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/slidesSVD.nav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/slidesSVD.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/slidesSVD.snm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/slidesSVD.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/slidesSVD.toc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/01_intro.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/02_intro.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/03_intro.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_big_chamaco.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_big_curran02.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_big_curran04a.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_big_curran04b.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_big_turney10.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_example.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_gigatens_a.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_gigatens_b.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_gigatens_c.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_gigatens_d.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_gigatens_e.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_overview.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_prep.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_question.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_tensor.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_tensor_svd.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/Presentation/useless/enc_todo.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/cmds.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/hyph.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/lsi.aux" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/lsi.bbl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/lsi.bib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/lsi.blg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/lsi.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/lsi.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/lsi.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/lsi.toc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-lsi.aux" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-lsi.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-lsi.nav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-lsi.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-lsi.snm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-lsi.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-lsi.toc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-svd-eigen.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-svd-intuit-geoin.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-svd-lanczos-alg.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-svd-lanczos-prof.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-svd-lanczos-real.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-svd-lanczos-step.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-svd-lanczos-trid.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-svd-las2-lostpar.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-svd-proof-geo.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/p-svd-wellcond.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres2/usepkg.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/00_intro.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/04_matrix.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/05_LSI.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/06_example.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/07_distributed.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/08_conclusion.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-lsi.aux" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-lsi.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-lsi.nav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-lsi.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-lsi.snm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-lsi.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-lsi.toc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-svd-eigen.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-svd-intuit-geoin.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-svd-lanczos-alg.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-svd-lanczos-prof.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-svd-lanczos-real.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-svd-lanczos-step.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-svd-lanczos-trid.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-svd-las2-lostpar.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-svd-proof-geo.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/p-svd-wellcond.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/pres3/usepkg.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/res/IEEEtran.cls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/setpkg.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-dist-accu.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-dist-alg.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-dist-compres.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-dist-merge.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-dist-subtrack.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-dist.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-intuit-cbasis.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-intuit-fcomp.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-intuit-geoin.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-intuit.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-lanczos-eigen.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-lanczos-para.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-lanczos-serial-alg.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-lanczos-serial-power.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-lanczos-serial-ritz.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-lanczos-serial-step.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-lanczos-serial.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-lanczos.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-proof-geo.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-proof-spec-fact.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-proof-spec-fund.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-proof-spec-gram.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-proof-spec-spec.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-proof-spec.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/svd-theory.tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/svd-lsi-project-master/usepkg.tex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -254,28 +406,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="g" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="g" type="462c0819:PsiDirectoryNode" />
-              <item name="sort-characters-by-frequency" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-science-learning" type="462c0819:PsiDirectoryNode" />
@@ -741,13 +871,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00044" summary="backup">
-      <created>1506189457364</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1506189457364</updated>
-    </task>
     <task id="LOCAL-00045" summary="backup">
       <created>1506703171316</created>
       <option name="number" value="00045" />
@@ -1084,7 +1207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511244748789</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="backup">
+      <created>1511301035442</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1511301035442</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1492,6 +1622,11 @@
           <line>13</line>
           <option name="timeStamp" value="285" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/leetcode/g/sort-characters-by-frequency/Solution1.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1503,7 +1638,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="286" />
+      <option name="time" value="287" />
     </breakpoint-manager>
     <watches-manager />
   </component>
