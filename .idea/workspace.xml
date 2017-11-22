@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thesis/New folder/thesis-pres.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thesis/New folder/thesis-with-cover.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thesis/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thesis/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thesis/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thesis/.idea/thesis.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../thesis/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/topcoder-srm.iml" afterPath="$PROJECT_DIR$/.idea/topcoder-srm.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thesis/New folder/thesis-pres.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thesis/New folder/thesis-with-cover.pdf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -265,18 +257,7 @@
           <expand>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="machine-learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-science-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="machine-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="svd-lsi-project-master" type="462c0819:PsiDirectoryNode" />
+              <item name="thesis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,19 +289,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning\machine-learning\course-math-for-ai\hw1" />
-      <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url\v1\services" />
-      <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\common" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\query" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dbahena\PycharmProjects\ml-tgl\attacks\bahena-cabral" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\leetcode\g" />
       <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning\machine-learning\training-oracle\expo-kmeans-pca-spike-sorting" />
       <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\machine-learning\coursera-stanford-andrew-ng" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning\machine-learning\course-math-for-ai\hw1" />
+      <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url\v1\services" />
+      <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\common" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\query" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -734,13 +715,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00047" summary="backup">
-      <created>1508040391823</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1508040391824</updated>
-    </task>
     <task id="LOCAL-00048" summary="backup">
       <created>1508856297954</created>
       <option name="number" value="00048" />
@@ -1077,7 +1051,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511334155199</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="backup">
+      <created>1511336734712</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1511336734712</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TodoView">
