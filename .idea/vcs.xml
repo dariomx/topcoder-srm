@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/../chaca-tiny-url" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../data-science-learning" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ml-tgl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../thesis" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>

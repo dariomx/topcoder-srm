@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../data-science-learning/.idea/data-science-learning.iml" filepath="$PROJECT_DIR$/../data-science-learning/.idea/data-science-learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ml-tgl/.idea/ml-tgl.iml" filepath="$PROJECT_DIR$/../ml-tgl/.idea/ml-tgl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../thesis/.idea/thesis.iml" filepath="$PROJECT_DIR$/../thesis/.idea/thesis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/topcoder-srm.iml" filepath="$PROJECT_DIR$/.idea/topcoder-srm.iml" />
       <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v0/.idea/v0.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v0/.idea/v0.iml" />
       <module fileurl="file://$PROJECT_DIR$/design/chaca-tiny-url/v1/.idea/v1.iml" filepath="$PROJECT_DIR$/design/chaca-tiny-url/v1/.idea/v1.iml" />
