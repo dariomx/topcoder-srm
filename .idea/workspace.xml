@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/a/longest-palindromic-substring/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/a/lowest-common-ancestor-of-a-binary-tree/Solution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/a/lowest-common-ancestor-of-a-binary-tree/Solution1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,11 +76,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/a/longest-palindromic-substring/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="827">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/sentence-similarity-ii/Solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <folding>
+                <element signature="e#1076#1111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/sentence-similarity-ii/Solution1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="71" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -145,8 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/g/01-matrix/Solution14.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/01-matrix/Solution15.py" />
         <option value="$PROJECT_DIR$/leetcode/g/01-matrix/Solution16.py" />
         <option value="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution2.py" />
@@ -196,6 +213,8 @@
         <option value="$PROJECT_DIR$/leetcode/a/lowest-common-ancestor-of-a-binary-tree/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/a/lowest-common-ancestor-of-a-binary-tree/Solution1.py" />
         <option value="$PROJECT_DIR$/leetcode/a/longest-palindromic-substring/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/sentence-similarity-ii/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/sentence-similarity-ii/Solution1.py" />
       </list>
     </option>
   </component>
@@ -237,6 +256,24 @@
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
               <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="g" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="g" type="462c0819:PsiDirectoryNode" />
+              <item name="sentence-similarity-ii" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -694,13 +731,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00051" summary="backup">
-      <created>1509255832943</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1509255832943</updated>
-    </task>
     <task id="LOCAL-00052" summary="backup">
       <created>1509561340022</created>
       <option name="number" value="00052" />
@@ -1037,7 +1067,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511757139163</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="backup">
+      <created>1511875939793</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1511875939794</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1466,20 +1503,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
@@ -1816,6 +1839,24 @@
         <state relative-caret-position="827">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/sentence-similarity-ii/Solution1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/sentence-similarity-ii/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="e#1076#1111#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
