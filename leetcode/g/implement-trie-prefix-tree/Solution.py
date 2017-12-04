@@ -41,7 +41,8 @@ class Trie(object):
 
     def startsWith(self, prefix):
         """
-        Returns if there is any word in the trie that starts with the given prefix.
+        Returns if there is any word in the trie that starts with the given 
+        prefix.
         :type prefix: str
         :rtype: bool
         """

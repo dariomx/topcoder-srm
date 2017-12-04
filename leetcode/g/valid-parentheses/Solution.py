@@ -13,5 +13,3 @@ class Solution(object):
             else:
                 stack.append(c)
         return not stack
-
-

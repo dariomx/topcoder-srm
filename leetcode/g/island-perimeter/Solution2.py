@@ -15,7 +15,7 @@ class Solution(object):
             for y in xrange(m):
                 if grid[x][y] == 0:
                     continue
-                for c in ((x-1,y), (x+1,y), (x,y-1), (x,y+1)):
+                for c in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
                     i, j = c
                     if 0 <= i < n and 0 <= j < m:
                         perim += 1 - grid[i][j]

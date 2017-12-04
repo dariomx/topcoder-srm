@@ -23,7 +23,8 @@ class Solution(object):
                 for cut in xrange(start, end):
                     if cut + 2 >= end:
                         continue
-                    # print("exploring for %s with %d: %d" % ((start,end), cut,  cache[(start,cut)] + cache[(cut+1,end)]))
+                    # print("exploring for %s with %d: %d" % ((start,end), 
+                    # cut,  cache[(start,cut)] + cache[(cut+1,end)]))
                     cache[(start, end)] = \
                         max(cache[(start, end)], \
                             cache[(start, cut)] + cache[(cut + 2, end)])

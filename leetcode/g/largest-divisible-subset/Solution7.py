@@ -7,11 +7,12 @@ class Solution(object):
         n = len(nums)
         if n == 0:
             return []
+
         def search_soln():
             max_soln = []
             for i in xrange(n):
                 soln = [nums[i]]
-                for j in xrange(i+1, n):
+                for j in xrange(i + 1, n):
                     x = soln[-1]
                     y = nums[j]
                     if x % y == 0 or y % x == 0:
@@ -19,6 +20,7 @@ class Solution(object):
                 if len(soln) > len(max_soln):
                     max_soln = soln
             return max_soln
+
         nums.sort()
         left_soln = search_soln()
         nums = nums[::-1]

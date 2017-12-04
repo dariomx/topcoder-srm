@@ -10,13 +10,15 @@ class Solution(object):
         if root is None:
             return 0
         else:
-            return 1 + max(self.calc_rows(root.left), self.calc_rows(root.right))
+            return 1 + max(self.calc_rows(root.left),
+                           self.calc_rows(root.right))
 
     def calc_cols(self, root):
         if root is None:
             return 0
         else:
-            return 1 + 2 * max(self.calc_cols(root.left), self.calc_cols(root.right))
+            return 1 + 2 * max(self.calc_cols(root.left),
+                               self.calc_cols(root.right))
 
     def print_tree(self, root, scr, row, start, end):
         if root is not None:

@@ -48,4 +48,5 @@ class Solution(object):
 
         return isMatchRec(0, 0)
 
+
 print(Solution().isMatch("aa", "a*"))

@@ -4,6 +4,7 @@ class Node:
         self.next = None
         self.prev = None
 
+
 class List:
     def __init__(self):
         self.first = None
@@ -46,6 +47,7 @@ class List:
     def __len__(self):
         return self.size
 
+
 class LRUCache(object):
     def __init__(self, capacity):
         """
@@ -87,16 +89,17 @@ class LRUCache(object):
             self.list.append(Node(key))
             self.nodeVal[key] = [self.list.last, value]
 
+
 soln = LRUCache(3)
-soln.put(1,1)
-soln.put(2,2)
-soln.put(3,3)
-soln.put(4,4)
+soln.put(1, 1)
+soln.put(2, 2)
+soln.put(3, 3)
+soln.put(4, 4)
 print(soln.get(4))
 print(soln.get(3))
 print(soln.get(2))
 print(soln.get(1))
-soln.put(5,5)
+soln.put(5, 5)
 print(soln.get(1))
 print(soln.get(2))
 print(soln.get(3))

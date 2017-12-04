@@ -1,11 +1,13 @@
 from collections import defaultdict
 
+
 class BST:
     def __init__(self, val, idx):
         self.val = val
         self.idx = idx
         self.left = None
         self.right = None
+
 
 class Solution(object):
     def createBST(self, A, start, end):
@@ -63,11 +65,14 @@ class Solution(object):
         for s2 in sum2:
             maxLT = self.findMaxLT(bst, target - s2)
             if maxLT is not None:
-                for k in xrange(maxLT.idx+1):
+                for k in xrange(maxLT.idx + 1):
                     for (i, j) in sum2[s2]:
                         if k not in (i, j):
                             counted.add(tuple(sorted([i, j, k])))
         print(counted)
         return len(counted)
 
-print(Solution().threeSumSmaller([3,2,-2,6,2,-2,6,-2,-4,2,3,0,4,4,1], 3))
+
+print(
+Solution().threeSumSmaller([3, 2, -2, 6, 2, -2, 6, -2, -4, 2, 3, 0, 4, 4, 1],
+                           3))

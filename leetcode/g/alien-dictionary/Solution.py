@@ -30,5 +30,6 @@ class Solution(object):
             raise
             return ''
 
-words = ["wrt","wrf","er","ett","rftt"]
+
+words = ["wrt", "wrf", "er", "ett", "rftt"]
 print(Solution().alienOrder(words))

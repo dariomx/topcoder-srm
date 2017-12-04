@@ -42,4 +42,3 @@ class Solution(object):
             elif max_c > max2:
                 max2 = max_c
         return max1 * max2
-

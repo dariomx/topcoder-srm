@@ -78,8 +78,9 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        #validSeqs = list(self.allValidSeq(range(1, 10), m, n))
-        #print(map(lambda s: ''.join(map(str, s)), sorted(validSeqs)))
+        # validSeqs = list(self.allValidSeq(range(1, 10), m, n))
+        # print(map(lambda s: ''.join(map(str, s)), sorted(validSeqs)))
         return self.cntValidSeq(range(1, 10), m, n)
+
 
 print(Solution().numberOfPatterns(3, 8))

@@ -5,7 +5,8 @@ class Solution(object):
         else:
             can = False
             for i in xrange(len(s)):
-                if s[:i + 1] in wdict and self.can_break(s[i + 1:], wdict, cache):
+                if s[:i + 1] in wdict and self.can_break(s[i + 1:], wdict,
+                                                         cache):
                     can = True
                     break
             cache[s] = can

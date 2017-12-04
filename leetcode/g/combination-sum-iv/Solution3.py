@@ -1,6 +1,3 @@
-from collections import defaultdict
-
-
 class Solution(object):
     def combinationSum4(self, nums, target):
         """
@@ -24,4 +21,3 @@ class Solution(object):
 
         count(0)
         return self.cnt
-

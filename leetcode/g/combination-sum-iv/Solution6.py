@@ -1,6 +1,3 @@
-from collections import defaultdict
-
-
 class Solution(object):
     def combinationSum4(self, nums, t):
         """
@@ -18,4 +15,3 @@ class Solution(object):
         for k in xrange(1, t + 1):
             rec[k] += sum((rec[k - c] for c in coins if k - c >= 0))
         return rec[t]
-

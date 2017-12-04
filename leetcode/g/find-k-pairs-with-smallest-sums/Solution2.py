@@ -12,4 +12,3 @@ class Solution(object):
                 pairs.append((x, y))
         pairs.sort(key=sum)
         return pairs[:k]
-

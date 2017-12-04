@@ -1,5 +1,6 @@
 from collections import defaultdict, deque
 
+
 class Solution(object):
     def toporder_dfs(self, graph):
         def dfs(node):
@@ -14,6 +15,7 @@ class Solution(object):
                 stack_set.remove(node)
                 visited.add(node)
                 queue.appendleft(node)
+
         queue = deque()
         visited = set()
         stack_set = set()
@@ -36,7 +38,7 @@ class Solution(object):
                 w1 = words[j - 1]
                 w2 = words[j]
                 if len(w1) >= k and len(w2) >= k:
-                    i = k-1
+                    i = k - 1
                     c1, c2 = w1[i], w2[i]
                     if w1[:i] == w2[:i] and c1 != c2:
                         graph[c1].append(c2)
@@ -56,10 +58,11 @@ class Solution(object):
             print("cycle detected: %s" % str(e))
             return ''
 
-words = ["wrt","wrf","er","ett","rftt"]
-#words = ["z", "x", "z"]
-#words = ["zy", "zx"]
-words = ["ac","ab","b"]
-words = ["za","zb","ca","cb"]
-words = ["vlxpwiqbsg","cpwqwqcd"]
+
+words = ["wrt", "wrf", "er", "ett", "rftt"]
+# words = ["z", "x", "z"]
+# words = ["zy", "zx"]
+words = ["ac", "ab", "b"]
+words = ["za", "zb", "ca", "cb"]
+words = ["vlxpwiqbsg", "cpwqwqcd"]
 print(Solution().alienOrder(words))

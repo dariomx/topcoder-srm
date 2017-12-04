@@ -1,6 +1,3 @@
-from itertools import ifilter
-
-
 class Solution(object):
     def neighbors(self, matrix, i, j):
         n, m = len(matrix), len(matrix[0])
@@ -47,4 +44,3 @@ class Solution(object):
                 if self.is_start(matrix, i, j):
                     max_len = max(max_len, self.search_dfs(matrix, (i, j)))
         return max_len
-

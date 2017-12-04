@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 class Solution(object):
     def is_shared(self, word, chars, cnt):
         for c in chars[word]:
@@ -30,5 +31,6 @@ class Solution(object):
                     max2 = lenw
         return max1 * max2
 
-words = ["abcw","baz","foo","bar","xtfn","abcdef"]
+
+words = ["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]
 print(Solution().maxProduct(words))

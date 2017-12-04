@@ -92,12 +92,14 @@ class Solution(object):
                 else:
                     newPend.append((x, y))
             pend = newPend
-            self.intersect(buildings[i - 1], buildings[i], visible, pend, hidden)
+            self.intersect(buildings[i - 1], buildings[i], visible, pend,
+                           hidden)
         visible.extend(pend)
         visible = self.removeHidden(visible, hidden)
         return self.merge(self.removeDup(visible))
 
-buildings = [[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]
-buildings = [[1,2,1],[1,2,2],[1,2,3]]
-buildings = [[1,5,3], [1,5,3], [1,5,3]]
+
+buildings = [[2, 9, 10], [3, 7, 15], [5, 12, 12], [15, 20, 10], [19, 24, 8]]
+buildings = [[1, 2, 1], [1, 2, 2], [1, 2, 3]]
+buildings = [[1, 5, 3], [1, 5, 3], [1, 5, 3]]
 print(Solution().getSkyline(buildings))

@@ -2,6 +2,7 @@
 
 from sys import maxint
 
+
 class Solution(object):
     def updateMatrix(self, matrix):
         """
@@ -16,14 +17,14 @@ class Solution(object):
                     dist[i][j] = maxint
         for i in xrange(n):
             for j in xrange(m):
-                if i-1 >= 0:
-                    dist[i][j] = min(dist[i][j], dist[i-1][j] + 1)
-                if j-1 >= 0:
-                    dist[i][j] = min(dist[i][j], dist[i][j-1] + 1)
-        for i in xrange(n-1, -1, -1):
-            for j in xrange(m-1, -1, -1):
-                if i+1 < n:
-                    dist[i][j] = min(dist[i][j], dist[i+1][j] + 1)
-                if j+1 < m:
-                    dist[i][j] = min(dist[i][j], dist[i][j+1] + 1)
+                if i - 1 >= 0:
+                    dist[i][j] = min(dist[i][j], dist[i - 1][j] + 1)
+                if j - 1 >= 0:
+                    dist[i][j] = min(dist[i][j], dist[i][j - 1] + 1)
+        for i in xrange(n - 1, -1, -1):
+            for j in xrange(m - 1, -1, -1):
+                if i + 1 < n:
+                    dist[i][j] = min(dist[i][j], dist[i + 1][j] + 1)
+                if j + 1 < m:
+                    dist[i][j] = min(dist[i][j], dist[i][j + 1] + 1)
         return dist

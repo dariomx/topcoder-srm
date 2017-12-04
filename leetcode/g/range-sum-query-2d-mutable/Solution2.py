@@ -17,25 +17,27 @@ class NumMatrix(object):
         quads_x_corner = [[set() for _ in xrange(m)] for _ in xrange(n)]
         self.setCanonSum(0, 0, matrix[0][0])
         quads_x_corner[0][0].add(self.hashQuad(0, 0, 0, 0))
+
         def addQuad(x, y):
             qhash = self.hashQuad(0, 0, x, y)
             quads_x_corner[x][y].add(qhash)
             quads_x_corner[0][0].add(qhash)
+
         for i in xrange(1, min(m, n)):
             lineSum = 0
             for k in xrange(i):
                 lineSum += matrix[i][k]
-                qsum = self.getCanonSum(i-1, k) + lineSum
+                qsum = self.getCanonSum(i - 1, k) + lineSum
                 self.setCanonSum(i, k, qsum)
                 addQuad(i, k)
             lineSum = 0
             for k in xrange(i):
                 lineSum += matrix[k][i]
-                qsum = self.getCanonSum(k, i-1) + lineSum
+                qsum = self.getCanonSum(k, i - 1) + lineSum
                 self.setCanonSum(k, i, qsum)
                 addQuad(k, i)
-            qsum = self.getCanonSum(i-1, i) + self.getCanonSum(i, i-1)  \
-                - self.getCanonSum(i-1, i-1) + matrix[i][i]
+            qsum = self.getCanonSum(i - 1, i) + self.getCanonSum(i, i - 1) \
+                   - self.getCanonSum(i - 1, i - 1) + matrix[i][i]
             self.setCanonSum(i, i, qsum)
             addQuad(i, i)
         if n > m:
@@ -85,33 +87,33 @@ class NumMatrix(object):
             return 0
         howManySubs = 0
         qsum = self.getCanonSum(row2, col2)
-        if col1-1 >= 0:
-            qsum -= self.getCanonSum(row2, col1-1)
+        if col1 - 1 >= 0:
+            qsum -= self.getCanonSum(row2, col1 - 1)
             howManySubs += 1
-        if row1-1 >= 0:
-            qsum -= self.getCanonSum(row1-1, col2)
+        if row1 - 1 >= 0:
+            qsum -= self.getCanonSum(row1 - 1, col2)
             howManySubs += 1
         if howManySubs == 2:
-            qsum += self.getCanonSum(row1-1, col1-1)
+            qsum += self.getCanonSum(row1 - 1, col1 - 1)
         return qsum
 
+
 matrix = [
-  [3, 0, 1, 4, 2],
-  [5, 6, 3, 2, 1],
-  [1, 2, 0, 1, 5],
-  [4, 1, 0, 1, 7],
-  [1, 0, 3, 0, 5]
+    [3, 0, 1, 4, 2],
+    [5, 6, 3, 2, 1],
+    [1, 2, 0, 1, 5],
+    [4, 1, 0, 1, 7],
+    [1, 0, 3, 0, 5]
 ]
 matrix = [[1, 2]]
 mat = NumMatrix(matrix)
-print(mat.sumRegion(0,0,0,0))
-print(mat.sumRegion(0,1,0,1))
-print(mat.sumRegion(0,0,0,1))
+print(mat.sumRegion(0, 0, 0, 0))
+print(mat.sumRegion(0, 1, 0, 1))
+print(mat.sumRegion(0, 0, 0, 1))
 mat.update(0, 0, 3)
-print(mat.sumRegion(0,0,0,0))
-print(mat.sumRegion(0,1,0,1))
-print(mat.sumRegion(0,0,0,1))
-#print(mat.sumRegion(2, 1, 4, 3))
-#mat.update(3, 2, 2)
-#print(mat.sumRegion(2, 1, 4, 3))
-
+print(mat.sumRegion(0, 0, 0, 0))
+print(mat.sumRegion(0, 1, 0, 1))
+print(mat.sumRegion(0, 0, 0, 1))
+# print(mat.sumRegion(2, 1, 4, 3))
+# mat.update(3, 2, 2)
+# print(mat.sumRegion(2, 1, 4, 3))

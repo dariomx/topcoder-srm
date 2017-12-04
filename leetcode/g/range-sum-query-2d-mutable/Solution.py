@@ -25,22 +25,22 @@ class NumMatrix(object):
         qhash = self.hashQuad(row1, col1, row2, col2)
         if qhash not in self.quad_sum:
             qsum = 0
-            for i in xrange(row1, row2+1):
-                for j in xrange(col1, col2+1):
+            for i in xrange(row1, row2 + 1):
+                for j in xrange(col1, col2 + 1):
                     qsum += self.matrix[i][j]
                     self.point_x_quad[i][j].append(qhash)
             self.quad_sum[qhash] = qsum
         return self.quad_sum[qhash]
 
+
 matrix = [
-  [3, 0, 1, 4, 2],
-  [5, 6, 3, 2, 1],
-  [1, 2, 0, 1, 5],
-  [4, 1, 0, 1, 7],
-  [1, 0, 3, 0, 5]
+    [3, 0, 1, 4, 2],
+    [5, 6, 3, 2, 1],
+    [1, 2, 0, 1, 5],
+    [4, 1, 0, 1, 7],
+    [1, 0, 3, 0, 5]
 ]
 mat = NumMatrix(matrix)
 print(mat.sumRegion(2, 1, 4, 3))
 mat.update(3, 2, 2)
 print(mat.sumRegion(2, 1, 4, 3))
-

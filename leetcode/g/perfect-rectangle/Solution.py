@@ -25,5 +25,3 @@ class Solution(object):
                 break
         print("area = %d, rect = %s" % (area, str(rect)))
         return area == 0 and not rect
-
-

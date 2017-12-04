@@ -19,5 +19,3 @@ class Solution(object):
                             grid.add(x)
                             area -= 1
         return area == 0
-
-

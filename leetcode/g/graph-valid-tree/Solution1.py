@@ -4,10 +4,11 @@
 
 from collections import defaultdict
 
+
 class Solution(object):
     def validTree(self, n, edges):
         graph = defaultdict(lambda: [])
-        for u,v in edges:
+        for u, v in edges:
             graph[u].append(v)
             graph[v].append(u)
         if not graph:

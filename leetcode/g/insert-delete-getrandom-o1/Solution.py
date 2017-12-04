@@ -1,4 +1,6 @@
 from random import randint
+
+
 class RandomizedSet(object):
     def __init__(self):
         """
@@ -9,7 +11,8 @@ class RandomizedSet(object):
 
     def insert(self, val):
         """
-        Inserts a value to the set. Returns true if the set did not already contain the specified element.
+        Inserts a value to the set. Returns true if the set did not already 
+        contain the specified element.
         :type val: int
         :rtype: bool
         """
@@ -22,7 +25,8 @@ class RandomizedSet(object):
 
     def remove(self, val):
         """
-        Removes a value from the set. Returns true if the set contained the specified element.
+        Removes a value from the set. Returns true if the set contained the 
+        specified element.
         :type val: int
         :rtype: bool
         """
@@ -53,4 +57,3 @@ print(soln.remove(2))
 print(soln.insert(2))
 print(soln.remove(1))
 print(soln.insert(2))
-

@@ -17,7 +17,7 @@ class Solution(object):
                     if matrix[i][j] == 1:
                         new_d = d + 1
                     else:
-                        if (i,j) in visited:
+                        if (i, j) in visited:
                             continue
                         new_d = 0
                     visited.add((i, j))

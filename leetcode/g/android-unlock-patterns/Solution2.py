@@ -1,10 +1,10 @@
 class Solution(object):
     def __init__(self):
-        self.keys = [[0]*3 for _ in xrange(3)]
+        self.keys = [[0] * 3 for _ in xrange(3)]
         self.coords = dict()
         for i in xrange(3):
             for j in xrange(3):
-                key = i*3 + j + 1
+                key = i * 3 + j + 1
                 self.keys[i][j] = key
                 self.coords[key] = (i, j)
         self.bridges = dict()
@@ -18,8 +18,8 @@ class Solution(object):
         x, y = self.coords[key]
         extras = set(range(1, 10))
         extras.remove(key)
-        for i in xrange(x-1, x+2):
-            for j in xrange(y-1, y+2):
+        for i in xrange(x - 1, x + 2):
+            for j in xrange(y - 1, y + 2):
                 if (i, j) != (x, y) and 0 <= i < 3 and 0 <= j < 3:
                     extras.remove(self.keys[i][j])
                     yield self.keys[i][j]
@@ -55,7 +55,7 @@ class Solution(object):
             if len(prunedPath) < n:
                 for k in self.getNeighbors(key, set(path)):
                     stack.append((k, path + [k]))
-        #print(map(lambda s: ''.join(map(str, s)), sorted(paths)))
+                    # print(map(lambda s: ''.join(map(str, s)), sorted(paths)))
 
     def numberOfPatterns(self, m, n):
         """
@@ -67,5 +67,6 @@ class Solution(object):
         for start in xrange(1, 10):
             self.addPaths(start, m, n, paths)
         return len(paths)
+
 
 print(Solution().numberOfPatterns(3, 8))

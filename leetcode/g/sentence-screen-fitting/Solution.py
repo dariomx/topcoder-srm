@@ -25,7 +25,7 @@ class Solution(object):
                 j = 0
                 if k % num_words == 0:
                     return (rows / i) * (k / num_words) + \
-                        self.wordsTyping(sentence, rows % i, cols)
+                           self.wordsTyping(sentence, rows % i, cols)
         return k / num_words
 
 

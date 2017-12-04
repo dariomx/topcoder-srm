@@ -12,4 +12,3 @@ class Solution(object):
                 pairs.append((nums1[i], nums2[j]))
         pairs.sort(key=sum)
         return pairs[:k]
-

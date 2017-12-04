@@ -31,9 +31,9 @@ class Solution(object):
                 for j in xrange(2, n + 1):
                     if i + j > n:
                         continue
-                    bad += (n - i + 1) * comb(n - i, j) * (3**(n - i - j))
+                    bad += (n - i + 1) * comb(n - i, j) * (3 ** (n - i - j))
             for i in xrange(3, n + 1):
-                bad += (n - i + 1) * (3**(n - i))
+                bad += (n - i + 1) * (3 ** (n - i))
             for j in xrange(2, n + 1):
-                bad += comb(n, j) * (3**(n - j))
+                bad += comb(n, j) * (3 ** (n - j))
             return 3 ** n - bad

@@ -4,8 +4,178 @@
     <bookmark url="file://$PROJECT_DIR$/topcoder-srm/150/500/Solution2.py" line="49" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="backup">
+    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/a/group-anagrams/Solution.py" afterPath="$PROJECT_DIR$/leetcode/a/group-anagrams/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/a/longest-palindromic-substring/Solution.py" afterPath="$PROJECT_DIR$/leetcode/a/longest-palindromic-substring/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/a/lowest-common-ancestor-of-a-binary-tree/Solution.py" afterPath="$PROJECT_DIR$/leetcode/a/lowest-common-ancestor-of-a-binary-tree/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/a/lowest-common-ancestor-of-a-binary-tree/Solution1.py" afterPath="$PROJECT_DIR$/leetcode/a/lowest-common-ancestor-of-a-binary-tree/Solution1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution10.py" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution10.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution11.py" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution11.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution12.py" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution12.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution13.py" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution13.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution15.py" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution15.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution16.py" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution16.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution5.py" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution7.py" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution8.py" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution8.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution9.py" afterPath="$PROJECT_DIR$/leetcode/g/01-matrix/Solution9.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/3sum-smaller/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/3sum-smaller/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/add-bold-tag-in-string/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/add-bold-tag-in-string/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/android-unlock-patterns/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/beautiful-arrangement/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/beautiful-arrangement/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/binary-search-tree-iterator/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/binary-search-tree-iterator/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/bomb-enemy/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/bomb-enemy/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/closest-binary-search-tree-value/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/closest-binary-search-tree-value/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution5.py" afterPath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution6.py" afterPath="$PROJECT_DIR$/leetcode/g/combination-sum-iv/Solution6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/count-of-smaller-numbers-after-self/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/count-of-smaller-numbers-after-self/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/daily-temperatures/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/daily-temperatures/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/find-k-pairs-with-smallest-sums/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/find-median-from-data-stream/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/find-median-from-data-stream/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/find-the-difference/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/find-the-difference/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/game-of-life/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/game-of-life/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution5.py" afterPath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution6.py" afterPath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution7.py" afterPath="$PROJECT_DIR$/leetcode/g/generate-parentheses/Solution7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/graph-valid-tree/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/graph-valid-tree/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/graph-valid-tree/Solution1.py" afterPath="$PROJECT_DIR$/leetcode/g/graph-valid-tree/Solution1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/graph-valid-tree/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/graph-valid-tree/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/h-index/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/h-index/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/implement-trie-prefix-tree/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/implement-trie-prefix-tree/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/insert-delete-getrandom-o1/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/insert-delete-getrandom-o1/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/island-perimeter/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/island-perimeter/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/island-perimeter/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/island-perimeter/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution5.py" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution6.py" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution7.py" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution8.py" afterPath="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution8.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution1.py" afterPath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution5.py" afterPath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution6.py" afterPath="$PROJECT_DIR$/leetcode/g/longest-increasing-path-in-a-matrix/Solution6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/longest-substring-with-at-most-k-distinct-characters/GoodSolution.py" afterPath="$PROJECT_DIR$/leetcode/g/longest-substring-with-at-most-k-distinct-characters/GoodSolution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/longest-substring-with-at-most-k-distinct-characters/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/longest-substring-with-at-most-k-distinct-characters/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/lru-cache/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/lru-cache/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/lru-cache/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/lru-cache/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/lru-cache/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/lru-cache/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/max-consecutive-ones-ii/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/max-consecutive-ones-ii/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/max-consecutive-ones/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/max-consecutive-ones/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/maximum-average-subarray-i/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/maximum-average-subarray-i/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/maximum-average-subarray-ii/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/maximum-average-subarray-ii/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/maximum-product-of-word-lengths/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/maximum-product-of-word-lengths/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/maximum-product-of-word-lengths/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/maximum-product-of-word-lengths/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/meeting-rooms-ii/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/meeting-rooms-ii/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/merge-intervals/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/merge-intervals/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/merge-k-sorted-lists/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/minimum-height-trees/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/minimum-height-trees/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/minimum-unique-word-abbreviation/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/minimum-unique-word-abbreviation/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/minimum-unique-word-abbreviation/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/minimum-unique-word-abbreviation/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/next-greater-element-ii/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/non-decreasing-array/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/non-decreasing-array/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/non-decreasing-array/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/non-decreasing-array/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/non-decreasing-array/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/non-decreasing-array/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/nth-digit/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/nth-digit/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/nth-digit/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/nth-digit/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/num-of-islands/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/num-of-islands/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/ones-and-zeroes/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/ones-and-zeroes/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution5.py" afterPath="$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/pacific-atlantic-water-flow/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/pacific-atlantic-water-flow/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/paint-fence/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/paint-fence/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/palindrome-permutation/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/palindrome-permutation/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2b.py" afterPath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution2b.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/perfect-rectangle/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/perfect-squares/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/perfect-squares/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/plus-one-linked-list/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/plus-one-linked-list/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/predict-the-winner/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/predict-the-winner/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/predict-the-winner/Solution1.py" afterPath="$PROJECT_DIR$/leetcode/g/predict-the-winner/Solution1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/queue-reconstruction-by-height/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/queue-reconstruction-by-height/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/queue-reconstruction-by-height/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/queue-reconstruction-by-height/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution5.py" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution6.py" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution7.py" afterPath="$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/read-n-characters-given-read4-ii-call-multiple-times/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/read-n-characters-given-read4-ii-call-multiple-times/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/rearrange-string-k-distance-apart/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution6.py" afterPath="$PROJECT_DIR$/leetcode/g/reconstruct-itinerary/Solution6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/regular-expression-matching/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/remove-k-digits/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/remove-k-digits/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/sentence-screen-fitting/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/sentence-screen-fitting/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/sentence-similarity-ii/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/sentence-similarity-ii/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/sentence-similarity-ii/Solution1.py" afterPath="$PROJECT_DIR$/leetcode/g/sentence-similarity-ii/Solution1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/shortest-distance-from-all-buildings/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/shortest-distance-from-all-buildings/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/sort-characters-by-frequency/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/sort-characters-by-frequency/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/sort-characters-by-frequency/Solution1.py" afterPath="$PROJECT_DIR$/leetcode/g/sort-characters-by-frequency/Solution1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/sort-transformed-array/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/sort-transformed-array/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution5.py" afterPath="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution6.py" afterPath="$PROJECT_DIR$/leetcode/g/student-attendance-record-ii/Solution6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/target-sum/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/target-sum/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution3.py" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution5.py" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution6.py" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution7.py" afterPath="$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution7.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/trapping-rain-water-ii/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/trapping-rain-water-ii/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/trapping-rain-water-ii/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/g/trapping-rain-water-ii/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/trapping-rain-water/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/trapping-rain-water/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/utf-8-validation/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/utf-8-validation/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/valid-parentheses/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/valid-parentheses/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/wiggle-sort-ii/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/wiggle-sort-ii/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/word-break/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/word-break/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/word-search-ii/Solution4.py" afterPath="$PROJECT_DIR$/leetcode/g/word-search-ii/Solution4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/word-search-ii/Solution5.py" afterPath="$PROJECT_DIR$/leetcode/g/word-search-ii/Solution5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/word-search-ii/Solution6.py" afterPath="$PROJECT_DIR$/leetcode/g/word-search-ii/Solution6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/word-squares/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/word-squares/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-43/dota2-senate/Solution.py" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-43/dota2-senate/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-43/find-duplicate-subtrees/Solution.py" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-43/find-duplicate-subtrees/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-43/find-duplicate-subtrees/Solution2.py" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-43/find-duplicate-subtrees/Solution2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-44/coin-path/Solution.py" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-44/coin-path/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-44/maximum-binary-tree/Solution.py" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-44/maximum-binary-tree/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-44/print-binary-tree/Solution.py" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-44/print-binary-tree/Solution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/find-k-th-smallest-pair-distance/Solution.py" afterPath="$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-56/find-k-th-smallest-pair-distance/Solution.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,31 +226,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/g/beautiful-arrangement/Solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/a/group-anagrams/Solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode/g/daily-temperatures/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1333">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="-559">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -241,12 +391,6 @@
               <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="g" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -255,7 +399,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -703,13 +847,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00058" summary="backup">
-      <created>1509735478675</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1509735478683</updated>
-    </task>
     <task id="LOCAL-00059" summary="backup">
       <created>1509736008636</created>
       <option name="number" value="00059" />
@@ -1046,7 +1183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512368933114</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="backup">
+      <created>1512414408679</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1512414408679</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1061,15 +1205,16 @@
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="1944" height="1104" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.440625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689342" sideWeight="0.503125" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689342" sideWeight="0.49788806" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.440625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6678004" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689342" sideWeight="0.496875" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1081,7 +1226,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6678004" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1146,22 +1290,22 @@
       <breakpoints>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/shortest-distance-from-all-buildings/Solution.py</url>
-          <line>140</line>
+          <line>141</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/shortest-distance-from-all-buildings/Solution.py</url>
-          <line>157</line>
+          <line>158</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution.py</url>
-          <line>65</line>
+          <line>70</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/number-of-islands-ii/Solution2.py</url>
-          <line>46</line>
+          <line>51</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1196,7 +1340,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/3sum-smaller/Solution.py</url>
-          <line>63</line>
+          <line>65</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1221,7 +1365,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/find-median-from-data-stream/Solution.py</url>
-          <line>82</line>
+          <line>85</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1246,17 +1390,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/lru-cache/Solution.py</url>
-          <line>55</line>
+          <line>56</line>
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/lru-cache/Solution2.py</url>
-          <line>89</line>
+          <line>90</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/lru-cache/Solution3.py</url>
-          <line>98</line>
+          <line>101</line>
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1271,32 +1415,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/count-of-smaller-numbers-after-self/Solution.py</url>
-          <line>137</line>
+          <line>145</line>
           <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution.py</url>
-          <line>38</line>
+          <line>40</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution.py</url>
-          <line>9</line>
+          <line>11</line>
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution2.py</url>
-          <line>7</line>
+          <line>9</line>
           <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution4.py</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/optimal-account-balancing/Solution5.py</url>
-          <line>56</line>
+          <line>57</line>
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1316,58 +1460,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution4.py</url>
-          <line>88</line>
+          <line>89</line>
           <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution4.py</url>
-          <line>120</line>
+          <line>121</line>
           <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution4.py</url>
-          <line>130</line>
+          <line>131</line>
           <option name="timeStamp" value="188" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution5.py</url>
-          <line>135</line>
-          <option name="timeStamp" value="190" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution5.py</url>
-          <line>146</line>
-          <option name="timeStamp" value="193" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution6.py</url>
-          <line>137</line>
-          <option name="timeStamp" value="196" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution6.py</url>
-          <line>144</line>
-          <option name="timeStamp" value="197" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode/g/the-skyline-problem/Solution7.py</url>
-          <line>88</line>
-          <option name="timeStamp" value="199" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution2.py</url>
-          <line>113</line>
+          <line>116</line>
           <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution2.py</url>
-          <line>109</line>
+          <line>112</line>
           <option name="timeStamp" value="207" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/leetcode/g/range-sum-query-2d-mutable/Solution4.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="209" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/g/onsite/20170717/break-lock/Solution.py</url>
@@ -1376,12 +1490,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-43/find-duplicate-subtrees/Solution.py</url>
-          <line>100</line>
+          <line>240</line>
           <option name="timeStamp" value="222" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/weekly-contest/leetcode-weekly-contest-43/find-duplicate-subtrees/Solution.py</url>
-          <line>30</line>
+          <line>34</line>
           <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1391,32 +1505,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution2.py</url>
-          <line>63</line>
+          <line>66</line>
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution3.py</url>
-          <line>65</line>
+          <line>68</line>
           <option name="timeStamp" value="241" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/alien-dictionary/Solution4.py</url>
-          <line>51</line>
+          <line>53</line>
           <option name="timeStamp" value="242" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/word-search-ii/Solution6.py</url>
-          <line>15</line>
+          <line>16</line>
           <option name="timeStamp" value="243" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/insert-delete-getrandom-o1/Solution.py</url>
-          <line>29</line>
+          <line>33</line>
           <option name="timeStamp" value="246" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/insert-delete-getrandom-o1/Solution.py</url>
-          <line>53</line>
+          <line>57</line>
           <option name="timeStamp" value="247" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1426,12 +1540,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution.py</url>
-          <line>27</line>
+          <line>28</line>
           <option name="timeStamp" value="253" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/diameter-of-binary-tree/Solution2.py</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="254" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1456,7 +1570,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/leetcode/g/sort-characters-by-frequency/Solution1.py</url>
-          <line>32</line>
+          <line>31</line>
           <option name="timeStamp" value="286" />
         </line-breakpoint>
       </breakpoints>
@@ -1820,8 +1934,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/daily-temperatures/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1333">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="-559">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>

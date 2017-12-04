@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 class Solution(object):
     def largestDivisibleSubset(self, nums):
         """
@@ -14,7 +15,7 @@ class Solution(object):
         gcd = defaultdict(lambda: set())
         last = dict()
         for i in xrange(n):
-            for j in xrange(i+1, n):
+            for j in xrange(i + 1, n):
                 x = nums[i]
                 y = nums[j]
                 if 1 in (x, y):
@@ -29,7 +30,7 @@ class Solution(object):
         keys = gcd.keys()
         m = len(keys)
         for i in xrange(m):
-            for j in xrange(i+1, m):
+            for j in xrange(i + 1, m):
                 x = keys[i]
                 y = keys[j]
                 if x % y == 0 or y % x == 0:

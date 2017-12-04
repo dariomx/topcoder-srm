@@ -9,8 +9,8 @@ class Solution(object):
         n = len(nums)
         ans = [-1] * n
         for i in xrange(n):
-            for j in xrange(i+1, i+n):
-                if nums[j%n] > nums[i]:
-                    ans[i] = nums[j%n]
+            for j in xrange(i + 1, i + n):
+                if nums[j % n] > nums[i]:
+                    ans[i] = nums[j % n]
                     break
         return ans

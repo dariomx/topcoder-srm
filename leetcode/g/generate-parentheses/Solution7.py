@@ -1,5 +1,6 @@
 from itertools import product
 
+
 class Solution(object):
     def comb(self, n):
         if n == 0:

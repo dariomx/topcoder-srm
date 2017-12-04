@@ -21,5 +21,3 @@ class Solution(object):
             return (nums[i - 1] == nums[i] or nums[j] == nums[j + 1])
         else:
             return nums[i - 1] <= nums[j] or nums[i] <= nums[j + 1]
-
-

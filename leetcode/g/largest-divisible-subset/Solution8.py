@@ -9,10 +9,10 @@ class Solution(object):
             return []
         nums.sort()
         max_soln = []
-        cond = lambda x,y: x % y == 0 or y % x == 0
+        cond = lambda x, y: x % y == 0 or y % x == 0
         for i in xrange(n):
             soln = [nums[i]]
-            for j in xrange(i+1, n):
+            for j in xrange(i + 1, n):
                 fst = soln[0]
                 last = soln[-1]
                 y = nums[j]

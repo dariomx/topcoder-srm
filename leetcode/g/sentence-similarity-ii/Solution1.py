@@ -1,13 +1,26 @@
 """
-While the previous DFS approach works, it can potentially traverse long sections of the graph without a real need. In order to improve further, we can leverage the previously ignored properties of the similar relation: it is an equivalence relation.
+While the previous DFS approach works, it can potentially traverse long
+sections of the graph without a real need. In order to improve further,
+we can leverage the previously ignored properties of the similar relation: it
+is an equivalence relation.
 
-Equivalence relations bring a natural partition to the set, where in our particular case each partition contains strings similar to each other. If we model each partition as a disjoin-set, then we could optimize the transitivity check: if two strings belong to same disjoint set, then they are similar.
+Equivalence relations bring a natural partition to the set, where in our
+particular case each partition contains strings similar to each other. If we
+model each partition as a disjoin-set, then we could optimize the
+transitivity check: if two strings belong to same disjoint set, then they are
+similar.
 
-Knowing two strings belong to same disjoint-set, means retrieving the representative for each one, and comparing those representatives. Retrieving each representative, in a disjoint-set forests implementation, can be done in O(log(n)). This should be better than the linear complexity from DFS.
+Knowing two strings belong to same disjoint-set, means retrieving the
+representative for each one, and comparing those representatives. Retrieving
+each representative, in a disjoint-set forests implementation, can be done in
+O(log(n)). This should be better than the linear complexity from DFS.
 
 The disjoint-set forest was taken from Cormen book.
 
-NOTE: Despite theoretical advantages mentioned, this algorithm actually is slower than the DFS one. Perhaps the paths to parent are too long (unbalanced trees), or perhaps the path-compression is worth it only if you query more times.
+NOTE: Despite theoretical advantages mentioned, this algorithm actually is
+slower than the DFS one. Perhaps the paths to parent are too long (unbalanced
+trees), or perhaps the path-compression is worth it only if you query more
+times.
 
 """
 

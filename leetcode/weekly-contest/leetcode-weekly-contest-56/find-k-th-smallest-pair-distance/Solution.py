@@ -36,6 +36,7 @@ class Solution(object):
             k, kth_d = self.fetch(0, xrange(i, -1, -1), used, dist, k, kth_d)
             if k == 0:
                 return kth_d
-            k, kth_d = self.fetch(dist[i], xrange(i + 1, n - 1), used, dist, k, kth_d)
+            k, kth_d = self.fetch(dist[i], xrange(i + 1, n - 1), used, dist, k,
+                                  kth_d)
             if k == 0:
                 return kth_d

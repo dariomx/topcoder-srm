@@ -1,7 +1,7 @@
 class Solution(object):
     def findLen(self, s, k, start, end, incr, chars):
         chars.clear()
-        for i in xrange(start, end+incr, incr):
+        for i in xrange(start, end + incr, incr):
             if s[i] in chars:
                 xLen = 0
             else:

@@ -35,7 +35,7 @@ class Solution(object):
                 abbr, lenAbbr = '', 0
                 last = -1
                 for i, j in ranges:
-                    chunk = s[last+1:i]
+                    chunk = s[last + 1:i]
                     abbr += chunk + str(j - i + 1)
                     lenAbbr += len(chunk) + 1
                     last = j
@@ -60,6 +60,7 @@ class Solution(object):
                 minAbbr = a
                 minLen = la
         return minAbbr
+
 
 target = "apple"
 dictionary = ["blade"]

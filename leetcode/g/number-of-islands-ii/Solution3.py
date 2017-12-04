@@ -53,4 +53,3 @@ class Solution(object):
                     forest.union(set_xy, set_ij)
             num_islands.append(forest.num_roots)
         return num_islands
-

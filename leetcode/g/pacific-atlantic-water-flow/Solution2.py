@@ -53,4 +53,3 @@ class Solution(object):
         atlantic_reach |= self.search_peaks_dfs(matrix, atlantic_nodes)
         # print(atlantic_reach)
         return list(pacific_reach & atlantic_reach)
-

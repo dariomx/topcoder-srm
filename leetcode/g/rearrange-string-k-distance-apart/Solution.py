@@ -41,4 +41,3 @@ class Solution(object):
                 return ''
             curr, next = next, curr
             next.clear()
-

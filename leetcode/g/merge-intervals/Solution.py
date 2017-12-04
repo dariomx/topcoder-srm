@@ -15,14 +15,14 @@ class Solution(object):
         merged = []
         ikey = lambda i: (i.start, i.end)
         intvs = sorted(intervals, key=ikey)
-        a,b = ikey(intvs[0])
+        a, b = ikey(intvs[0])
         for i in intvs[1:]:
             c, d = ikey(i)
             if a <= c <= b:
                 a = min(a, c)
                 b = max(b, d)
             else:
-                merged.append([a,b])
+                merged.append([a, b])
                 a, b = c, d
-        merged.append([a,b])
+        merged.append([a, b])
         return merged

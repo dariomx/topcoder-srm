@@ -73,6 +73,7 @@ class Solution(object):
                 minLen = la
         return minAbbr
 
+
 target = "chinaandusaarefre"
-dictionary = ["china","are","and","usa","friends","us","en","ar"]
+dictionary = ["china", "are", "and", "usa", "friends", "us", "en", "ar"]
 print(Solution().minAbbreviation(target, dictionary))

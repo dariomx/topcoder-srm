@@ -78,10 +78,11 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        all = set(range(1,10))
+        all = set(range(1, 10))
         cnt = 4 * self.cntValidSeq(list(all - {1}), m, n)
         cnt += 4 * self.cntValidSeq(list(all - {2}), m, n)
         cnt += self.cntValidSeq(list(all - {5}), m, n)
         return cnt
+
 
 print(Solution().numberOfPatterns(3, 8))

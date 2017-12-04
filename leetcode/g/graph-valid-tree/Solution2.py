@@ -3,6 +3,7 @@
 
 from collections import defaultdict
 
+
 class Solution(object):
     def validTree(self, n, edges):
         """
@@ -10,10 +11,10 @@ class Solution(object):
         :type edges: List[List[int]]
         :rtype: bool
         """
-        if len(edges) != n-1:
+        if len(edges) != n - 1:
             return False
         graph = defaultdict(lambda: [])
-        for u,v in edges:
+        for u, v in edges:
             graph[u].append(v)
             graph[v].append(u)
         if not graph:

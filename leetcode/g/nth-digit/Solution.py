@@ -14,4 +14,3 @@ class Solution(object):
                     i += 1
                     if i == n:
                         return int(c)
-

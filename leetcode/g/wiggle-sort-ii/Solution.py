@@ -1,6 +1,3 @@
-from itertools import izip
-
-
 class Solution(object):
     def wiggleSort(self, nums):
         """
@@ -18,4 +15,4 @@ class Solution(object):
         for left in xrange(1, middle, 2):
             nums[left], nums[right] = nums[right], nums[left]
             right += 2
-        #if nums[middle - 1] == nums[middle]:
+            # if nums[middle - 1] == nums[middle]:

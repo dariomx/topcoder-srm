@@ -43,4 +43,3 @@ class Solution(object):
                 if self.is_start(matrix, i, j):
                     max_len = max(max_len, self.search_dfs(matrix, (i, j)))
         return max_len
-

@@ -18,4 +18,3 @@ class Solution(object):
                     del s_cnt[c]
             else:
                 return c
-

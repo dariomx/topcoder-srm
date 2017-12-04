@@ -14,7 +14,7 @@ class Solution(object):
                 min_dist[x][y] = min(min_dist[x][y], dist)
             for i, j in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
                 if 0 <= i < n and 0 <= j < m:
-                    edge = tuple(sorted([(x,y), (i,j)]))
+                    edge = tuple(sorted([(x, y), (i, j)]))
                     if edge in visited:
                         continue
                     visited.add(edge)

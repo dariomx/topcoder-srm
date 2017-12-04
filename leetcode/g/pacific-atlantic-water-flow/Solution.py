@@ -55,11 +55,12 @@ class Solution(object):
         reached_atlantic = lambda (i, j): i == (m - 1) or j == (n - 1)
         pacific_nodes = self.get_pacific_nodes(matrix)
         pacific_peaks = set(pacific_nodes)
-        pacific_peaks |= self.search_peaks_dfs(matrix, pacific_nodes, reached_atlantic)
+        pacific_peaks |= self.search_peaks_dfs(matrix, pacific_nodes,
+                                               reached_atlantic)
         print(pacific_peaks)
         atlantic_nodes = self.get_atlantic_nodes(matrix)
         atlantic_peaks = set(atlantic_nodes)
-        atlantic_peaks |= self.search_peaks_dfs(matrix, atlantic_nodes, reached_pacific)
+        atlantic_peaks |= self.search_peaks_dfs(matrix, atlantic_nodes,
+                                                reached_pacific)
         print(atlantic_peaks)
         return sorted(pacific_peaks & atlantic_peaks)
-

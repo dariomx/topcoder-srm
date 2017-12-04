@@ -45,4 +45,3 @@ class Solution(object):
                 if self.is_start(matrix, i, j):
                     max_len = max(max_len, self.search(matrix, (i, j), cache))
         return max_len
-

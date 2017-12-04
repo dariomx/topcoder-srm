@@ -1,5 +1,6 @@
 from sys import maxint
 
+
 class Solution(object):
     def solve(self, A, B, start, cache):
         if start not in cache:
@@ -18,7 +19,8 @@ class Solution(object):
                 if min_coins == maxint:
                     cache[start] = (maxint, [])
                 else:
-                    cache[start] = (A[start] + min_coins, [start + 1] + min_path)
+                    cache[start] = (
+                    A[start] + min_coins, [start + 1] + min_path)
         return cache[start]
 
     def cheapestJump(self, A, B):

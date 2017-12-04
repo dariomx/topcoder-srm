@@ -34,5 +34,6 @@ class Solution(object):
                 i += 1
         return True
 
-data =  [197, 130, 1]
+
+data = [197, 130, 1]
 print(Solution().validUtf8(data))

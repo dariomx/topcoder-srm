@@ -1,12 +1,13 @@
 from collections import deque
 
+
 class Solution(object):
     def reconstructQueue(self, people):
         """
         :type people: List[List[int]]
         :rtype: List[List[int]]
         """
-        people = deque(sorted(people, key=lambda (a,b): (b,a)))
+        people = deque(sorted(people, key=lambda (a, b): (b, a)))
         queue = []
         tmp = deque()
         while people:
@@ -15,7 +16,7 @@ class Solution(object):
                 queue.append((h, k))
             else:
                 cnt = 0
-                for (h1,_) in queue:
+                for (h1, _) in queue:
                     if h1 >= h:
                         cnt += 1
                 if cnt == k:

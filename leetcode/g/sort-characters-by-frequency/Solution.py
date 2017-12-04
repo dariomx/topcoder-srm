@@ -4,6 +4,7 @@
 
 from collections import defaultdict
 
+
 class Solution(object):
     def frequencySort(self, s):
         """

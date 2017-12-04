@@ -62,6 +62,7 @@ class Solution(object):
 
         return isMatchRec(0, 0)
 
+
 #
 print(Solution().isMatch('abcd', 'd*'))
 print(Solution().isMatch('a', 'ab*'))

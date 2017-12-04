@@ -1,5 +1,6 @@
-from random import random, randint
 from math import log
+from random import random
+
 
 class Node:
     def __init__(self, value, maxLevel=None, next=None, dist=None):
@@ -25,12 +26,14 @@ class Node:
     def __str__(self):
         return "(%s, %s, %s)" % (self.value, self.next, self.dist)
 
+
 class NegInfinity:
     def __cmp__(self, other):
         return -1
 
     def __str__(self):
         return "-inf"
+
 
 class PosInfinity:
     def __cmp__(self, other):
@@ -39,7 +42,9 @@ class PosInfinity:
     def __str__(self):
         return "+inf"
 
+
 NIL = Node(PosInfinity(), 0)
+
 
 class IndexedSkipList:
     def __init__(self, maxSize):
@@ -54,7 +59,7 @@ class IndexedSkipList:
     def _search(self, value):
         pos = 0
         node = self.head
-        for i in xrange(self.maxLevel-1, -1, -1):
+        for i in xrange(self.maxLevel - 1, -1, -1):
             levelDist = 0
             while node.next[i].value < value:
                 levelDist += node.dist[i]
@@ -63,7 +68,7 @@ class IndexedSkipList:
             self.path[i] = node
             self.levelDist[i] = levelDist
         node = node.next[0]
-        return (node,pos) if node.value == value else (None,pos)
+        return (node, pos) if node.value == value else (None, pos)
 
     def insertAndGetPos(self, value):
         node, pos = self._search(value)
@@ -98,7 +103,7 @@ class IndexedSkipList:
         k += 1
         pos = 0
         node = self.head
-        for i in xrange(self.maxLevel-1, -1, -1):
+        for i in xrange(self.maxLevel - 1, -1, -1):
             while pos + node.dist[i] <= k:
                 pos += node.dist[i]
                 node = node.next[i]
@@ -109,7 +114,7 @@ class IndexedSkipList:
 
     def __str__(self):
         s = ""
-        for i in xrange(self.maxLevel-1, -1, -1):
+        for i in xrange(self.maxLevel - 1, -1, -1):
             node = self.head
             s += "\n"
             while node != NIL:
@@ -130,9 +135,15 @@ class Solution(object):
             return []
         list = IndexedSkipList(n)
         cnt = [0] * n
-        for i in xrange(n-1, -1, -1):
+        for i in xrange(n - 1, -1, -1):
             cnt[i] = list.insertAndGetPos(nums[i])
         return cnt
 
-lst = [26,78,27,100,33,67,90,23,66,5,38,7,35,23,52,22,83,51,98,69,81,32,78,28,94,13,2,97,3,76,99,51,9,21,84,66,65,36,100,41]
-print(Solution().countSmaller(lst) == [10,27,10,35,12,22,28,8,19,2,12,2,9,6,12,5,17,9,19,12,14,6,12,5,12,3,0,10,0,7,8,4,0,0,4,3,2,0,1,0])
+
+lst = [26, 78, 27, 100, 33, 67, 90, 23, 66, 5, 38, 7, 35, 23, 52, 22, 83, 51,
+       98, 69, 81, 32, 78, 28, 94, 13, 2, 97, 3, 76, 99, 51, 9, 21, 84, 66, 65,
+       36, 100, 41]
+print(
+Solution().countSmaller(lst) == [10, 27, 10, 35, 12, 22, 28, 8, 19, 2, 12, 2, 9,
+                                 6, 12, 5, 17, 9, 19, 12, 14, 6, 12, 5, 12, 3,
+                                 0, 10, 0, 7, 8, 4, 0, 0, 4, 3, 2, 0, 1, 0])

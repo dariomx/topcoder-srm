@@ -1,19 +1,29 @@
 """
-First of all, I am not really sure this is a generic solution. In general, we may
-need to do some sort of backtracking or DP. I refused to do that, making the theory that this could be solved with a greedy algorithm. It seems to work for the test cases, but it may not work for all cases.
+First of all, I am not really sure this is a generic solution. In general, 
+we may
+need to do some sort of backtracking or DP. I refused to do that, making the 
+theory that this could be solved with a greedy algorithm. It seems to work 
+for the test cases, but it may not work for all cases.
 
-Alright, warnings said, let us describe the solution. It is composed of two stragegies combined (which is sort of the order in which I conceived them):
+Alright, warnings said, let us describe the solution. It is composed of two 
+stragegies combined (which is sort of the order in which I conceived them):
 
 0. Count how many zeros and ones we have for each string (pre-processing).
 
-1. If this is a greedy algorithm, then there must be an order which tells us which strings to take first. There seem to be actually two orders, given by following sort key functions:
+1. If this is a greedy algorithm, then there must be an order which tells us 
+which strings to take first. There seem to be actually two orders, given by 
+following sort key functions:
 
 1.1 minimum(# of zeros left to use, # of ones left to use), reverse order
 1.2 minimum(# of zeros in string, # of ones in string), regular order
 
-The first strategy favors those strings leaving more 0's and 1's available, while the second prefers those consuming less 0's and 1's. Under difference circumstances (tests), one order seems to work better than the other. So we should consider both.
+The first strategy favors those strings leaving more 0's and 1's available, 
+while the second prefers those consuming less 0's and 1's. Under difference 
+circumstances (tests), one order seems to work better than the other. So we 
+should consider both.
 
-2. For each order, we traverse the sorted sequence of strings checking if they meet the constraints. Those passing the checks are counted.
+2. For each order, we traverse the sorted sequence of strings checking if 
+they meet the constraints. Those passing the checks are counted.
 
 3. We return the maximum counter from the two orders tried.
 
@@ -61,4 +71,3 @@ class Solution(object):
         sorted_idx = sorted(xrange(k), key=s_key2, reverse=False)
         used2 = try_order(sorted_idx)
         return max(used1, used2)
-

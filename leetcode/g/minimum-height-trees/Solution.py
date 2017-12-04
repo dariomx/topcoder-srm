@@ -4,7 +4,8 @@ Here is one of the solutions found in literature:
 0) Pick arbitrary starting node
 
 1) Do a BFS/DFS search (it does not matter as trees have unique paths), keeping
-   track of the farthest node (any will make the trick, as there could be several
+   track of the farthest node (any will make the trick, as there could be
+   several
    with same distance from starting node)
 
 2) Repeat 1) but starting from the farthest node found. The path from this new
@@ -15,6 +16,7 @@ Here is one of the solutions found in literature:
 
 """
 from collections import defaultdict
+
 
 class Solution(object):
     def search_farthest(self, tree, start):
@@ -33,7 +35,7 @@ class Solution(object):
             for child in tree[node]:
                 if child not in parent:
                     parent[child] = node
-                stack.append((child, dist+1))
+                stack.append((child, dist + 1))
         return max_dist, farthest, parent
 
     def findMinHeightTrees(self, n, edges):
@@ -47,11 +49,9 @@ class Solution(object):
         _, farthest1, _ = self.search_farthest(tree, start)
         max_dist, farthest2, parent = self.search_farthest(tree, farthest1)
         node = farthest2
-        for _ in xrange(max_dist/2):
+        for _ in xrange(max_dist / 2):
             node = parent[node]
         roots = [node]
         if max_dist % 2 == 1:
             roots.append(parent[node])
         return roots
-
-    

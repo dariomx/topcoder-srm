@@ -6,6 +6,7 @@
 
 from collections import defaultdict
 
+
 class Solution(object):
     def minMeetingRooms(self, intervals):
         """

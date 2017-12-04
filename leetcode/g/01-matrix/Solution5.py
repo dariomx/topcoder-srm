@@ -15,12 +15,12 @@ class Solution(object):
                 min_dist[x][y] = min(min_dist[x][y], d)
             for i, j in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
                 if 0 <= i < n and 0 <= j < m and \
-                    (i, j) not in visited and \
-                    (i, j) not in zero_visited:
+                                (i, j) not in visited and \
+                                (i, j) not in zero_visited:
                     visited.add((i, j))
                     queue.append(((i, j), d + matrix[i][j]))
                     if matrix[i][j] == 0:
-                        zero_visited.add((i,j))
+                        zero_visited.add((i, j))
 
     def updateMatrix(self, matrix):
         """
@@ -36,6 +36,6 @@ class Solution(object):
                     min_dist[x][y] = maxint
         for x in xrange(n):
             for y in xrange(m):
-                if matrix[x][y] == 0 and (x,y) not in zero_visited:
+                if matrix[x][y] == 0 and (x, y) not in zero_visited:
                     self.bfs_search(matrix, (x, y), min_dist, zero_visited)
         return min_dist

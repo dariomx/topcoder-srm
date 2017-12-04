@@ -4,6 +4,7 @@ class Node:
         self.eow = eow
         self.children = dict()
 
+
 class Solution(object):
     def getVal(self, n):
         return n.val
@@ -14,7 +15,7 @@ class Solution(object):
         for i in xrange(n):
             c = word[i]
             if c not in node.children:
-                node.children[c] = Node(c, i==(n-1))
+                node.children[c] = Node(c, i == (n - 1))
             node = node.children[c]
 
     def buildTrie(self, words):
@@ -39,7 +40,7 @@ class Solution(object):
                         newPath = path + [node]
                     else:
                         newPath = path
-                    stack.append((child, d+1, newPath))
+                    stack.append((child, d + 1, newPath))
 
     def combine(self, row, sq):
         yield row
@@ -60,7 +61,7 @@ class Solution(object):
                         subRoots.append(roots[i].children[row[i].val])
                 except KeyError:
                     continue
-                for sq in self.sqWords(k-1, subRoots):
+                for sq in self.sqWords(k - 1, subRoots):
                     yield self.combine(row, sq)
 
     def fmtResults(self, sqs):
@@ -78,5 +79,6 @@ class Solution(object):
         roots = [root] * k
         return self.fmtResults(self.sqWords(k, roots))
 
-words = ["area","lead","wall","lady","ball"]
+
+words = ["area", "lead", "wall", "lady", "ball"]
 print(Solution().wordSquares(words))

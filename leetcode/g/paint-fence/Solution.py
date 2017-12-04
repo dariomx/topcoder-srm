@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 class Solution(object):
     def addOne(self, arr, k):
         rem = 1
@@ -35,5 +36,6 @@ class Solution(object):
                 print(list(reversed(arr)))
             self.addOne(arr, k)
         return cnt
+
 
 print(Solution().numWays(5, 2))

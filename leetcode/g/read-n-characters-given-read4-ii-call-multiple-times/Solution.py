@@ -23,4 +23,3 @@ class Solution(object):
                 break
             m += k
         return m
-

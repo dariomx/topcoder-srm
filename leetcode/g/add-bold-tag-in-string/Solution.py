@@ -35,7 +35,8 @@ class Solution(object):
         ret = (False, start)
         for i in xrange(start, len(word)):
             match, end = self.get_match(trie, word, i)
-            # print("trying %s[%d,%d:] = (%s,%d)" % (word, start, i, match, end))
+            # print("trying %s[%d,%d:] = (%s,%d)" % (word, start, i, match,
+            # end))
             if match and end >= ret[1]:
                 ret = (True, end)
             else:

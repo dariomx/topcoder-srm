@@ -16,4 +16,3 @@ class Solution(object):
                 sumk -= nums[i - k]
             mavg = max(mavg, sumk / float(k))
         return mavg
-

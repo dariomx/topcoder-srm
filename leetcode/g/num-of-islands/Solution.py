@@ -36,5 +36,6 @@ class Solution(object):
                     self.dfsVisit(node, grid, visited)
         return cnt
 
-grid = ["11110","11010","11000","00000"]
+
+grid = ["11110", "11010", "11000", "00000"]
 print(Solution().numIslands(grid))

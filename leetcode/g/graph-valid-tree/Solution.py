@@ -10,6 +10,7 @@
 
 from collections import defaultdict
 
+
 class Solution(object):
     def validTree(self, n, edges):
         """
@@ -18,7 +19,7 @@ class Solution(object):
         :rtype: bool
         """
         graph = defaultdict(lambda: [])
-        for u,v in edges:
+        for u, v in edges:
             graph[u].append(v)
             graph[v].append(u)
         if not graph:
@@ -27,9 +28,9 @@ class Solution(object):
         stack = [start]
         visited = set()
         while stack:
-            #print(stack[-1])
-            #print(visited)
-            #print(stack)
+            # print(stack[-1])
+            # print(visited)
+            # print(stack)
             node = stack.pop()
             if node in stack:
                 return False

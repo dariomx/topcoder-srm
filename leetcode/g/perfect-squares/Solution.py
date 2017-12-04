@@ -1,6 +1,7 @@
 from math import sqrt
 from sys import maxint
 
+
 class Solution(object):
     def numSquares(self, n):
         """

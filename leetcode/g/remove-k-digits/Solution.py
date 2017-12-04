@@ -1,6 +1,3 @@
-import operator as op
-
-
 class Solution(object):
     def removeKdigits(self, num, k):
         """

@@ -24,7 +24,6 @@ in the list.
 
 """
 
-
 from collections import defaultdict
 from itertools import imap
 

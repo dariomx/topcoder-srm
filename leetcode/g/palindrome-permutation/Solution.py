@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 class Solution(object):
     def canPermutePalindrome(self, s):
         """
@@ -13,4 +14,4 @@ class Solution(object):
         for k in cnt.itervalues():
             if k % 2 == 1:
                 odd += 1
-        return odd in (0,1)
+        return odd in (0, 1)

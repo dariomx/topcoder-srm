@@ -1,5 +1,5 @@
 import sys
-from itertools import izip
+
 
 class MinHeap:
     def __init__(self, maxsize):
@@ -10,10 +10,10 @@ class MinHeap:
         return i // 2
 
     def left(self, i):
-        return 2*i + 1
+        return 2 * i + 1
 
     def right(self, i):
-        return 2*i + 2
+        return 2 * i + 2
 
     def search(self, x):
         for i in xrange(self.size):
@@ -59,7 +59,7 @@ class MinHeap:
     # extractMax is auxiliary of delete
     def extractMin(self):
         minx = self.arr[0][1]
-        self.arr[0] = self.arr[self.size-1]
+        self.arr[0] = self.arr[self.size - 1]
         self.size -= 1
         self._heapify(0)
         return minx
@@ -70,6 +70,7 @@ class MinHeap:
     def __len__(self):
         return self.size
 
+
 class Solution(object):
     def getBuildings(self, grid):
         bs = []
@@ -77,19 +78,19 @@ class Solution(object):
         for i in xrange(n):
             for j in xrange(m):
                 if grid[i][j] == 1:
-                    bs.append((i,j))
+                    bs.append((i, j))
         return bs
 
     def getNeighbors(self, x, y, grid, heap=None):
         n, m = len(grid), len(grid[0])
-        for i,j in [(x-1,y), (x+1,y), (x,y+1), (x,y-1)]:
+        for i, j in [(x - 1, y), (x + 1, y), (x, y + 1), (x, y - 1)]:
             goodIndexes = 0 <= i < n and 0 <= j < m
-            heapCond = not heap or (i,j) in heap
+            heapCond = not heap or (i, j) in heap
             if goodIndexes and grid[i][j] != 2 and heapCond:
                 yield i, j
 
     def solveSingleBuilding(self, b, grid):
-        for x,y in self.getNeighbors(b[0], b[1], grid):
+        for x, y in self.getNeighbors(b[0], b[1], grid):
             if grid[x][y] == 0:
                 return 1
         return -1
@@ -126,7 +127,7 @@ class Solution(object):
     def getTotalPathSet(self, bs, grid):
         totalPath = self.getPathSet(bs[0], bs[1], grid)
         for i in xrange(2, len(bs)):
-            totalPath &= self.getPathSet(bs[i-1], bs[i], grid)
+            totalPath &= self.getPathSet(bs[i - 1], bs[i], grid)
         return totalPath
 
     def getTotalDistFrom(self, start, grid):
@@ -135,26 +136,26 @@ class Solution(object):
         heap = MinHeap(n * m)
         for i in xrange(n):
             for j in xrange(m):
-                if (i,j) != start:
-                    dist[(i,j)] = sys.maxint
-                    heap.insert((i,j), dist[(i,j)])
+                if (i, j) != start:
+                    dist[(i, j)] = sys.maxint
+                    heap.insert((i, j), dist[(i, j)])
         dist[start] = 0
         heap.insert(start, dist[start])
         visited = set()
         while len(heap) > 0:
             x, y = heap.extractMin()
-            if (x,y) in visited:
+            if (x, y) in visited:
                 continue
-            visited.add((x,y))
+            visited.add((x, y))
             if grid[x][y] == 0:
                 for n in self.getNeighbors(x, y, grid, heap):
-                    if dist[(x,y)] + 1 < dist[n]:
-                        dist[n] = dist[(x,y)] + 1
+                    if dist[(x, y)] + 1 < dist[n]:
+                        dist[n] = dist[(x, y)] + 1
                         heap.decreaseKey(n, dist[n])
         totalDist = 0
-        for (x,y) in dist:
+        for (x, y) in dist:
             if grid[x][y] == 1:
-                totalDist += dist[(x,y)]
+                totalDist += dist[(x, y)]
         return totalDist
 
     def shortestDistance(self, grid):
@@ -170,6 +171,7 @@ class Solution(object):
                 for c in cands:
                     minDist = min(minDist, self.getTotalDistFrom(c, grid))
                 return minDist
+
 
 grid = [
     [1, 0, 2, 0, 1],

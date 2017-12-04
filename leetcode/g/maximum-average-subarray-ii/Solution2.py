@@ -1,6 +1,3 @@
-from sys import maxint
-
-
 class Solution(object):
     def find_maxavg_k(self, nums, k):
         """
@@ -54,4 +51,3 @@ class Solution(object):
                 break
             mavg = max(mavg, sums / float(k))
         return mavg
-

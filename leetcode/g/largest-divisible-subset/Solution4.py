@@ -11,7 +11,7 @@ class Solution(object):
         max_soln = []
         for i in xrange(n):
             soln = [nums[i]]
-            for j in xrange(i+1, n):
+            for j in xrange(i + 1, n):
                 x = soln[-1]
                 y = nums[j]
                 if x % y == 0 or y % x == 0:

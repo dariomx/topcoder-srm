@@ -9,19 +9,20 @@ class Solution(object):
         visited = set()
         visited.add((None, start))
         while queue:
-            (px,py), (x, y), dist = queue.popleft()
-            if (x,y) in ((2,1),(1,1)):
-                print("(%d,%d) -> (%d,%d) with %d [%d]" % (px,py,x,y,dist,min_dist[x][y]))
+            (px, py), (x, y), dist = queue.popleft()
+            if (x, y) in ((2, 1), (1, 1)):
+                print("(%d,%d) -> (%d,%d) with %d [%d]" % (
+                px, py, x, y, dist, min_dist[x][y]))
             if matrix[x][y] == 1:
                 min_dist[x][y] = min(min_dist[x][y], min_dist[px][py] + 1, dist)
             for i, j in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
                 if 0 <= i < n and 0 <= j < m:
-                    edge = ((x,y), (i,j))
+                    edge = ((x, y), (i, j))
                     if edge in visited:
                         continue
                     visited.add(edge)
                     new_dist = matrix[i][j] * (dist + 1)
-                    queue.append(((x,y), (i, j), new_dist))
+                    queue.append(((x, y), (i, j), new_dist))
 
     def updateMatrix(self, matrix):
         """
@@ -40,9 +41,10 @@ class Solution(object):
                     self.bfs_search(matrix, (x, y), min_dist)
                     return min_dist
 
+
 # main
-pp = lambda m: '\n'.join(map(lambda r: ' '.join(map(str,r)), m))
-mat = [[0,0,0],[1,1,1],[1,1,1]]
+pp = lambda m: '\n'.join(map(lambda r: ' '.join(map(str, r)), m))
+mat = [[0, 0, 0], [1, 1, 1], [1, 1, 1]]
 print(pp(mat))
 print('**********')
 print(pp(Solution().updateMatrix(mat)))

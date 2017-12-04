@@ -55,6 +55,7 @@ class Solution(object):
             for y in xrange(n):
                 board[x][y] = self.decodeNewCell(board[x][y])
 
-board = [[1,1],[1,0]]
+
+board = [[1, 1], [1, 0]]
 Solution().gameOfLife(board)
 print(board)

@@ -35,4 +35,3 @@ class Solution(object):
         start_max = get_max(0, n - 1)
         total_sum = get_sum(0, n - 1)
         return start_max >= (total_sum - start_max)
-

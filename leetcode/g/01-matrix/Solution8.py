@@ -15,10 +15,10 @@ class Solution(object):
             for i, j in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
                 if 0 <= i < n and 0 <= j < m:
                     if not (matrix[x][y] == 0 and matrix[i][j] == 1) and \
-                        (i,j) in visited:
+                                    (i, j) in visited:
                         continue
                     visited.add((i, j))
-                    new_d = matrix[i][j] * (d+1)
+                    new_d = matrix[i][j] * (d + 1)
                     queue.append(((i, j), new_d))
 
     def updateMatrix(self, matrix):

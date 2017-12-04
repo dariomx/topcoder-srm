@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 class MedianFinder(object):
     def __init__(self):
         """
@@ -56,8 +57,9 @@ class MedianFinder(object):
             if int(self.medIdx2) > self.valCnt[self.values[self.medIdx1]]:
                 self.medIdx1 += 1
                 self.medIdx2 = 1
-        if self.size%2 == 0 and trans:
-            self.median = (self.values[self.medIdx1] + self.values[self.medIdx1 + 1]) / 2.0
+        if self.size % 2 == 0 and trans:
+            self.median = (self.values[self.medIdx1] + self.values[
+                self.medIdx1 + 1]) / 2.0
         else:
             self.median = self.values[self.medIdx1]
 
@@ -74,6 +76,7 @@ class MedianFinder(object):
         :rtype: float
         """
         return float(self.median)
+
 
 soln = MedianFinder()
 soln.addNum(40)

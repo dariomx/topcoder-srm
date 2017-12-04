@@ -14,7 +14,7 @@ class Solution(object):
                 min_dist[x][y] = min(min_dist[x][y], d)
             for i, j in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
                 if 0 <= i < n and 0 <= j < m and \
-                    matrix[i][j] == 1 and (i, j) not in visited:
+                                matrix[i][j] == 1 and (i, j) not in visited:
                     visited.add((i, j))
                     queue.append(((i, j), d + matrix[i][j]))
 

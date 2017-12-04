@@ -17,8 +17,8 @@ class Solution(object):
             for k in xrange(1, target + 1):
                 for m in xrange(1, k / 2 + 1):
                     if m != k - m:
-                        args = (n, k, m, comb[k], comb[m], comb[k - m], comb[k] + comb[m] * comb[k - m])
+                        args = (n, k, m, comb[k], comb[m], comb[k - m],
+                                comb[k] + comb[m] * comb[k - m])
                         print("%d,%d,%d: %d + %d * %d = %d" % (args))
                         comb[k] += comb[m] * comb[k - m]
         return comb[target]
-

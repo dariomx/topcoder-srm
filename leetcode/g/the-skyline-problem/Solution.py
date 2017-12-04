@@ -86,6 +86,7 @@ class Solution(object):
                 else:
                     newPend.append((x, y))
             pend = newPend
-            self.intersect(buildings[i - 1], buildings[i], visible, pend, hidden)
+            self.intersect(buildings[i - 1], buildings[i], visible, pend,
+                           hidden)
         visible.extend(pend)
         return self.merge(self.removeDup(visible))

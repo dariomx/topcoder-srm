@@ -5,7 +5,7 @@ class Solution(object):
         w = ''.join(path)
         if rev:
             w = w[::-1]
-        #print(w)
+        # print(w)
         if w == word:
             return True
         n, m = len(board), len(board[0])

@@ -1,5 +1,6 @@
 from math import copysign
 
+
 class Solution(object):
     def calc_closure(self, chars, less_than):
         lt_closure = set()
@@ -27,7 +28,7 @@ class Solution(object):
                 w1 = words[j - 1]
                 w2 = words[j]
                 if len(w1) >= k and len(w2) >= k:
-                    c1, c2 = w1[k-1], w2[k-1]
+                    c1, c2 = w1[k - 1], w2[k - 1]
                     if w1[:k] == w2[:k] and c1 != c2:
                         if (c2, c1) in less_than:
                             raise KeyError((c1, c2))
@@ -39,16 +40,18 @@ class Solution(object):
     def calc_alien_cmp(self, words, chars, cmp_chars):
         less_than = self.calc_alien_lt(words, cmp_chars)
         less_than = less_than.union(self.calc_closure(chars, less_than))
-        def alien_cmp(x,y):
+
+        def alien_cmp(x, y):
             if x == y:
                 return 0
             else:
-                if (x,y) in less_than:
+                if (x, y) in less_than:
                     return -1
-                elif (y,x) in less_than:
+                elif (y, x) in less_than:
                     return 1
                 else:
                     return int(copysign(1, ord(x) - ord(y)))
+
         return alien_cmp
 
     def alienOrder(self, words):
@@ -71,9 +74,10 @@ class Solution(object):
             print(e)
             return ''
 
-words = ["wrt","wrf","er","ett","rftt"]
-#words = ["z", "x", "z"]
-#words = ["zy", "zx"]
-words = ["ac","ab","b"]
-words = ["za","zb","ca","cb"]
+
+words = ["wrt", "wrf", "er", "ett", "rftt"]
+# words = ["z", "x", "z"]
+# words = ["zy", "zx"]
+words = ["ac", "ab", "b"]
+words = ["za", "zb", "ca", "cb"]
 print(Solution().alienOrder(words))

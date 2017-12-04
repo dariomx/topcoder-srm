@@ -14,7 +14,7 @@ class Solution(object):
                 min_dist[x][y] = min(min_dist[x][y], dist)
             for i, j in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
                 if 0 <= i < n and 0 <= j < m:
-                    edge = ((x,y), (i,j))
+                    edge = ((x, y), (i, j))
                     if edge in visited:
                         continue
                     visited.add(edge)
@@ -38,9 +38,10 @@ class Solution(object):
                     self.bfs_search(matrix, (x, y), min_dist)
                     return min_dist
 
+
 # main
-pp = lambda m: '\n'.join(map(lambda r: ' '.join(map(str,r)), m))
-mat = [[0,0,0],[1,1,1],[1,1,1]]
+pp = lambda m: '\n'.join(map(lambda r: ' '.join(map(str, r)), m))
+mat = [[0, 0, 0], [1, 1, 1], [1, 1, 1]]
 print(pp(mat))
 print('**********')
 print(pp(Solution().updateMatrix(mat)))

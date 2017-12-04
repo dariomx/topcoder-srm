@@ -34,4 +34,3 @@ class Solution(object):
         head, tail = self.rev_list(head)
         self.add_one(head, tail)
         return self.rev_list(head)[0]
-
