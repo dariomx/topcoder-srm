@@ -4,9 +4,18 @@
     <bookmark url="file://$PROJECT_DIR$/topcoder-srm/150/500/Solution2.py" line="49" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw4/math4ai-hw4.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw4/Homework4_Fall_2017.pdf" afterPath="" />
+    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="backup">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1a.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1b.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1b.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1b.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution3.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw4/math4ai-hw4.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw4/math4ai-hw4.ipynb" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw4/math4ai-hw4.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,16 +35,17 @@
     <SUITE FILE_PATH="coverage/topcoder_srm$sorting_with_python.coverage" NAME="sorting_with_python Coverage Results" MODIFIED="1505189090903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting" />
     <SUITE FILE_PATH="coverage/topcoder_srm$train_logreg__1_.coverage" NAME="train-logreg (1) Coverage Results" MODIFIED="1510384154752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ml-tgl/src" />
     <SUITE FILE_PATH="coverage/topcoder_srm$05_plot_data_norm.coverage" NAME="05-plot-data-norm Coverage Results" MODIFIED="1505270081719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting" />
-    <SUITE FILE_PATH="coverage/topcoder_srm$Solution3.coverage" NAME="Solution3 Coverage Results" MODIFIED="1504554166389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/regular-expression-matching" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution3.coverage" NAME="Solution3 Coverage Results" MODIFIED="1512507829297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
     <SUITE FILE_PATH="coverage/topcoder_srm$train_logreg.coverage" NAME="train-logreg Coverage Results" MODIFIED="1510246565223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ml-tgl/src" />
-    <SUITE FILE_PATH="coverage/topcoder_srm$Solution__1_.coverage" NAME="Solution (1) Coverage Results" MODIFIED="1502034331628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/alien-dictionary" />
     <SUITE FILE_PATH="coverage/topcoder_srm$train_logistic.coverage" NAME="train-logistic Coverage Results" MODIFIED="1509934567019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ml-tgl/src" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution__1_.coverage" NAME="Solution (1) Coverage Results" MODIFIED="1512507920455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution2b.coverage" NAME="Solution2b Coverage Results" MODIFIED="1505149159430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/perfect-rectangle" />
     <SUITE FILE_PATH="coverage/topcoder_srm$04_plot_data__1_.coverage" NAME="04-plot-data (1) Coverage Results" MODIFIED="1505189025389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting" />
     <SUITE FILE_PATH="coverage/topcoder_srm$train_svm.coverage" NAME="train-svm Coverage Results" MODIFIED="1510417359646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ml-tgl/src" />
     <SUITE FILE_PATH="coverage/topcoder_srm$test_plot.coverage" NAME="test-plot Coverage Results" MODIFIED="1505188767563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/data" />
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution5.coverage" NAME="Solution5 Coverage Results" MODIFIED="1502122115648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/word-search-ii" />
-    <SUITE FILE_PATH="coverage/topcoder_srm$Solution2__1_.coverage" NAME="Solution2 (1) Coverage Results" MODIFIED="1505148815000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/perfect-rectangle" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution2__1_.coverage" NAME="Solution2 (1) Coverage Results" MODIFIED="1512507926606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution1__1_.coverage" NAME="Solution1 (1) Coverage Results" MODIFIED="1512536456700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
     <SUITE FILE_PATH="coverage/topcoder_srm$06_detect_peaks.coverage" NAME="06-detect-peaks Coverage Results" MODIFIED="1505355550883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting" />
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution.coverage" NAME="Solution Coverage Results" MODIFIED="1511911579357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum" />
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution3__1_.coverage" NAME="Solution3 (1) Coverage Results" MODIFIED="1504921982879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/diameter-of-binary-tree" />
@@ -46,6 +56,7 @@
     <SUITE FILE_PATH="coverage/topcoder_srm$plot_data.coverage" NAME="plot_data Coverage Results" MODIFIED="1505188809511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting" />
     <SUITE FILE_PATH="coverage/topcoder_srm$split_by_silence.coverage" NAME="split-by-silence Coverage Results" MODIFIED="1509930731926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ml-tgl/src" />
     <SUITE FILE_PATH="coverage/topcoder_srm$08_dim_reduc_pca.coverage" NAME="08-dim-reduc-pca Coverage Results" MODIFIED="1506700759894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$Solution1.coverage" NAME="Solution1 Coverage Results" MODIFIED="1512507261505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
     <SUITE FILE_PATH="coverage/topcoder_srm$03_prelim_anal.coverage" NAME="03-prelim-anal Coverage Results" MODIFIED="1506297641681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting" />
     <SUITE FILE_PATH="coverage/topcoder_srm$09_cluster_kmeans.coverage" NAME="09-cluster-kmeans Coverage Results" MODIFIED="1506701391489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting" />
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution4.coverage" NAME="Solution4 Coverage Results" MODIFIED="1504554934744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/regular-expression-matching" />
@@ -59,11 +70,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/g/daily-temperatures/Solution.py">
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-559">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="749">
+              <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -126,14 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution3.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution4.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution5.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution6.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution7.py" />
-        <option value="$PROJECT_DIR$/leetcode/g/largest-divisible-subset/Solution8.py" />
-        <option value="$PROJECT_DIR$/leetcode/a/find-all-anagrams-in-a-string/Solution.py" />
-        <option value="$PROJECT_DIR$/leetcode/a/find-all-anagrams-in-a-string/Solution1.py" />
         <option value="$PROJECT_DIR$/leetcode/a/rotate-image/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-sorted-matrix/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-sorted-matrix/Solution.java" />
@@ -177,6 +190,14 @@
         <option value="$PROJECT_DIR$/leetcode/g/beautiful-arrangement/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/a/group-anagrams/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/g/daily-temperatures/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution3.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1a.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1b.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1b.java" />
+        <option value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1b.c" />
+        <option value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution.py" />
+        <option value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution.java" />
       </list>
     </option>
   </component>
@@ -224,6 +245,19 @@
               <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="g" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="g" type="462c0819:PsiDirectoryNode" />
+              <item name="subarray-sum-equals-k" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -232,7 +266,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -254,19 +288,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dbahena\PycharmProjects\ml-tgl\attacks\bahena-cabral" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\leetcode\g" />
-      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning\machine-learning\training-oracle\expo-kmeans-pca-spike-sorting" />
-      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning" />
-      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\machine-learning\coursera-stanford-andrew-ng" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning\machine-learning\course-math-for-ai\hw1" />
       <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url\v1\services" />
       <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\common" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\design\chaca-tiny-url\v7\services\query" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dbahena\PycharmProjects\ml-tgl\attacks\bahena-cabral" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\leetcode\g" />
+      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning\machine-learning\training-oracle\expo-kmeans-pca-spike-sorting" />
+      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning" />
+      <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\machine-learning\coursera-stanford-andrew-ng" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,75 +315,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Solution2">
-    <configuration name="Solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Solution1b">
+    <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topcoder-srm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum/Solution.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Solution11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Solution1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/01-matrix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topcoder-srm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/01-matrix/Solution11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Solution12" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Solution1a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/01-matrix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topcoder-srm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/01-matrix/Solution12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Solution2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Solution1b" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topcoder-srm" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fb/onsite/20170718/continuous-seq-sum/Solution2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1b.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Solution2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topcoder-srm" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -631,38 +683,20 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration name="train-svm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ml-tgl/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ml-tgl" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ml-tgl/src/train-svm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.train-svm" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Solution11" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Solution12" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Solution" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Solution2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Solution (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Solution1 (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Solution2 (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Solution1a" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Solution1b" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Solution2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Solution" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Solution12" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Solution11" />
-        <item index="4" class="java.lang.String" itemvalue="Python.train-svm" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Solution1b" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Solution1a" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Solution1 (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Solution2 (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -679,13 +713,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
-    </task>
-    <task id="LOCAL-00060" summary="backup">
-      <created>1509775923765</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1509775923765</updated>
     </task>
     <task id="LOCAL-00061" summary="backup">
       <created>1509901900167</created>
@@ -1023,7 +1050,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512419879645</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="backup">
+      <created>1512448734513</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1512448734513</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1042,7 +1076,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689342" sideWeight="0.503125" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689342" sideWeight="0.49788806" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20634921" sideWeight="0.49788806" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.440625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1057,7 +1092,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1072,7 +1106,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6689342" sideWeight="0.49788806" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20634921" sideWeight="0.49788806" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.440625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1417,62 +1451,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="287" />
+      <option name="time" value="288" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-sorted-matrix/Solution.py" />
-    <entry file="file://$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-sorted-matrix/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2279">
-          <caret line="53" column="1" lean-forward="false" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-sorted-matrix/Solution1.py" />
-    <entry file="file://$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-sorted-matrix/Solution1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3053">
-          <caret line="71" column="1" lean-forward="false" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-sorted-matrix/Solution2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3354">
-          <caret line="78" column="1" lean-forward="false" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/kth-smallest-element-in-a-sorted-matrix/Solution3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/verify-preorder-serialization-of-a-binary-tree/Solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/g/verify-preorder-serialization-of-a-binary-tree/Solution2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/a/copy-list-with-random-pointer/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1806">
-          <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/a/copy-list-with-random-pointer/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
@@ -1769,6 +1752,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-559">
           <caret line="26" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution1b.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
           <folding />
         </state>
       </provider>
