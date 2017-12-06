@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/leetcode/g/longest-substring-without-repeating-characters/Solution.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw1/Homework1_Fall_217.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw2/Homework2_Fall_2017.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw3/Homework3_Fall_2017.pdf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/longest-substring-without-repeating-characters/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/longest-substring-without-repeating-characters/Solution.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,8 +73,8 @@
       <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode/g/longest-substring-without-repeating-characters/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="301">
+              <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -243,6 +240,13 @@
               <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="g" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="g" type="462c0819:PsiDirectoryNode" />
+              <item name="longest-substring-without-repeating-characters" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -700,13 +704,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00064" summary="backup">
-      <created>1509987591788</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1509987591788</updated>
-    </task>
     <task id="LOCAL-00065" summary="backup">
       <created>1510030745320</created>
       <option name="number" value="00065" />
@@ -1043,7 +1040,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512542218945</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="backup">
+      <created>1512585128553</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1512585128553</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1809,8 +1813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/longest-substring-without-repeating-characters/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="301">
+          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
           <folding />
         </state>
       </provider>
