@@ -27,6 +27,7 @@
     <orderEntry type="module" module-name="data-science-learning" />
     <orderEntry type="module" module-name="ml-tgl" />
     <orderEntry type="module" module-name="thesis" />
+    <orderEntry type="module" module-name="usage-ranking" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
