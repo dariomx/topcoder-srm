@@ -4,10 +4,19 @@
     <bookmark url="file://$PROJECT_DIR$/topcoder-srm/150/500/Solution2.py" line="49" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw3/math4ai-hw3.ipynb" afterPath="$PROJECT_DIR$/../data-science-learning/machine-learning/course-math-for-ai/hw3/math4ai-hw3.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leetcode/g/find-k-closest-elements/Solution.py" afterPath="$PROJECT_DIR$/leetcode/g/find-k-closest-elements/Solution.py" />
+    <list default="true" id="78bd27d2-4344-4095-b4f6-0066f092a14b" name="Default" comment="backup">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/topcoder-srm.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../urank/ManualTest.py" afterPath="$PROJECT_DIR$/../urank/tests/ManualTest.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../urank/UsageRanking.py" afterPath="$PROJECT_DIR$/../urank/urank/UsageRanking.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../urank/__init__.py" afterPath="$PROJECT_DIR$/../urank/urank/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../urank/LICENSE" afterPath="$PROJECT_DIR$/../urank/LICENSE" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +42,7 @@
     <SUITE FILE_PATH="coverage/topcoder_srm$04_plot_data__1_.coverage" NAME="04-plot-data (1) Coverage Results" MODIFIED="1505189025389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting" />
     <SUITE FILE_PATH="coverage/topcoder_srm$train_svm.coverage" NAME="train-svm Coverage Results" MODIFIED="1510417359646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ml-tgl/src" />
     <SUITE FILE_PATH="coverage/topcoder_srm$test_plot.coverage" NAME="test-plot Coverage Results" MODIFIED="1505188767563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../data-science-learning/machine-learning/training-oracle/expo-kmeans-pca-spike-sorting/data" />
-    <SUITE FILE_PATH="coverage/topcoder_srm$ManualTest.coverage" NAME="ManualTest Coverage Results" MODIFIED="1513057521851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../usage-ranking" />
+    <SUITE FILE_PATH="coverage/topcoder_srm$ManualTest.coverage" NAME="ManualTest Coverage Results" MODIFIED="1513101653788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../urank/tests" />
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution5.coverage" NAME="Solution5 Coverage Results" MODIFIED="1502122115648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/word-search-ii" />
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution2__1_.coverage" NAME="Solution2 (1) Coverage Results" MODIFIED="1512507926606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
     <SUITE FILE_PATH="coverage/topcoder_srm$Solution1__1_.coverage" NAME="Solution1 (1) Coverage Results" MODIFIED="1512536456700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode/g/subarray-sum-equals-k" />
@@ -72,31 +81,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="ManualTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../usage-ranking/ManualTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/g/find-k-closest-elements/Solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="7" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="172">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsageRanking.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../usage-ranking/UsageRanking.py">
+      <file leaf-file-name="ManualTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../urank/tests/ManualTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="344">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../urank/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -149,7 +158,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../urank" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/../ml-tgl" value="master" />
@@ -159,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex6/ex6/ex6.m" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex6/ex6/processEmail.m" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex6/ex6/emailFeatures.m" />
         <option value="$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex7/ex7/findClosestCentroids.m" />
@@ -210,6 +218,7 @@
         <option value="$PROJECT_DIR$/../usage-ranking/UsageRanking.py" />
         <option value="$PROJECT_DIR$/../usage-ranking/ManualTest.py" />
         <option value="$PROJECT_DIR$/leetcode/g/find-k-closest-elements/Solution.py" />
+        <option value="$PROJECT_DIR$/../urank/LICENSE" />
       </list>
     </option>
   </component>
@@ -250,29 +259,12 @@
           <expand>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
+              <item name="urank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="g" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topcoder-srm" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="g" type="462c0819:PsiDirectoryNode" />
-              <item name="find-k-closest-elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topcoder-srm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="usage-ranking" type="462c0819:PsiDirectoryNode" />
+              <item name="urank" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,7 +274,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -312,11 +304,11 @@
       <recent name="C:\Users\dbahena\PycharmProjects\chaca-tiny-url" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dbahena\PycharmProjects\urank\tests" />
+      <recent name="C:\Users\dbahena\PycharmProjects\urank\urank" />
       <recent name="C:\Users\dbahena\PycharmProjects\usage-ranking" />
       <recent name="C:\Users\dbahena\PycharmProjects\ml-tgl\attacks\bahena-cabral" />
       <recent name="C:\Users\dbahena\PycharmProjects\topcoder-srm\leetcode\g" />
-      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning\machine-learning\training-oracle\expo-kmeans-pca-spike-sorting" />
-      <recent name="C:\Users\dbahena\PycharmProjects\data-science-learning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,13 +331,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../usage-ranking" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../urank/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="usage-ranking" />
+      <module name="urank" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../usage-ranking/ManualTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../urank/tests/ManualTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -730,13 +722,6 @@
       <option name="presentableId" value="Default" />
       <updated>1488851041573</updated>
     </task>
-    <task id="LOCAL-00074" summary="backup">
-      <created>1510333437065</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1510333437065</updated>
-    </task>
     <task id="LOCAL-00075" summary="backup">
       <created>1510333472742</created>
       <option name="number" value="00075" />
@@ -1073,7 +1058,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513095696706</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="backup">
+      <created>1513096619977</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1513096619977</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1122,10 +1114,10 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276644" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6133787" sideWeight="0.49788806" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6133787" sideWeight="0.49788806" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.440625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.440625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6678004" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1158,6 +1150,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../usage-ranking" />
+    </ignored-roots>
     <MESSAGE value="initial version" />
     <MESSAGE value="test commit" />
     <MESSAGE value="final version for g coaching interview" />
@@ -1472,20 +1467,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex7/ex7/projectData.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ml-tgl/attacks/bahena-cabral/train-svm.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="50" column="70" lean-forward="false" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../data-science-learning/machine-learning/coursera-stanford-andrew-ng/machine-learning-ex6/ex6/lib/submitWithConfiguration.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
@@ -1852,10 +1833,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../urank/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/g/find-k-closest-elements/Solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="7" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="172">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../urank/tests/ManualTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
         </state>
       </provider>
