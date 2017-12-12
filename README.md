@@ -6,12 +6,13 @@ has changed dramatically, and big players have moved the focus to a radically
 different arena: mathematical thinking, in particular, algorithmic thinking.
 At the beginning I had a very hard time trying to solve these questions, given
 that I saw the required tools at school a couple of decades back. Not to mention
-that my jobs so far, did not give me much practice for those tools. We could say
-that I started officially at the beginning of 2017, and since then I am becoming
-better at solving these problems. It is a very gradual process, but I am confi-
-dent that at some point I will master this area. My final goal is to compete at
-the international arena and show myself that, with perseverance, I can do
-anything that I want (even if it seemed quite hard at the beginning).
+that my jobs so far, did not give me much practice for those tools.
+
+We could say that I started officially at the beginning of 2017, and since then
+I am becoming better at solving these problems. It is a very gradual process,
+but I am confident that at some point I will master this area. My final goal is
+to compete at the international arena and show myself that, with perseverance,
+I can do anything that I want (even if it seemed quite hard at the beginning).
 
 I mostly code in Python due its brevity and elegance, but switch to Java when
 I need a more sophisticated data structure (out of the box). It is pity that
