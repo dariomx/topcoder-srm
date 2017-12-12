@@ -32,9 +32,9 @@ You will also find that old exercises lack documentation, but I am doing an
 effort to explain the rationale for new ones. If you want to read the problem
 description, please use the link template below:
 
-https://leetcode.com/problems/<subdir-name>
+https://leetcode.com/problems/[subdir-name]
 
-where <subdir-name> can be replaced by the particular subdirectory you are
+where [subdir-name] can be replaced by the particular subdirectory you are
 looking at (there may be several levels of grouping, but the subdirectory I am
 referring to here is the bottom level; the one containing the code).
 
