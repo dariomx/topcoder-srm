@@ -14,10 +14,17 @@ but I am confident that at some point I will master this area. My final goal is
 to compete at the international arena and show myself that, with perseverance,
 I can do anything that I want (even if it seemed quite hard at the beginning).
 
-I mostly code in Python due its brevity and elegance, but switch to Java when
+I mostly code in Python2/3 due its brevity and elegance, but switch to Java when
 I need a more sophisticated data structure (out of the box). It is pity that
 Python standard library lacks many of the nice things you can find under
-the popular java.util.*
+the popular java.util. All the solutions I post here are mine, and the few
+exceptions will explicitly mention where I took it from.
+
+I think it has more value to present my own creations, that just to mirror what
+others did; even if I do not always come with a fast solution. I always check,
+however, what are the editorial solutions after I finish my own approach. If
+there is no editorial solution, I check what others did ... there are some
+really amazing minds out there! Looking forward to become like one of them.
 
 The repo is named after the first site I used (topcoder.com's SRMs), though
 today I mostly use leetcode.com. Specially the questions for companies like
