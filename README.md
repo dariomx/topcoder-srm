@@ -17,8 +17,8 @@ I can do anything that I want (even if it seemed quite hard at the beginning).
 I mostly code in Python2/3 due its brevity and elegance, but switch to Java when
 I need a more sophisticated data structure (out of the box). It is pity that
 Python standard library lacks many of the nice things you can find under
-the popular java.util. All the solutions I post here are mine, and the few
-exceptions will explicitly mention where I took it from.
+the popular java.util. All the solutions that I post here are mine, and the few
+exceptions will explicitly mention where I took them from.
 
 I think it has more value to present my own creations, that just to mirror what
 others did; even if I do not always come with a fast solution. I always check,
