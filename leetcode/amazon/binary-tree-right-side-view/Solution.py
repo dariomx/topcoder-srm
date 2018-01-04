@@ -12,7 +12,7 @@ detect the last ones: a node is the last in level if there are no more nodes
 in queue, or, if next one has a different distance from root.
 
 The complexity is same as BFS: O(V) ... Wikipedia says is O(V + E), but E will
-be bounded by 2V, so I guess what is why we just say O(V).
+be bounded by 2V, so I guess that is why we just say O(V).
 """
 
 from collections import deque
