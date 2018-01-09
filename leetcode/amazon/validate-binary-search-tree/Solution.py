@@ -19,15 +19,9 @@ class Solution:
                 return True
             if not (minVal < root.val < maxVal):
                 return False
-            if root.left and \
-                    not (root.left.val < root.val and isValid(root.left, \
-                                                              minVal,
-                                                              root.val)):
+            if not isValid(root.left, minVal, root.val):
                 return False
-            if root.right and \
-                    not (root.right.val > root.val and isValid(root.right, \
-                                                               root.val,
-                                                               maxVal)):
+            if not isValid(root.right, root.val, maxVal):
                 return False
             return True
 
