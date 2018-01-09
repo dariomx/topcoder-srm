@@ -1,5 +1,5 @@
 """
-Most frequent picked numbers in Melate
+Most frequent picked numbers in Melate (kinda lottery in MX)
 """
 
 import requests
