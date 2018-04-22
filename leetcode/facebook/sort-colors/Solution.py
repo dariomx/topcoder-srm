@@ -3,9 +3,8 @@ class Solution:
         def swap(i, j):
             nums[i], nums[j] = nums[j], nums[i]
 
-        n = len(nums)
         i, j = 0, 1
-        k = n
+        k = len(nums)
         while j < k:
             x, y = nums[i], nums[j]
             if x != 2 and y != 2:
