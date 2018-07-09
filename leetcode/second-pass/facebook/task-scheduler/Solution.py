@@ -10,13 +10,10 @@ class Solution:
         i = 0
         while cnt or last:
             while last and i - last[0][0] - 1 >= n:
-                heappush(cnt, heappop(last)[1])
+                heappush(cnt, last.pop()[1])
             if cnt:
                 k = heappop(cnt)
                 if k + 1 < 0:
-                    heappush(last, (i, k + 1))
+                    last.append((i, k + 1))
             i += 1
         return i
-
-
-
