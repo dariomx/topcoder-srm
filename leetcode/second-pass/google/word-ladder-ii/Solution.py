@@ -21,7 +21,7 @@ https://www.quora.com/Can-I-get-all-the-shortest-paths-from-source-node-to
 
 """
 
-from collections import OrderedDict, defaultdict
+from collections import deque, defaultdict
 from sys import maxsize as maxint
 
 
@@ -41,19 +41,19 @@ class Solution:
         return nei
 
     def bfs(self, beginWord):
-        queue = OrderedDict([(beginWord, None)])
+        queue = deque([beginWord])
         parents = defaultdict(lambda: [])
         dist = defaultdict(lambda: maxint)
         dist[beginWord] = 0
         while queue:
-            word, _ = queue.popitem(last=False)
+            word = queue.popleft()
             if word == self.endWord:
                 return parents
             for w in self.neighbors(word):
                 if dist[word] + 1 < dist[w]:
                     dist[w] = dist[word] + 1
                     parents[w] = [word]
-                    queue[w] = None
+                    queue.append(w)
                 elif dist[word] + 1 == dist[w]:
                     parents[w].append(word)
         return None
