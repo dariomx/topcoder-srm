@@ -1,4 +1,4 @@
-# putting aside items already in place, we can think of the
+# Putting aside items already in place, we can think of the
 # rest of items as belonging to disjoint cycles; but if they
 # contain duplicates, the cycle would get broken.
 class Solution:
