@@ -54,5 +54,5 @@ def drawtree(root):
 
 
 print(666)
-drawtree(deserialize('[0,1,3,null,2]'))
+drawtree(deserialize('[1,null,3,2]'))
 
