@@ -1,5 +1,5 @@
 class Solution:
-    def reverse(self, head, k):
+    def revList(self, head, k, rev=False):
         prev = None
         node = head
         size = 0
@@ -9,20 +9,44 @@ class Solution:
             prev = node
             node = tmp
             size += 1
-        return prev, head, size, node
+        if size < k and not rev:
+            return self.revList(prev, k, True)
+        else:
+            return prev, head, size, node
 
     def reverseKGroup(self, head, k):
-        prev = None
-        rest = head
-        fst_head = None
-        size = k
-        while size == k:
-            head, tail, size, rest = self.reverse(rest, k)
-            if size < k:
-                head, tail, size, rest = self.reverse(head, k)
-            if fst_head is None:
-                fst_head = head
-            if prev:
-                prev.next = head
-            prev = tail
-        return fst_head
+        if not head:
+            return None
+        node = head
+        new_head = None
+        prev_g_tail = None
+        while True:
+            g_head, g_tail, g_size, g_next = self.revList(node, k)
+            if not new_head:
+                new_head = g_head
+            if prev_g_tail:
+                prev_g_tail.next = g_head
+            g_tail.next = g_next
+            prev_g_tail = g_tail
+            if not g_next or g_size < k:
+                break
+            node = g_next
+        return new_head
+
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+head = Node(1)
+head.next = Node(2)
+head.next.next = Node(3)
+head.next.next.next = Node(4)
+head.next.next.next.next = Node(5)
+k = 3
+
+node = Solution().reverseKGroup(head, k)
+while node:
+    print(node.val)
+    node = node.next
+

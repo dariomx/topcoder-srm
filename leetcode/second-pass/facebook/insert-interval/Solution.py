@@ -1,40 +1,67 @@
+class Interval(object):
+    def __init__(self, s=0, e=0):
+        self.start = s
+        self.end = e
+
+    def __str__(self):
+        return "(%d,%d)" % (self.start, self.end)
+
 class Solution:
-    def binSearch(self, arr, x):
-        n = len(arr)
-        start = 0
-        end = n - 1
-        while start <= end:
+    def bin_search(self, ivs, niv, ival):
+        n = len(ivs)
+        start, end = 0, n - 1
+        while True:
             mid = (start + end) // 2
-            if arr[mid].start <= x <= arr[mid].end:
-                return mid, 0
-            elif x < arr[mid].start:
-                if mid == start:
-                    return mid, -1
-                else:
-                    end = mid - 1
+            if ival(niv) < ivs[mid].start:
+                end = mid - 1
+                if start > end:
+                    mid = end + 1
+                    break
+            elif ival(niv) > ivs[mid].end:
+                start = mid + 1
+                if start > end:
+                    mid = start
+                    break
+            elif ivs[mid].start <= ival(niv) <= ivs[mid].end:
+                return mid, True
+        return mid, False
+
+    def merge(self, iv1, iv2):
+        start = min(iv1.start, iv2.start)
+        end = max(iv1.end, iv2.end)
+        return Interval(start, end)
+
+    def insert(self, ivs, niv):
+        if not ivs:
+            return [niv]
+        if not niv:
+            return ivs
+        i, lmerge = self.bin_search(ivs, niv, lambda i: i.start)
+        j, rmerge = self.bin_search(ivs, niv, lambda i: i.end)
+        print((i, lmerge), (j, rmerge))
+        if not lmerge and not rmerge:
+            return ivs[:i] + [niv] + ivs[j:]
+        else:
+            if lmerge:
+                middle = self.merge(niv, ivs[i])
             else:
-                if mid == end:
-                    return mid, +1
-                else:
-                    start = mid + 1
-        raise ValueError("could not end binary search for " + str(x))
+                middle = niv
+            if rmerge:
+                middle = self.merge(middle, ivs[j])
+                j += 1
+            return ivs[:i] + [middle] + ivs[j:]
 
-    def insertVal(self, arr, x):
-        i, dir = self.binSearch(arr, x)
-        if dir < 0:
-            arr = arr[:i] + [Interval(x, x)] + arr[i:]
-        elif dir > 0:
-            arr = arr[:i + 1] + [Interval(x, x)] + arr[i + 1:]
-            i += 1
-        return arr, i
 
-    def merge(self, i1, i2):
-        return Interval(min(i1.start, i2.start), max(i1.end, i2.end))
+#ivs = [Interval(1,3), Interval(4,5), Interval(6,9)]
+#niv = Interval(5.5, 5.6)
+ivs = [Interval(iv[0],iv[1]) for iv in ([1,2],[3,5],[6,7],[8,10],[12,16])]
+niv = Interval(5,8)
+ivs = [Interval(1,3), Interval(6,9)]
+niv = Interval(2, 5)
+ivs = [Interval(1,5)]
+niv = Interval(0, 3)
+ivs = [Interval(1,5)]
+niv = Interval(0, 6)
 
-    def insert(self, intervals, newInterval):
-        if not intervals:
-            return [newInterval]
-        intervals, i = self.insertVal(intervals, newInterval.start)
-        intervals, j = self.insertVal(intervals, newInterval.end)
-        middle = self.merge(intervals[i], intervals[j])
-        return intervals[:i] + [middle] + intervals[j + 1:]
+soln = Solution()
+print([str(iv) for iv in soln.insert(ivs, niv)])

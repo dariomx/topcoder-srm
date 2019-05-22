@@ -2,31 +2,31 @@ from collections import deque
 
 
 class Solution:
-    def bfs(self, queue, rooms):
-        m, n = len(rooms), len(rooms[0])
-        visited = set()
-        while queue:
-            (x, y), d = queue.popleft()
-            if rooms[x][y] > 0:
-                rooms[x][y] = min(rooms[x][y], d)
-            for (i, j) in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
-                if not (0 <= i < m and 0 <= j < n):
-                    continue
-                if rooms[i][j] <= 0 or (i, j) in visited:
-                    continue
-                visited.add((i, j))
-                queue.append(((i, j), d + 1))
-
     def wallsAndGates(self, rooms):
-        m = len(rooms)
-        if m == 0:
+        def neighbors(x, y):
+            for (i, j) in ((x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)):
+                if 0 <= i < n and 0 <= j < m and rooms[i][j] > 0:
+                    yield (i, j)
+
+        def bfs(start):
+            visited = set()
+            queue = deque([(start, 0)])
+            while queue:
+                node, dist = queue.popleft()
+                x, y = node
+                rooms[x][y] = min(rooms[x][y], dist)
+                for nei in neighbors(x, y):
+                    i, j = nei
+                    if nei not in visited and rooms[i][j] > dist + 1:
+                        visited.add(nei)
+                        queue.append((nei, dist + 1))
+
+        # main
+        n = len(rooms)
+        m = len(rooms[0]) if rooms else 0
+        if 0 in (n, m):
             return
-        n = len(rooms[0])
-        if n == 0:
-            return
-        queue = deque()
-        for x in range(m):
-            for y in range(n):
-                if rooms[x][y] == 0:
-                    queue.append(((x, y), 0))
-        self.bfs(queue, rooms)
+        for i in range(n):
+            for j in range(m):
+                if rooms[i][j] == 0:
+                    bfs((i, j))

@@ -1,41 +1,38 @@
-class Solution:
-    def findRotIndex(self, nums):
-        n = len(nums)
-        start, end = 0, n
-        while start < end:
-            mid = (start + end) // 2
-            if mid - 1 >= 0 and nums[mid - 1] > nums[mid]:
-                return mid
-            elif mid + 1 < n and nums[mid] > nums[mid + 1]:
-                return mid + 1
-            elif nums[start] > nums[mid]:
-                end = mid - 1
-            else:
-                start = mid + 1
-        return 0
+from bisect import bisect_left
 
-    def binSearch(self, nums, start, end, target):
-        while start <= end:
+
+class Solution:
+    def search_pivot(self, nums, start, end):
+        while end - start + 1 >= 3:
             mid = (start + end) // 2
-            if target == nums[mid]:
+            print((start, end, mid))
+            if nums[mid - 1] < nums[mid] < nums[mid + 1]:
+                mid_left = self.search_pivot(nums, start, mid)
+                if mid_left is None:
+                    return self.search_pivot(nums, mid, end)
+                else:
+                    return mid_left
+            elif nums[mid - 1] < nums[mid] and nums[mid] > nums[mid + 1]:
                 return mid
-            elif target < nums[mid]:
-                end = mid - 1
-            else:
-                start = mid + 1
-        return -1
+            elif nums[mid - 1] > nums[mid] and nums[mid] < nums[mid + 1]:
+                return mid - 1
+        return None
 
     def search(self, nums, target):
         n = len(nums)
-        if n == 0:
-            return -1
-        i = self.findRotIndex(nums)
-        if i > 0 and nums[0] <= target <= nums[i - 1]:
-            return self.binSearch(nums, 0, i - 1, target)
-        elif nums[i] <= target <= nums[n - 1]:
-            return self.binSearch(nums, i, n - 1, target)
+        if n < 3:
+            i = n
+            for j in range(n):
+                if nums[j] == target:
+                    i = j
+                    break
         else:
-            return -1
-
-
-
+            mid = self.search_pivot(nums, 0, n - 1)
+            print(mid)
+            if mid is None:
+                i = bisect_left(nums, target)
+            elif nums[0] <= target <= nums[mid]:
+                i = bisect_left(nums, target, lo=0, hi=mid)
+            else:
+                i = bisect_left(nums, target, lo=mid + 1, hi=n - 1)
+        return i if i != n and nums[i] == target else -1

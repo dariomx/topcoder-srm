@@ -1,25 +1,30 @@
+"""
+Python3 generic solution with single loop.
+
+We use generic algorithm for adding large numbers in arbitrary base. The loop
+considers the 3 possible cases (both arrays are still aligned, or we finish
+one of them). As we traverse them once, time complexity is O(n + m), where
+n = len(a) and m = len(b).
+"""
+
 class Solution:
     def addBinary(self, a, b):
-        if len(a) < len(b):
-            a, b = b, a
         base = 2
-        n = len(a)
-        m = len(b)
-        i = n - 1
-        j = m - 1
-        rem = 0
+        i = len(a) - 1
+        j = len(b) - 1
         ans = ""
-        while i >= 0 and j >= 0:
-            tmp = rem + int(a[i]) + int(b[j])
-            ans = str(tmp % base) + ans
-            rem = tmp // base
-            i -= 1
-            j -= 1
-        if n > m:
-            for k in range(i, -1, -1):
-                tmp = rem + int(a[k])
-                ans = str(tmp % base) + ans
-                rem = tmp // base
+        rem = 0
+        while i >= 0 or j >= 0:
+            x = rem
+            if i >= 0:
+                x += int(a[i])
+                i -= 1
+            if j >= 0:
+                x += int(b[j])
+                j -= 1
+            ans = str(x % base) + ans
+            rem = x // base
         if rem > 0:
             ans = str(rem) + ans
         return ans
+

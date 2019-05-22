@@ -1,26 +1,24 @@
 from collections import deque
 
-
 class Solution:
     def averageOfLevels(self, root):
         queue = deque([(root, 0)])
-        lev_sum = 0
-        lev_cnt = 0
-        prev_lev = 0
-        ans = []
+        prev_lev = -1
+        sum_lev = 0
+        cnt_lev = 0
+        avg_lev = []
         while queue:
             node, lev = queue.popleft()
             if lev != prev_lev:
-                ans.append(lev_sum / lev_cnt)
-                lev_sum = 0
-                lev_cnt = 0
+                if cnt_lev > 0:
+                    avg_lev.append(sum_lev / cnt_lev)
+                sum_lev = 0
+                cnt_lev = 0
                 prev_lev = lev
-            lev_sum += node.val
-            lev_cnt += 1
-            if node.left:
-                queue.append((node.left, lev + 1))
-            if node.right:
-                queue.append((node.right, lev + 1))
-        ans.append(lev_sum / lev_cnt)
-        return ans
-
+            sum_lev += node.val
+            cnt_lev += 1
+            for child in ((node.left, node.right)):
+                if child:
+                    queue.append((child, lev+1))
+        avg_lev.append(sum_lev / cnt_lev)
+        return avg_lev

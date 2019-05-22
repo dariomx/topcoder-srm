@@ -1,15 +1,19 @@
 class Solution(object):
-    def read(self, out, n):
+    def read(self, buf, n):
         k = 4
-        m = 0
-        buf = [' '] * k
-        while m < n:
-            cnt = read4(buf)
-            for i in range(cnt):
-                out[m] = buf[i]
-                m += 1
-                if m == n:
-                    break
-            if cnt < k:
+        total = 0
+        bufk = [0] * k
+        i = 0
+        while True:
+            cnt = read4(bufk)
+            end = cnt
+            total += cnt
+            if total > n:
+                end -= total - n
+                total = n
+            buf[i:i + end] = bufk[:end]
+            if cnt < k or total == n:
                 break
-        return m
+            i += end
+        return total
+

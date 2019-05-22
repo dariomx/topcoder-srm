@@ -1,35 +1,35 @@
-from collections import defaultdict
+WHITE = 1
+GRAY = 2
+BLACK = 3
 
-WHITE = 0
-GRAY = 1
-BLACK = 2
+from collections import defaultdict
 
 
 class Solution:
-    def findOrder(self, numCourses, prerequisites):
-        order = []
-        color = dict(((n, WHITE) for n in range(numCourses)))
+    def build_graph(self, edges):
         graph = defaultdict(lambda: [])
-        for u, v in prerequisites:
+        for u, v in edges:
             graph[u].append(v)
+        return graph
 
-        def dfs(node):
-            if color[node] == BLACK:
-                return True
-            elif color[node] == GRAY:
-                return False
-            else:
-                color[node] = GRAY
-                for nei in graph[node]:
-                    if not dfs(nei):
-                        return False
-                color[node] = BLACK
-                order.append(node)
-                return True
+    def dfs(self, node, graph, color, ans):
+        color[node] = GRAY
+        for nei in graph[node]:
+            if color[nei] == GRAY:
+                raise ValueError()
+            elif color[nei] == WHITE:
+                self.dfs(nei, graph, color, ans)
+        color[node] = BLACK
+        ans.append(node)
 
-        for node in range(numCourses):
-            if color[node] == WHITE:
-                if not dfs(node):
+    def findOrder(self, numCourses, prerequisites):
+        color = [WHITE] * numCourses
+        graph = self.build_graph(prerequisites)
+        ans = []
+        for course in range(numCourses):
+            if color[course] == WHITE:
+                try:
+                    self.dfs(course, graph, color, ans)
+                except ValueError:
                     return []
-        return order if len(order) == numCourses else []
-
+        return ans

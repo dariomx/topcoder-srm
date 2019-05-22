@@ -1,28 +1,24 @@
-class Solution(object):
+class Solution:
     def findNumberOfLIS(self, nums):
         n = len(nums)
-        if n == 0:
-            return 0
-        rec = [0] * n
-        rec[n-1] = 1
-        cnt = dict()
-        cnt[n-1] = 1
-        max_len = 1
+        if n <= 1:
+            return n
+        max_size = 1
         max_cnt = 1
+        size = [1] * n
+        cnt = [1] * n
         for i in range(n-2, -1, -1):
-            rec[i] = 1
-            cnt[i] = 1
             for j in range(i+1, n):
                 if nums[i] < nums[j]:
-                    diff = (1 + rec[j]) - rec[i]
-                    if diff == 0:
-                        cnt[i] += cnt[j]
-                    elif diff > 0:
+                    size_j = 1 + size[j]
+                    if size_j > size[i]:
+                        size[i] = size_j
                         cnt[i] = cnt[j]
-                        rec[i] = 1 + rec[j]
-            if rec[i] > max_len:
-                max_len = rec[i]
+                    elif size_j == size[i]:
+                        cnt[i] += cnt[j]
+            if size[i] > max_size:
+                max_size = size[i]
                 max_cnt = cnt[i]
-            elif rec[i] == max_len:
+            elif size[i] == max_size:
                 max_cnt += cnt[i]
         return max_cnt

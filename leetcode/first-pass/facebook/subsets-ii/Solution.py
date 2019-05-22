@@ -1,15 +1,17 @@
-class Solution(object):
+class Solution:
     def subsetsWithDup(self, nums):
         n = len(nums)
-        def rec(i):
-            ans = []
+        ans = set()
+
+        def rec(i, ss):
             if i == n:
-                ans.append([])
+                ans.add(tuple(sorted(ss)))
             else:
-                x = nums[i]
-                for ss in rec(i+1):
-                    ans.append(ss)
-                    ans.append([x] + ss)
-            return ans
-        norm = lambda ss: tuple(sorted(ss))
-        return list(set(map(norm, rec(0))))
+                ss.append(nums[i])
+                rec(i + 1, ss)
+                ss.pop()
+                rec(i + 1, ss)
+
+        rec(0, [])
+        return list(ans)
+

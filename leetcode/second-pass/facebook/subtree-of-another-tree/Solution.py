@@ -1,27 +1,17 @@
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
-class Solution(object):
-    def isEqtree(self, s, t):
-        if not s and not t:
-            return True
-        elif s and t:
-            return s.val == t.val and \
-                   self.isEqtree(s.left, t.left) and \
-                   self.isEqtree(s.right, t.right)
-        else:
-            return False
-
+class Solution:
     def isSubtree(self, s, t):
-        if not s:
-            return t is None
-        elif self.isEqtree(s, t):
-            return True
-        else:
-            return self.isSubtree(s.left, t) or \
-                   self.isSubtree(s.right, t)
+        def eq(r1, r2):
+            if r1 is None and r2 is None:
+                return True
+            elif r1 and r2 and r1.val == r2.val:
+                return eq(r1.left, r2.left) and eq(r1.right, r2.right)
+            else:
+                return False
 
+        def search(r):
+            ret = eq(r, t)
+            if not ret and r is not None:
+                ret = search(r.left) or search(r.right)
+            return ret
+
+        return search(s)

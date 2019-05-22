@@ -1,31 +1,26 @@
 class Solution:
     def sortColors(self, nums):
-        n = len(nums)
-        zero_i = 0
-        two_i = n - 1
+        def swap(i, j):
+            nums[i], nums[j] = nums[j], nums[i]
 
-        def ins(i):
-            nonlocal zero_i, two_i
-            if nums[i] == 0:
-                nums[zero_i] = 0
-                if zero_i != i:
-                    nums[i] = 1
-                zero_i += 1
-            elif nums[i] == 2:
-                while zero_i < two_i:
-                    if two_i != i and nums[two_i] == 2:
-                        two_i -= 1
-                    else:
-                        if nums[two_i] == 0:
-                            ins(two_i)
-                        break
-                nums[two_i] = 2
-                if i not in (two_i, zero_i - 1):
-                    nums[i] = 1
-                two_i -= 1
-
-        for i in range(n):
-            if zero_i == two_i or i > two_i:
-                return
-            ins(i)
-
+        i, j = 0, 1
+        k = len(nums)
+        while j < k:
+            x, y = nums[i], nums[j]
+            if x != 2 and y != 2:
+                if x > y:
+                    swap(i, j)
+                j += 1
+                if not (x == 1 and y == 1):
+                    i += 1
+            elif x == 2 and y in (0, 1):
+                k -= 1
+                swap(i, k)
+            elif x in (0, 1) and y == 2:
+                k -= 1
+                swap(j, k)
+            elif x == 2 and y == 2:
+                k -= 1
+                swap(i, k)
+                k -= 1
+                swap(j, k)

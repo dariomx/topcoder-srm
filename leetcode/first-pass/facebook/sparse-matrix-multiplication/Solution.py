@@ -1,25 +1,28 @@
-from collections import defaultdict
-
-
 class Solution:
     def multiply(self, A, B):
+        zero_rows = set()
+        zero_cols = set()
         n = len(A)
-        k = len(A[0])
+        k = len(B)
         m = len(B[0])
-        rows_A = defaultdict(lambda: dict())
         for i in range(n):
+            zero_rows.add(i)
             for j in range(k):
                 if A[i][j] != 0:
-                    rows_A[i][j] = A[i][j]
-        cols_B = defaultdict(lambda: dict())
+                    zero_rows.remove(i)
+                    break
         for j in range(m):
+            zero_cols.add(j)
             for i in range(k):
                 if B[i][j] != 0:
-                    cols_B[j][i] = B[i][j]
-        mult_AB = [[0 for _ in range(m)] for _ in range(n)]
+                    zero_cols.remove(j)
+                    break
+        AB = [[0] * m for _ in range(n)]
         for i in range(n):
             for j in range(m):
-                for x in rows_A[i].keys() & cols_B[j].keys():
-                    mult_AB[i][j] += rows_A[i][x] * cols_B[j][x]
-        return mult_AB
+                if i in zero_rows or j in zero_cols:
+                    continue
+                for l in range(k):
+                    AB[i][j] += A[i][l] * B[l][j]
+        return AB
 

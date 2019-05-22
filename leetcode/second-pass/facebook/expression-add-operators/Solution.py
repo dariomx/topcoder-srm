@@ -1,52 +1,116 @@
+from operator import add, sub, mul
+
+app = lambda x, y: x * 10 + y
+
+op_sym = {add: '+', sub: '-', mul: '*', app: ''}
+
+
+class State:
+    def __init__(self, x=0):
+        self.add_left = 0
+        self.add_op = None
+        self.mul_left = x
+        self.mul_op = None
+        self.mul_right = 0
+        self.exp = str(x)
+
+    def copy(self):
+        other = State()
+        other.add_left = self.add_left
+        other.add_op = self.add_op
+        other.mul_left = self.mul_left
+        other.mul_op = self.mul_op
+        other.mul_right = self.mul_right
+        other.exp = self.exp
+        return other
+
+    def eval(self):
+        if self.mul_op:
+            add_right = mul(self.mul_left, self.mul_right)
+            self.mul_left = 0
+            self.mul_op = None
+            self.mul_right = 0
+        else:
+            add_right = self.mul_left
+            self.mul_left = 0
+
+        if self.add_op:
+            res = self.add_op(self.add_left, add_right)
+            self.add_left = 0
+            self.add_op = None
+        else:
+            res = add_right
+        return res
+
+    def extend(self, op, x):
+        if op == app:
+            if self.mul_op:
+                self.mul_right = app(self.mul_right, x)
+            else:
+                self.mul_left = app(self.mul_left, x)
+        elif op == mul:
+            if self.mul_op:
+                self.mul_left *= self.mul_right
+                self.mul_right = x
+            else:
+                if self.mul_left > 0:
+                    self.mul_right = x
+                else:
+                    self.mul_left = x
+                self.mul_op = mul
+        else:
+            self.add_left = self.eval()
+            self.add_op = op
+            self.mul_left = x
+        self.exp += op_sym[op] + str(x)
+
+    def is_good(self):
+        num = ""
+        bad_num = lambda n: n and len(n) != len(str(int(n)))
+        for i in range(len(self.exp)):
+            if self.exp[i].isdigit():
+                num += self.exp[i]
+            else:
+                if bad_num(num):
+                    return False
+                num = ""
+        if bad_num(num):
+            return False
+        return True
+
+    def __str__(self):
+        vals = (self.add_left,
+                self.add_op,
+                self.mul_left,
+                self.mul_op,
+                self.mul_right,
+                self.exp)
+        return "(%d %s %d %s %d, %s)" % vals
+
+
 class Solution:
     def addOperators(self, num, target):
-        if len(num) == 0:
-            return []
-        num = list(map(int, num))
+        n = len(num)
         ans = []
 
-        def rec_app(i, src, dst):
-            if i == len(src):
-                rec_mul(1, dst, [dst[0]], [str(dst[0])])
+        def rec(i, state):
+            if i == n:
+                if state.eval() == target and state.is_good():
+                    ans.append(state.exp)
             else:
-                if dst[-1] > 0:
-                    last = dst.pop()
-                    dst.append(last * 10 + src[i])
-                    rec_app(i + 1, src, dst)
-                    dst.pop()
-                    dst.append(last)
-                dst.append(src[i])
-                rec_app(i + 1, src, dst)
-                dst.pop()
+                x = int(num[i])
+                for op in op_sym:
+                    op_state = state.copy()
+                    op_state.extend(op, x)
+                    rec(i + 1, op_state)
 
-        def rec_mul(i, src, dst, exp):
-            if i == len(src):
-                rec_add(1, dst, exp, dst[0], exp[0])
-            else:
-                last = dst.pop()
-                last_exp = exp.pop()
-                dst.append(last * src[i])
-                exp.append(last_exp + '*' + str(src[i]))
-                rec_mul(i + 1, src, dst, exp)
-                dst.pop()
-                exp.pop()
-                dst.append(last)
-                exp.append(last_exp)
-                dst.append(src[i])
-                exp.append(str(src[i]))
-                rec_mul(i + 1, src, dst, exp)
-                dst.pop()
-                exp.pop()
+        if not num:
+            return []
+        else:
+            rec(1, State(int(num[0])))
+            return ans
 
-        def rec_add(i, src, src_exp, res, exp):
-            if i == len(src):
-                if res == target:
-                    ans.append(exp)
-            else:
-                x = src[i]
-                xs = src_exp[i]
-                rec_add(i + 1, src, src_exp, res + x, exp + '+' + xs)
-                rec_add(i + 1, src, src_exp, res - x, exp + '-' + xs)
 
-        rec_app(1, num, [num[0]])
-        return ans
+num = "1000000009"
+target = 9
+print(Solution().addOperators(num, target))

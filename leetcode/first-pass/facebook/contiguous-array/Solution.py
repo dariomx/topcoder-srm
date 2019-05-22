@@ -1,20 +1,15 @@
-class Solution(object):
+class Solution:
     def findMaxLength(self, nums):
-        diff = dict()
-        zeros = 0
-        ones = 0
         max_len = 0
+        cache = {0: -1}
+        no, nz = 0, 0
         for j in range(len(nums)):
-            if nums[j] == 0:
-                zeros += 1
-            else:
-                ones += 1
-            d = zeros - ones
-            if d == 0:
-                max_len = max(max_len, j + 1)
-            elif d in diff:
-                i = diff[d]
+            no += nums[j]
+            nz += 1 - nums[j]
+            key = no - nz
+            if key in cache:
+                i = cache[key]
                 max_len = max(max_len, j - i)
             else:
-                diff[d] = j
+                cache[key] = j
         return max_len

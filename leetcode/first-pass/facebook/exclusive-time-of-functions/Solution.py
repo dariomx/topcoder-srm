@@ -1,21 +1,18 @@
-from collections import defaultdict
-
-
 class Solution:
     def exclusiveTime(self, n, logs):
-        ftime = [0] * n
+        x_time = [0] * n
         stack = []
         for line in logs:
-            id, tag, time = line.split(":")
-            id = int(id)
-            time = int(time)
-            if tag == "start":
-                stack.append((id, time))
+            fid, tag, ts = line.split(':')
+            fid, ts = int(fid), int(ts)
+            if tag == 'start':
+                stack.append((fid, ts))
             else:
-                end = time
                 _, start = stack.pop()
+                end = ts
                 dur = end - start + 1
-                ftime[id] += dur
+                x_time[fid] += dur
                 if stack:
-                    ftime[stack[-1][0]] -= dur
-        return ftime
+                    p_fid = stack[-1][0]
+                    x_time[p_fid] -= dur
+        return x_time

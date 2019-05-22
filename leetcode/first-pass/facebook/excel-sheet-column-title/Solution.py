@@ -1,15 +1,9 @@
 class Solution:
     def convertToTitle(self, n):
-        base = 26
-        name = dict()
-        for i in range(1, base + 1):
-            name[i] = chr(ord('A') + i - 1)
-        name[0] = 'Z'
-        title = ""
+        k = 26
+        title = ''
         while n > 0:
-            dig = n % base
-            title = name[dig] + title
-            n //= base
-            if dig == 0:
-                n -= 1
+            n -= 1
+            title = chr(ord('A') + n % k) + title
+            n //= k
         return title

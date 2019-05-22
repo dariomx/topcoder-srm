@@ -2,19 +2,15 @@ class Solution:
     def isOneEditDistance(self, s, t):
         if len(s) < len(t):
             s, t = t, s
-        n, m = len(s), len(t)
-        def rec(i, j, edit):
-            if i == n and j == m:
-                ret = (edit==1)
-            elif edit > 1:
-                ret = False
+        j = 0
+        edit = 0
+        for i in range(len(s)):
+            if j == len(t) or s[i] != t[j]:
+                if edit == 0:
+                    edit = 1
+                    j += 1 - (len(s) - len(t))
+                else:
+                    return False
             else:
-                ret = False
-                if i < n and j < m:
-                    ret = ret or rec(i+1, j+1, edit + int(s[i] != t[j]))
-                if i < n:
-                    ret = ret or rec(i+1, j, edit+1)
-                if j < m:
-                    ret = ret or rec(i, j+1, edit+1)
-            return ret
-        return rec(0, 0, 0)
+                j += 1
+        return (edit==1)
