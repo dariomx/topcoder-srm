@@ -52,7 +52,8 @@ def drawtree(root):
     t.hideturtle()
     turtle.mainloop()
 
-
+null = None
 print(666)
 drawtree(deserialize('[0,-10,5,null,-3,null,9]'))
+#drawtree(deserialize('[0,-3,9,-10,null,5]'))
 
