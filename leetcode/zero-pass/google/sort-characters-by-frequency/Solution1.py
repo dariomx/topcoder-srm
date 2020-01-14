@@ -17,10 +17,11 @@ tree has as many elements as the list (size n); hence the dominating
 factor in the nested loops is n itself (adding the extra cost of the
 above layers would make cost a multiple of n, leading to O(n)).
 
-Note: the original count sort algorithm may assume a fixed range
-in the values, and iterate through that range. Here we are doing
-an small optimization, by iterating only over the observed sub-range
-in the list.
+Note:
+    The original count sort algorithm may assume a fixed range
+    in the values, and iterate through that range. Here we are doing
+    an small optimization, by iterating only over the observed sub-range
+    in the list.
 
 """
 

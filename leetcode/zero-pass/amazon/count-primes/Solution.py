@@ -17,10 +17,11 @@ array for quickly checking whether a number has been discarded, so we do not
 process them more than once. A known result tells that we do not need to
 check beyond sqrt(n), in the outer loop; so we leverage that.
 
-Note: my original code did not use the sqrt(n) optimization, because I was
-stubborn in not doing a final pass to compute the count; in exchange I was
-using a counter to keep track of how many elements I processed so far. But
-using the sqrt(n) resulted in shorter and faster code.
+Note:
+    My original code did not use the sqrt(n) optimization, because I was
+    stubborn in not doing a final pass to compute the count; in exchange I was
+    using a counter to keep track of how many elements I processed so far. But
+    using the sqrt(n) resulted in shorter and faster code.
 """
 
 from math import sqrt
