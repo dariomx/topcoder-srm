@@ -2,7 +2,7 @@ These are algorithm exercises that I do regularly, just to be in shape. You
 never know when you will need to interview again, life is unpredictable ;-<
 
 I come from a generation where interviews were based primarily on tech questions,
-certification like (do you know X language? Y RDBMS? Z appserver? etc). Industry
+certification like (do you know language X? RDBMS Y? Appserver Z? etc). Industry
 has changed dramatically, and big players have moved the focus to a radically
 different arena: mathematical thinking, in particular, algorithmic thinking.
 At the beginning I had a very hard time trying to solve these questions, given
