@@ -38,7 +38,7 @@ I am really proud of my version, or when I consider it represents original work.
 
 The repo is named after the first site I used (topcoder.com's SRMs), though
 today I mostly use leetcode.com. Specially the questions for companies like
-G(oogle), A(mazon) and similar. You can jump into that section with link below:
+Google, Facebook and similar. You can jump into that section with link below:
 
 https://gitlab.com/dario.mx/topcoder-srm/tree/master/leetcode
 
