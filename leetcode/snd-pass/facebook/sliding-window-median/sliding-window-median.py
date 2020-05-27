@@ -19,5 +19,3 @@ class Solution:
             win.add(nums[i])
             ans.append(median())
         return ans
-
-
