@@ -1,3 +1,6 @@
+# this does not look like my style, where did i get it?
+# ah, from here
+# https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/discuss/80052/10-line-Python-Solution-using-dictionary-with-easy-to-understand-explanation
 class Solution(object):
     def lengthOfLongestSubstringKDistinct(self, s, k):
         d = {}
