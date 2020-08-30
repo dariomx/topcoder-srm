@@ -8,23 +8,12 @@ different arena: mathematical thinking, in particular, algorithmic thinking.
 At the beginning I had a very hard time trying to solve these questions, given
 that I saw the required tools at school a couple of decades back. Not to mention
 that the first 17+ years of my experience, did not give me much practice about
-these type of problems. After pushing a couple of years, I managed to transition
-towards a more mathematical-oriented position (aka machine-learning/data-science).
-I have been happily there since 2018, and I can tell that now I do have excuses 
-to apply algorithmic thinking; and even some of the solutions I came up with here. 
+these type of problems.  
 
 We could say that, I started officially with algorithm problems at the beginning 
-of 2017; and since then I am becoming better at solving these problems. 
-It is a very gradual process, and the time investment has varied; but I ended up 
-dedicating at least 8 hours peer week (usually on weekends). I am confident that 
-at some point, I will master this area. My final goal is to compete on the 
-international arena, just for fun and to show myself that, with perseverance, 
-I can do anything that I want (even if it seemed quite hard at the beginning).
-
-Before knowing about sortedcontainers package in Python (which leetcode 
-does have, wooohoo!); I used to switch to Java when I needed a sorted structure 
-like a TreeMap. Nowadays, both here and at work, I try to stay with Python3. 
-It seems to have everything I need, to grow-up strong and happy.
+of 2017; and since then I am becoming better at solving these problems; 
+it is a very gradual process. I mostly used Python3 for my solutions, 
+and time to time Java.
 
 All the solutions that I post here are mine, and the few exceptions will 
 explicitly mention where I took them from. I think it has more value to present
