@@ -11,7 +11,7 @@ that the first 17+ years of my experience, did not give me much practice about
 these type of problems.  
 
 We could say that, I started officially with algorithm problems at the beginning 
-of 2017; and since then I am becoming better at solving them; 
+of 2017, and since then I am becoming better at solving them; 
 it is a very gradual process. I mostly used Python3 for my solutions, 
 and time to time Java or others.
 
