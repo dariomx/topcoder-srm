@@ -12,8 +12,8 @@ these type of problems.
 
 We could say that, I started officially with algorithm problems at the beginning 
 of 2017, and since then I am becoming better at solving them; 
-it is a very gradual process. I mostly used Python3 for my solutions, 
-and time to time Java or others.
+it is a very gradual process. I mostly used Python3 for my solutions up
+to 3rd pass (and a bit of Java), then moved to Rust in 4th pass.
 
 All the solutions that I post here are mine, and the few exceptions will 
 explicitly mention where I took them from. I think it has more value to present
