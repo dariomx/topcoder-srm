@@ -51,3 +51,7 @@ def drawtree(root):
     draw(root, 0, 30 * h, 40 * h)
     t.hideturtle()
     turtle.mainloop()
+
+# main
+root = deserialize('[146,71,-13,55,null,231,399,321,null,null,null,null,null,-33]')
+drawtree(root)
