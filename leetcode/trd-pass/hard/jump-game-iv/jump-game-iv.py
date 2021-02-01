@@ -5,7 +5,7 @@ class Solution:
         prev = None
         carr = []
         cnt = 0
-        for x in (arr + [None]):
+        for x in chain(arr, [None]):
             if x == prev:
                 cnt += 1
             else:
