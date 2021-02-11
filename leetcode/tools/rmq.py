@@ -4,15 +4,16 @@
 from math import inf
 
 class RMQ:
-    def __init__(self, n):
+    def __init__(self, n, val=lambda x: x):
         self.sz = 1
         while self.sz <= n:
             self.sz = self.sz << 1
         self.dat = [inf] * (2 * self.sz - 1)
+        self.val = val
 
     def __setitem__(self, idx, x):
         idx += self.sz - 1
-        self.dat[idx] = x
+        self.dat[idx] = self.val(x)
         while idx > 0:
             idx = (idx - 1) >> 1
             self.dat[idx] = min(self.dat[idx * 2 + 1], self.dat[idx * 2 + 2])
