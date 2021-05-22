@@ -60,7 +60,6 @@ class Solution:
         groupOrder, groupCycle = self.topoSort(groupGraph, groupColor, members.keys())
         if groupCycle:
             return []
-        ans = []
         beforeColor = [WHITE] * n
         topoGroup = lambda g: self.topoSort(beforeGraph, beforeColor, members[g])[0]
         return chain.from_iterable(map(topoGroup, groupOrder))
