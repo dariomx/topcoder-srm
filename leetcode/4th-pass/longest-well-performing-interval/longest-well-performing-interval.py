@@ -6,9 +6,7 @@ class Solution:
         slist = SortedKeyList(key=lambda t: t[0])
         psum = 0
         ans = 0
-        
-        print(bitarr)
-        
+               
         for i, x in enumerate(bitarr):
             psum += x
             score_i = 2*psum - (i+1)
@@ -20,4 +18,3 @@ class Solution:
             slist.add((score_i, i))
             
         return ans
-
