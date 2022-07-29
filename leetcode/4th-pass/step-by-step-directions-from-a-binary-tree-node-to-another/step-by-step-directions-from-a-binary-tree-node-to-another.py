@@ -8,12 +8,12 @@ class Solution:
     def mergePaths(self, parent: Dict[TreeNode, Tuple[TreeNode, str]], 
                          start: int, dest: int) -> str:
         path_left = []
-        while start:
+        while start and start != dest:
             path_left.append((start, 'U'))                        
             start = parent[start][0]
             
         path_right = []   
-        while dest:
+        while dest and start != dest:
             path_right.append((dest, parent[dest][1]))
             dest = parent[dest][0]
                        
